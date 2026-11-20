@@ -4,6 +4,6 @@ title: "ContextBridge tools"
 authors:
   - family-names: Mohanty
     given-names: Suvendu
-    affiliation: F0 Lab LLC
+    affiliation: F0 Labs LLC
 license: Apache-2.0
 repository-code: "https://github.com/f0labs-ai/context-bridge"
