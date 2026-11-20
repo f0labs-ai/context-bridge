@@ -1,0 +1,9 @@
+/target/
+**/target/
+# The data sets, the run files and the paper stay private: none of them is tracked here.
+/data/
+/runs/
+/paper/
+*.pdf
+.DS_Store
+.env

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these tools, please cite them."
+title: "ContextBridge tools"
+authors:
+  - family-names: Mohanty
+    given-names: Suvendu
+    affiliation: F0 Lab LLC
+license: Apache-2.0
+repository-code: "https://github.com/f0labs-ai/context-bridge"
