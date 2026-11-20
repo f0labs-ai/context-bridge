@@ -1,0 +1,118 @@
+{
+  "id": "mobile_data",
+  "name": "mobile data",
+  "label": "Mobile data",
+  "plural": false,
+  "kind": "mobile",
+  "customer_names": ["my mobile data", "the data on my phone", "my phone's internet", "mobile internet"],
+  "modes": [
+    {
+      "id": "no_data",
+      "title": "No mobile data",
+      "symptom": "phones showing signal bars but no data session",
+      "customer_says": [
+        "I've got full signal on my phone, but the internet won't work at all unless I'm on Wi-Fi.",
+        "My mobile data has stopped. Calls are fine, but no apps will load when I'm out of the house.",
+        "There's no data on my phone. The little 4G symbol has gone and nothing connects.",
+        "My phone says it has signal, yet I can't open a single web page or send a picture message."
+      ],
+      "causes": [
+        { "cause": "a failed packet gateway serving the area", "fixes": ["switching customers over to the standby packet gateway"] },
+        { "cause": "a subscriber database that stopped answering data requests", "fixes": ["restarting the subscriber database nodes one by one"] },
+        { "cause": "a broken link between the mast controllers and the data core", "fixes": ["re-establishing the link between the mast controllers and the data core"] }
+      ],
+      "workarounds": [
+        "switch the phone to 3G only in the network settings",
+        "use Wi-Fi calling and home Wi-Fi where they are available"
+      ],
+      "aftercare": [
+        "turn flight mode on and off so the phone registers again",
+        "put the network mode back to automatic if it was changed"
+      ]
+    },
+    {
+      "id": "slow_data",
+      "title": "Slow mobile data",
+      "symptom": "mobile data speeds dropping to a crawl at busy times",
+      "customer_says": [
+        "My mobile data is unbelievably slow. Maps won't load and music keeps cutting out.",
+        "The internet on my phone has slowed right down. It shows 4G, but it behaves like dial-up.",
+        "Data on my phone is barely moving. A photo takes minutes to send.",
+        "I've got signal and data, but everything takes an age to load when I'm in town."
+      ],
+      "causes": [
+        { "cause": "a capacity licence that expired on the area's masts", "fixes": ["reinstating the capacity licence on the masts"] },
+        { "cause": "a microwave backhaul dish knocked out of alignment", "fixes": ["realigning the microwave backhaul dish"] },
+        { "cause": "a speed cap applied to the wrong group of customers", "fixes": ["removing the mistaken speed cap"] }
+      ],
+      "workarounds": [
+        "download maps and playlists over Wi-Fi before travelling",
+        "turn on the data saver option so pages load in a lighter form"
+      ],
+      "aftercare": [
+        "restart the phone to pick up the restored speed",
+        "turn the data saver option off again if it is no longer wanted"
+      ]
+    },
+    {
+      "id": "picture_messages",
+      "title": "Picture messages failing",
+      "symptom": "picture messages failing to send or download",
+      "customer_says": [
+        "I can't send picture messages. They just sit there saying sending and then fail.",
+        "Photos people send me by text won't download. It says tap to retry, and retrying never works.",
+        "My picture messages have stopped working. Normal texts are fine, but anything with a photo fails.",
+        "I've been trying to send a photo to my sister by text, and it just won't go."
+      ],
+      "causes": [
+        { "cause": "a full message store on the picture messaging server", "fixes": ["clearing space on the picture messaging server"] },
+        { "cause": "an expired certificate on the picture message gateway", "fixes": ["installing a new certificate on the picture message gateway"] },
+        { "cause": "a routing fault between the data core and the picture messaging platform", "fixes": ["re-routing picture messages through the backup platform"] }
+      ],
+      "workarounds": [
+        "send photos through an internet messaging app instead",
+        "attach photos to an email until picture messaging returns"
+      ],
+      "aftercare": [
+        "tap retry on any picture message that failed",
+        "restart the phone so it fetches any waiting picture messages"
+      ]
+    },
+    {
+      "id": "hotspot_blocked",
+      "title": "Tethering not working",
+      "symptom": "personal hotspot sessions being refused by the network",
+      "customer_says": [
+        "My hotspot has stopped working. The laptop joins it, but there's no internet through it.",
+        "I can't tether any more. Data works on the phone itself, but not on anything connected to it.",
+        "The personal hotspot on my phone connects and then says no internet. I use it every day for work.",
+        "My tablet won't get online through my phone's hotspot, although the phone itself is fine."
+      ],
+      "causes": [
+        { "cause": "a tethering entitlement removed from plans during a tariff update", "fixes": ["restoring the tethering entitlement to the affected plans"] },
+        { "cause": "a faulty rule in the traffic inspection platform", "fixes": ["disabling the faulty traffic inspection rule"] },
+        { "cause": "a wrong access point name sent to phones in a settings update", "fixes": ["sending the correct access point name to affected phones"] }
+      ],
+      "workarounds": [
+        "share the connection over a USB cable instead of Wi-Fi",
+        "use the phone itself for anything urgent until tethering returns"
+      ],
+      "aftercare": [
+        "switch the hotspot off and on again to start a fresh session",
+        "accept the settings message that arrives by text"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a monthly data allowance that has run out",
+    "a damaged SIM card",
+    "mobile data switched off in the phone's settings",
+    "a handset that needs a software update"
+  ],
+  "wrong_provider_side": [
+    "a mast taken down for an upgrade",
+    "bad weather affecting signal across the region",
+    "a large public event overloading the network",
+    "a planned switch-off of the old 3G service"
+  ]
+}

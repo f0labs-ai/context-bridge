@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Adding someone to your account",
+    "topic": "account",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Authorised users",
+        "text": "An authorised user is someone you trust, such as a partner, adult child or carer, who may speak to us about your account. They can ask about bills, report faults, book engineer visits and make payments. They cannot close the account, change the payment details, take out new contracts or remove you as account holder. You can add up to three authorised users, and each must pass their own security questions when they contact us.",
+        "questions": ["Can my daughter speak to Meridian about my account?", "What can an authorised user change on my account?"]
+      },
+      {
+        "heading": "Adding or removing an authorised user",
+        "text": "Add an authorised user under Account settings, then People on this account. Enter their name, date of birth and a password they will give when they call. They can then register for their own online sign-in, which shows only the parts of the account you allowed. Remove someone at any time from the same page; the change is immediate. We send you an email whenever an authorised user is added or removed, so nothing happens without your knowledge.",
+        "questions": ["How do I add my partner to my Meridian account?", "How do I take someone off my account?"]
+      },
+      {
+        "heading": "Power of attorney",
+        "text": "If you hold a lasting power of attorney or a court order for someone, you can manage their account on their behalf with full authority. Send a copy of the document through the secure upload page or bring it to any Meridian shop. We review it within five working days and record you on the account as the person able to act for them. We will then speak to you directly, without needing the account holder to be present on the call.",
+        "questions": ["I have power of attorney for my father. Can I manage his phone account?", "How do I send Meridian a copy of a power of attorney?"]
+      },
+      {
+        "heading": "Changing the account holder",
+        "text": "To transfer an account to another person, both of you must agree. The new holder passes a credit check and accepts the terms, and any balance owed must be paid first. Services, numbers and minimum terms move across unchanged, but discounts tied to the original holder, such as loyalty pricing, may end. Transfers are usually completed within two working days. Bereavement transfers follow a simpler process, explained in its own article.",
+        "questions": ["Can I transfer my account into my husband's name?", "What happens to my discounts if the account holder changes?"]
+      }
+    ]
+  },
+  {
+    "title": "Updating your contact details",
+    "topic": "account",
+    "service": "web_portal",
+    "sections": [
+      {
+        "heading": "Why your details matter",
+        "text": "We use your email address and mobile number to send bills, payment reminders, engineer appointment confirmations, fault updates and security alerts. If they are out of date, you may miss an appointment change or an alert that someone is trying to get into your account. Your postal address is used for equipment deliveries, paper bills and legal notices. Please keep all three current, particularly when you change your email provider or your phone number.",
+        "questions": ["Why does Meridian need my current email and mobile number?", "What do you use my postal address for?"]
+      },
+      {
+        "heading": "Changing email or phone number",
+        "text": "Go to Account settings and then Contact details. Enter the new email address or mobile number and confirm it with the code we send to it. For security, we also send a notice to the old email address telling you the change was made, with a link to undo it if you did not make the change yourself. If you also use the email address to sign in, your sign-in name changes at the same time.",
+        "questions": ["How do I update the email address on my account?", "I got an email saying my contact details changed but I didn't do it. What now?"]
+      },
+      {
+        "heading": "Changing your name",
+        "text": "To change the name on your account, for example after marriage, upload a photo of the document that confirms the change, such as a certificate or deed, through the secure upload page. Bills show the new name from the next billing date. The account number, services and contract terms all stay the same. If you need a letter in your new name confirming your address, for a bank or other organisation, you can request one after the change.",
+        "questions": ["How do I change my surname on my Meridian account?", "Can I get a letter confirming my address in my new name?"]
+      },
+      {
+        "heading": "Marketing preferences",
+        "text": "Contact about your service, such as bills and fault updates, is always sent. Marketing messages about offers and new products are optional. Choose which ones you receive, and by which method, under Account settings and then Preferences. Changes take effect within forty-eight hours, although a message prepared before the change may still arrive. Turning off marketing never affects the price of your plan or the support you receive from us.",
+        "questions": ["How do I stop getting marketing emails from Meridian?", "Will turning off offers affect my plan?"]
+      }
+    ]
+  },
+  {
+    "title": "Getting started with the Meridian app",
+    "topic": "account",
+    "service": "mobile_app",
+    "sections": [
+      {
+        "heading": "Downloading and signing in",
+        "text": "Download the Meridian app from your phone's app store; it is free and works on phones and tablets that receive current software updates. Sign in with the same email and password as your online account. If you have not registered yet, you can do it from the app's sign-in screen. On a Meridian mobile connection, the app can sign you in automatically the first time, using your phone number to recognise you.",
+        "questions": ["Where do I download the Meridian app?", "Do I need a separate login for the app?"]
+      },
+      {
+        "heading": "The home screen",
+        "text": "The home screen shows your services as cards: your balance and next bill date, your mobile allowance with a bar for data used, the status of your home internet and any open orders or faults. A banner at the top appears when there is a known problem in your area. Tap any card for more detail. You can rearrange the cards by holding one and dragging it, and hide those you do not need.",
+        "questions": ["What does the Meridian app home screen show?", "Can I change the order of the cards in the app?"]
+      },
+      {
+        "heading": "Checking your usage",
+        "text": "The usage screen shows data, minutes and texts used in the current month, with a daily chart. Usage normally appears within a few hours, but roaming and some premium services may take up to two days to be included. For the most up-to-date data figure on your mobile, the balance shown after dialling the free balance code is updated within minutes. Past months' usage can be viewed for up to a year.",
+        "questions": ["How do I see how much data I've used this month in the app?", "Why doesn't my usage in the app include today's roaming?"]
+      },
+      {
+        "heading": "Getting help in the app",
+        "text": "Choose Help in the menu to search our help articles, check service status, run a line test or start a chat. Chat is answered by an adviser during opening hours and by our automated assistant at other times, which can pass you to a person when needed. Conversations stay in your message history so you can come back later. You can also book a callback at a time that suits you instead of waiting on the phone line.",
+        "questions": ["How do I chat with an adviser in the app?", "Can I book a callback from Meridian through the app?"]
+      }
+    ]
+  },
+  {
+    "title": "App notifications and settings",
+    "topic": "account",
+    "service": "mobile_app",
+    "sections": [
+      {
+        "heading": "Choosing your notifications",
+        "text": "Notifications tell you when a bill is ready, when you have used most of your allowance, when an engineer is on the way and when there is a fault or a fix in your area. Choose which ones you want under Settings, then Notifications, in the app. Security notifications, such as a new device signing in to your account, cannot be switched off. Your phone's own settings can also silence the app completely, which overrides the choices made in the app.",
+        "questions": ["How do I choose which notifications the Meridian app sends?", "Can I turn off security alerts in the app?"]
+      },
+      {
+        "heading": "Quiet hours",
+        "text": "Quiet hours hold back non-urgent notifications overnight, delivering them in the morning instead. Set the start and end times under Settings and Notifications. Engineer arrival alerts and security notifications are still delivered during quiet hours, because they are time-sensitive. Quiet hours follow the time zone set on your phone, so they adjust automatically when you travel abroad with the app installed.",
+        "questions": ["Can I stop the app sending notifications at night?", "Do quiet hours still let engineer alerts through?"]
+      },
+      {
+        "heading": "Signing out on other devices",
+        "text": "Under Settings and then Devices you can see every phone, tablet and browser signed in to your account, with the date it was last used. Sign out any you do not recognise or no longer use. If you sell or give away a phone, sign out of the app first and remove the device from this list. Signing out a device also cancels its fingerprint or face sign-in, and that device will need the password next time.",
+        "questions": ["How do I see which devices are signed in to my Meridian account?", "How do I remove an old phone from my account?"]
+      },
+      {
+        "heading": "Updating the app",
+        "text": "Keep the app up to date for the latest features and security fixes. Turn on automatic updates in your app store, or check for updates there manually. When an update is required, the app shows a message and opens the store for you. Versions more than a year old stop working, because they no longer meet our security standards. Updating never removes your settings, saved cards or message history from the app.",
+        "questions": ["Why does the app say I must update before I can use it?", "Will updating the app delete my settings?"]
+      }
+    ]
+  }
+]

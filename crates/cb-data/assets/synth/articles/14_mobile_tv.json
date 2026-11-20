@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Lost or stolen phone",
+    "topic": "mobile",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "Bar the SIM straight away",
+        "text": "If your phone is lost or stolen, bar the SIM as soon as possible so nobody can make calls or use data at your expense. Use the Meridian app on another device, the online account, or call our lost and stolen line, which is open every day and night. Barring is immediate. You are not responsible for charges made after you report the loss, but you may be for charges made before it, so do not delay.",
+        "questions": ["My phone has been stolen. How do I stop someone using my SIM?", "Am I liable for calls made on my stolen phone?"]
+      },
+      {
+        "heading": "Blocking the handset",
+        "text": "As well as the SIM, we can block the handset itself using its unique serial number, so that it cannot be used on any network in the country even with a different SIM. You can find the serial number on the original box, on your phone bill if you bought it from us, or in your phone maker's online account. Report the theft to the police as well and keep the crime reference number they give you.",
+        "questions": ["Can you block my stolen phone so nobody can use it?", "Where do I find my phone's serial number?"]
+      },
+      {
+        "heading": "Getting a replacement SIM",
+        "text": "Order a replacement SIM in the app or by phone; it is free and arrives in one to two working days, or the same day from a Meridian shop. For security, we ask extra questions before sending a replacement SIM, and we send a text to your other contact details to tell you it was ordered. Your number, plan and voicemail move to the new SIM as soon as you activate it.",
+        "questions": ["How do I get a new SIM with my old number after losing my phone?", "Can I pick up a replacement SIM from a shop?"]
+      },
+      {
+        "heading": "Protecting your accounts",
+        "text": "Use your phone maker's find-my-device service to lock the phone or erase it remotely. Change the passwords for your email and banking apps, and sign the lost phone out of the Meridian app from the Devices page in your online account. If your phone had banking apps, call your bank. If you find the phone later, contact us so we can remove the handset block, after which you can use it again with your new SIM.",
+        "questions": ["What should I do to protect my accounts after losing my phone?", "I found my lost phone. Can the block be removed?"]
+      }
+    ]
+  },
+  {
+    "title": "Getting started with the TV app",
+    "topic": "tv",
+    "service": "tv_app",
+    "sections": [
+      {
+        "heading": "Where the TV app works",
+        "text": "The Meridian TV app runs on phones, tablets, computer browsers, many smart televisions and streaming sticks. It gives you the same live channels, catch-up and on demand library as your set-top box, according to your subscription. Find it in your device's app store by searching for Meridian TV. On a computer, go to the TV page of our website. Your device needs to have received a software update within the last three years.",
+        "questions": ["Which devices can I watch the Meridian TV app on?", "Can I watch Meridian TV on my laptop?"]
+      },
+      {
+        "heading": "Signing in on a television",
+        "text": "Typing a password with a television remote is slow, so the app on a television shows a short pairing code instead. Open the Meridian app on your phone, choose Pair a TV, and enter the code. The television signs in within a few seconds. Each pairing code lasts ten minutes. You can see and remove paired televisions later from the Devices page of your account.",
+        "questions": ["How do I sign in to the TV app on my smart TV?", "What is the pairing code on the TV app for?"]
+      },
+      {
+        "heading": "Finding something to watch",
+        "text": "The home screen suggests programmes based on what you have watched, with rows for live television, catch-up, films and box sets. Use the search button to find a programme by title, actor or channel. Programmes you have started appear in the Continue watching row, and they pick up where you left off on any device. Add programmes to My list to find them again easily.",
+        "questions": ["How do I search for a programme in the TV app?", "Can I carry on watching on my tablet what I started on the television?"]
+      },
+      {
+        "heading": "Downloading to watch offline",
+        "text": "Many on demand programmes can be downloaded to a phone or tablet to watch without a connection, for example on a flight. Tap the download arrow next to an episode. Downloads are stored for thirty days, and once you start watching one you have forty-eight hours to finish it. You can hold up to twenty-five downloads at once across two devices. Programmes from some channels cannot be downloaded because of rights restrictions.",
+        "questions": ["Can I download programmes to watch on a plane?", "How long do TV app downloads last?"]
+      }
+    ]
+  },
+  {
+    "title": "Watching on more than one device",
+    "topic": "tv",
+    "service": "tv_app",
+    "sections": [
+      {
+        "heading": "How many screens at once",
+        "text": "The Essentials package allows two streams at the same time, which might be the set-top box and one device using the app. Adding the Extra Screens option raises this to four. If you try to start an extra stream beyond your limit, the app tells you which devices are already watching, and you can stop one of them from that screen. Downloads watched offline do not count towards the limit.",
+        "questions": ["How many people can watch Meridian TV at the same time?", "Why does the app say too many devices are watching?"]
+      },
+      {
+        "heading": "Registering devices",
+        "text": "You can register up to ten devices on your account. Older devices that you no longer use should be removed under Devices in the online account, because a device you sold or gave away keeps access until it is removed. You can swap a registered device for another up to four times a month. Signing out of the app on a device does not remove it from the list.",
+        "questions": ["How do I remove an old tablet from my TV account?", "Is there a limit to how many devices I can register?"]
+      },
+      {
+        "heading": "Watching away from home",
+        "text": "Most live channels and all on demand programmes can be watched anywhere in the country over mobile data or any Wi-Fi network. A few channels can only be watched live on your home network, because of the agreements with their broadcasters, and they are marked with a house symbol. Streaming over mobile data counts towards your allowance unless you have a Meridian mobile plan with TV streaming included.",
+        "questions": ["Can I watch live TV in the app when I'm not at home?", "What does the house symbol next to a channel mean?"]
+      },
+      {
+        "heading": "Viewing profiles",
+        "text": "Each member of the household can have a profile with their own recommendations, watch list and continue watching row. Children's profiles show only programmes rated for their age, and they can be locked with a PIN so that children cannot switch to an adult profile. Create profiles in the app under Settings and Profiles. You can have up to six profiles on one account.",
+        "questions": ["Can each person in my family have their own profile on the TV app?", "How do I stop my kids switching to my profile?"]
+      }
+    ]
+  },
+  {
+    "title": "Recording programmes",
+    "topic": "tv",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Recording one programme",
+        "text": "To record a programme, find it in the guide and press the red record button on the remote. A red dot appears next to the programme. You can record a programme that is on now, or any programme up to fourteen days ahead. To stop a recording early, open the recording and choose Stop. Recordings continue even if the box is in standby, so you do not need to leave it switched on.",
+        "questions": ["How do I record a programme on my TV box?", "Will my box record if it's on standby?"]
+      },
+      {
+        "heading": "Series recordings",
+        "text": "Press the record button twice on any episode to record the whole series. The box then records every new episode automatically, including episodes moved to a different time, and skips repeats of episodes you already have. Series recordings are shown with a double red dot. You can choose to keep only the latest few episodes, which saves space for viewers who never rewatch old ones.",
+        "questions": ["How do I record a whole series?", "Can my box keep only the newest episodes of a series?"]
+      },
+      {
+        "heading": "Running out of space",
+        "text": "The box shows how full its storage is in the Recordings menu. When it is nearly full, the oldest recordings that you have already watched are removed first to make room, unless you have marked them to keep. Recordings you have not watched are never deleted automatically. Newer boxes also store recordings in the cloud, which gives you more space and lets you watch recordings in the app away from home.",
+        "questions": ["What happens when my TV box runs out of recording space?", "Can I watch my recordings on my phone?"]
+      },
+      {
+        "heading": "Recording two things at once",
+        "text": "The set-top box can record up to four channels at the same time while you watch a fifth live channel or a recording. If you set more recordings than the box can manage, it warns you about the clash and asks which one to drop. Programmes in the catch-up library can be watched for thirty days after they are shown, so you often do not need to record them at all.",
+        "questions": ["Can I record more than one channel at a time?", "Do I need to record a programme if it's on catch-up?"]
+      }
+    ]
+  }
+]

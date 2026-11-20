@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Family filter and parental controls",
+    "topic": "wifi",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "What the family filter blocks",
+        "text": "The family filter blocks websites in categories that are unsuitable for children, such as adult content, gambling, violence and self-harm, for every device on your home connection. It runs on our network, so it works on devices you cannot install software on, like games consoles. It is switched on for new accounts unless you choose otherwise at sign-up. The filter does not cover mobile data, which has its own content controls managed in the mobile settings.",
+        "questions": ["What kinds of sites does the family filter stop?", "Does the family filter work on my child's games console?"]
+      },
+      {
+        "heading": "Turning it on or off",
+        "text": "Only the account holder can change the family filter. Go to Security in your online account and choose Family filter. Switching it off requires you to confirm your account password, and we send an email to let you know the change was made. Changes take up to fifteen minutes to apply, and devices may need to be restarted before the new setting is visible. You can also pick which categories to block, rather than using the standard list.",
+        "questions": ["How do I turn off the family filter?", "Can I choose which categories the family filter blocks?"]
+      },
+      {
+        "heading": "Schedules and device controls",
+        "text": "In the Meridian app you can pause the internet for a particular device or a group of devices, either straight away or on a timetable, for example on school nights after nine. Name devices clearly in the connected devices list first, so you can find your children's tablets and phones easily. Paused devices stay connected to the Wi-Fi but cannot reach the internet. Schedules follow the hub's clock, which updates itself automatically.",
+        "questions": ["Can I switch off the internet on my son's tablet at bedtime?", "How do I set an internet schedule for one device?"]
+      },
+      {
+        "heading": "If a safe site is blocked",
+        "text": "Occasionally the filter blocks a site that should be allowed, such as a school resource. Add the site's address to your allowed list under Family filter, and it will be reachable within a few minutes. You can also report a wrongly blocked site, and we review its category within five working days. Sites that should have been blocked can be reported in the same way. Your own allowed and blocked lists always take priority over the standard categories.",
+        "questions": ["The family filter is blocking my child's homework site. How do I allow it?", "How do I report a website that the filter should have blocked?"]
+      }
+    ]
+  },
+  {
+    "title": "Creating your online account",
+    "topic": "account",
+    "service": "web_portal",
+    "sections": [
+      {
+        "heading": "What you need to register",
+        "text": "To register, you need your Meridian account number, found at the top of every bill and in your welcome email, and access to the email address or mobile number we hold for you. Go to the Register page on our website or open the app and choose Create an account. We send a six-digit code to confirm that you own the email address or phone number. The code expires after fifteen minutes, so enter it promptly.",
+        "questions": ["What do I need to set up my Meridian online account?", "Where do I find my account number to register?"]
+      },
+      {
+        "heading": "Choosing a strong password",
+        "text": "Your password must be at least ten characters long and must not appear on lists of commonly used passwords. A sequence of three or four unrelated words, with spaces or punctuation between them, is long, strong and easy to remember. Do not reuse a password from another website, because if that site is breached, criminals try the same password elsewhere. A password manager can create and remember a different password for every site you use.",
+        "questions": ["What are the password rules for my Meridian account?", "Is it safe to use the same password as my email?"]
+      },
+      {
+        "heading": "What you can do online",
+        "text": "Once registered, you can view and download bills, make payments, change your plan, track orders and engineer appointments, check service status in your area, report faults and run line tests. You can also manage extras such as roaming bundles and channel packs, update your contact details, set communication preferences and see recent contacts with our support team. Most changes made online take effect immediately and are confirmed by email.",
+        "questions": ["What can I manage in my online account?", "Can I report a fault through the website instead of calling?"]
+      },
+      {
+        "heading": "If registration fails",
+        "text": "If the site says your account number is not recognised, check it against your latest bill; it begins with MC followed by eight digits. If the confirmation code never arrives, check your junk folder, or choose to receive it by text instead. Accounts opened in the last forty-eight hours may not be ready for online registration yet. If the account is in someone else's name, they must register and then add you as an authorised user.",
+        "questions": ["The website says my account number is wrong when I try to register. Why?", "I didn't receive my registration code. What should I do?"]
+      }
+    ]
+  },
+  {
+    "title": "Resetting your password",
+    "topic": "account",
+    "service": "web_portal",
+    "sections": [
+      {
+        "heading": "Requesting a reset",
+        "text": "On the sign-in page, choose Forgotten password and enter the email address you use to sign in. We send a reset link to that email address, and a code by text if a mobile number is registered. The link works once and expires after one hour. For your security, the page shows the same message whether or not an account exists for the email you entered, so nobody can use the form to find out who is a customer.",
+        "questions": ["How do I reset my Meridian account password?", "How long does the password reset link last?"]
+      },
+      {
+        "heading": "If the reset email does not arrive",
+        "text": "Allow a few minutes, then check your junk and spam folders. Make sure you entered the same email address you used when registering, since some customers have more than one address. Requesting several resets in a row cancels the earlier links, so always use the most recent email. If you no longer have access to that email address, contact us, and after a security check we can change the sign-in email for you.",
+        "questions": ["I haven't received my password reset email. What can I do?", "How do I reset my password if I can't get into my old email?"]
+      },
+      {
+        "heading": "Choosing the new password",
+        "text": "The new password must be different from the last five you used and at least ten characters long. After a reset, you are signed out of every device and app for safety, so you will need to sign in again everywhere with the new password. If you use the app's fingerprint or face sign-in, set it up again after signing in. Saved passwords in your browser should be updated so that old details are not offered.",
+        "questions": ["Can I reuse an old password when resetting?", "Why was I signed out of the app after changing my password?"]
+      },
+      {
+        "heading": "Locked accounts",
+        "text": "After five wrong passwords in a row, sign-in is paused for thirty minutes to protect the account from guessing. Resetting the password lifts the pause straight away. If you did not try to sign in yourself, someone else may have tried to get into your account: reset your password, check that your contact details are correct, and consider turning on two-step verification. We email you whenever an account is locked in this way.",
+        "questions": ["My account is locked after too many attempts. How do I get back in?", "I got an email saying my account was locked but I didn't try to sign in. What does it mean?"]
+      }
+    ]
+  },
+  {
+    "title": "Two-step verification",
+    "topic": "account",
+    "service": "web_portal",
+    "sections": [
+      {
+        "heading": "Why it matters",
+        "text": "Two-step verification adds a second check when you sign in from a new device: as well as your password, you enter a code from your phone. Even if someone learns your password, they cannot get into your account without that code. This protects your bills, your personal details and the ability to order a new SIM card for your number, which criminals sometimes attempt in order to take over a person's phone number.",
+        "questions": ["What is two-step verification and why should I use it?", "Does two-step verification stop someone ordering a SIM in my name?"]
+      },
+      {
+        "heading": "Setting it up",
+        "text": "Go to Security in your online account and choose Two-step verification. You can receive codes by text message or generate them with an authenticator app on your phone; an authenticator app is more secure, because it does not depend on your phone number. Scan the code shown on screen with the app, then enter the six-digit number it shows to confirm. Save the recovery codes we provide somewhere safe and offline.",
+        "questions": ["How do I turn on two-step verification for my account?", "Should I get my codes by text or with an authenticator app?"]
+      },
+      {
+        "heading": "Signing in with a code",
+        "text": "When you sign in on a new device or browser, you are asked for a code after your password. Enter the current code from your app or the code we text you. You can tick Trust this device so that you are not asked again on that device for ninety days. Do not tick it on shared or public computers. Our staff will never ask you to read out a sign-in code, by phone, email or chat.",
+        "questions": ["How often will I be asked for a verification code?", "Will Meridian ever ask me for my sign-in code?"]
+      },
+      {
+        "heading": "Losing your phone",
+        "text": "If you lose the phone you use for codes, sign in with one of your recovery codes, then set up two-step verification on your new phone. Each recovery code works once. If you have no recovery codes, contact us: after a full identity check, we can remove two-step verification so that you can sign in and set it up again. This takes up to one working day, because we confirm the request by post or by a call to a registered number.",
+        "questions": ["I lost the phone I use for my verification codes. How do I sign in?", "How long does it take to remove two-step verification if I have no recovery codes?"]
+      }
+    ]
+  }
+]

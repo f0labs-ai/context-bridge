@@ -1,0 +1,81 @@
+{
+  "problem": [
+    "Customers using {service} in {region} are reporting {symptom}. The problem began at {since} on {since_date}.",
+    "We are seeing {symptom} affecting {service} in {region}, starting at {since} on {since_date}.",
+    "Since {since} on {since_date}, customers using {service} in {region} have been affected by {symptom}."
+  ],
+  "investigating": [
+    "Engineers are investigating and the cause is not yet known.",
+    "The cause has not been identified yet; investigation is under way.",
+    "Our network team is investigating. No cause has been confirmed."
+  ],
+  "next_update": [
+    "The next update is due by {next_update} on {next_update_date}.",
+    "We will post a further update by {next_update} on {next_update_date}.",
+    "Next update by {next_update} on {next_update_date}."
+  ],
+  "cause": [
+    "The cause has been identified as {cause}.",
+    "Engineers have traced the fault to {cause}.",
+    "Root cause: {cause}."
+  ],
+  "fix_pending": [
+    "A fix is being prepared.",
+    "Engineers are planning the repair.",
+    "Work on a fix will start shortly."
+  ],
+  "workaround": [
+    "Until the fix is in place, customers can {workaround}.",
+    "Workaround: {workaround}.",
+    "In the meantime, affected customers are advised to {workaround}."
+  ],
+  "no_workaround": [
+    "There is no workaround; affected customers will need to wait for the fix.",
+    "No workaround is available for this fault.",
+    "There is no workaround at present, and service will return only when the repair is complete."
+  ],
+  "fix": [
+    "Engineers are {fix}. Service is expected back by {eta} on {eta_date}.",
+    "A fix is in progress: engineers are {fix}. Estimated time of restoration: {eta} on {eta_date}.",
+    "Repair work has started, with engineers {fix}. We expect service to return by {eta} on {eta_date}."
+  ],
+  "problem_past": [
+    "Customers using {service} in {region} experienced {symptom} from {since} on {since_date}.",
+    "From {since} on {since_date} until the repair, customers using {service} in {region} were affected by {symptom}.",
+    "The fault that began at {since} on {since_date}, {symptom} for customers using {service} in {region}, is over."
+  ],
+  "cause_was": [
+    "The cause was {cause}.",
+    "The fault was traced to {cause}.",
+    "Root cause: {cause}."
+  ],
+  "workaround_was": [
+    "During the fault, customers were advised to {workaround}; this is no longer needed.",
+    "The temporary advice to {workaround} no longer applies."
+  ],
+  "resolved": [
+    "Engineers completed the repair by {fix}, and service was restored at {resolved_at} on {resolved_date}.",
+    "The fix, {fix}, is complete. Service was restored at {resolved_at} on {resolved_date}.",
+    "After {fix}, service returned to normal at {resolved_at} on {resolved_date}."
+  ],
+  "aftercare": [
+    "Customers who are still affected should {aftercare}.",
+    "If service has not returned for you, please {aftercare}.",
+    "Anyone still having trouble is advised to {aftercare}."
+  ],
+  "wrong_customer_side": [
+    "Adviser's assessment from a support call on {call_date}, for a customer in {region} reporting a fault with {service}: the likely cause is {wrong}, not a network fault.",
+    "Note from a support call on {call_date} about {service} in {region}: the problem appears to be {wrong}.",
+    "Support note, {call_date}, {service}, {region}: fault put down to {wrong}; no network incident suspected."
+  ],
+  "wrong_provider_side": [
+    "Note from a support call on {call_date} about {service} in {region}: the fault is believed to be caused by {wrong}.",
+    "Adviser's note from {call_date} on the problem with {service} in {region}: the cause is thought to be {wrong}.",
+    "Support note, {call_date}, {service}, {region}: unofficial word is that the cause is {wrong}."
+  ],
+  "wrong_time_back": [
+    "Note from a support call on {call_date} about {service} in {region}: service is expected back by {wrong_time} on {wrong_date}.",
+    "Adviser's estimate from {call_date} for the problem with {service} in {region}: back in service by {wrong_time} on {wrong_date}.",
+    "Support note, {call_date}, {service}, {region}: restoration expected by {wrong_time} on {wrong_date}."
+  ]
+}

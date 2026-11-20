@@ -1,0 +1,118 @@
+{
+  "id": "tv_app",
+  "name": "the TV streaming app",
+  "label": "TV streaming app",
+  "plural": false,
+  "kind": "tv",
+  "customer_names": ["the Meridian TV app", "the streaming app", "the TV app on my tablet", "my TV app"],
+  "modes": [
+    {
+      "id": "playback_error",
+      "title": "Programmes will not play",
+      "symptom": "programmes stopping with a playback error after a few seconds",
+      "customer_says": [
+        "The TV app won't play anything. I pick a show, it spins, and then I get an error message.",
+        "Every programme I try in the streaming app stops after a couple of seconds with something went wrong.",
+        "I can browse the app fine, but nothing actually plays. It just throws up an error code.",
+        "The app opens, the menus work, and then whatever I choose refuses to start."
+      ],
+      "causes": [
+        { "cause": "a failed licence server for protected video", "fixes": ["bringing a replacement licence server online"] },
+        { "cause": "a corrupted batch of video segments at the regional cache", "fixes": ["purging and refilling the regional video cache"] },
+        { "cause": "an expired signing key on the stream packager", "fixes": ["rotating the signing key on the stream packager"] }
+      ],
+      "workarounds": [
+        "watch through the web player at the Meridian TV site instead of the app",
+        "download programmes over Wi-Fi and play them from the downloads tab"
+      ],
+      "aftercare": [
+        "close the app fully and open it again",
+        "clear the app's stored data if the error message keeps appearing"
+      ]
+    },
+    {
+      "id": "buffering",
+      "title": "Constant buffering",
+      "symptom": "streams pausing to buffer every few seconds",
+      "customer_says": [
+        "The streaming app keeps buffering. I get ten seconds of the programme and then the spinning circle.",
+        "Everything I watch in the TV app stops and starts. My internet is fine for everything else.",
+        "The picture keeps freezing and going blocky in the app. It is unwatchable.",
+        "Shows won't play smoothly in the app. It stutters all the time, even on the lowest quality."
+      ],
+      "causes": [
+        { "cause": "an overloaded video delivery node", "fixes": ["adding capacity to the video delivery node"] },
+        { "cause": "a faulty adaptive bitrate ladder published for the region", "fixes": ["republishing the adaptive bitrate ladder"] },
+        { "cause": "a peering fault with the content delivery partner", "fixes": ["shifting streams to a second content delivery partner"] }
+      ],
+      "workarounds": [
+        "set the app's video quality to standard definition",
+        "cast from a phone instead of using the app on the television"
+      ],
+      "aftercare": [
+        "put the video quality setting back to automatic",
+        "restart the app so it reconnects to the nearest delivery node"
+      ]
+    },
+    {
+      "id": "sign_in_loop",
+      "title": "App keeps signing out",
+      "symptom": "the app returning viewers to the sign-in screen",
+      "customer_says": [
+        "The TV app keeps throwing me out. I sign in and a minute later it asks me to sign in again.",
+        "I'm stuck on the login page of the streaming app. It accepts my details and then goes straight back.",
+        "The app won't keep me signed in. It is a loop, I log in and it logs me out.",
+        "Every time I open the TV app it wants my password, and then it says session expired."
+      ],
+      "causes": [
+        { "cause": "a session token service returning short-lived tokens", "fixes": ["correcting the token lifetime on the session service"] },
+        { "cause": "a clock drift on the authentication servers", "fixes": ["resynchronising the clocks on the authentication servers"] },
+        { "cause": "a device limit counter that failed to reset", "fixes": ["resetting the stuck device limit counter"] }
+      ],
+      "workarounds": [
+        "sign in with the pairing code shown on the television instead of a password",
+        "sign out of the app on every other device before signing in"
+      ],
+      "aftercare": [
+        "sign in once more to start a clean session",
+        "remove old devices from the device list in the account settings"
+      ]
+    },
+    {
+      "id": "channels_missing",
+      "title": "Live channels missing",
+      "symptom": "live channels missing from the guide",
+      "customer_says": [
+        "Half my channels have vanished from the app. The guide is just full of gaps.",
+        "The live TV section is empty. On demand works, but there are no channels listed.",
+        "I can't find the sports channels in the app any more, and I definitely pay for them.",
+        "Channels I watch every day have disappeared from the list in the streaming app."
+      ],
+      "causes": [
+        { "cause": "a channel line-up file published with missing entries", "fixes": ["republishing the complete channel line-up file"] },
+        { "cause": "an entitlement service timing out for subscription checks", "fixes": ["scaling up the entitlement service"] },
+        { "cause": "a failed satellite feed into the regional encoding centre", "fixes": ["switching the encoders to the backup satellite feed"] }
+      ],
+      "workarounds": [
+        "open a missing channel from the search box rather than the guide",
+        "watch the missing channels through catch-up an hour after broadcast"
+      ],
+      "aftercare": [
+        "pull down on the guide to refresh the channel list",
+        "sign out and back in if a paid channel is still missing"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "an out-of-date version of the app",
+    "a television too old to run the app",
+    "a subscription that lapsed last month",
+    "a weak Wi-Fi signal near the television"
+  ],
+  "wrong_provider_side": [
+    "a rights dispute that has taken programmes down",
+    "planned work on the TV platform",
+    "a broadcaster's own technical fault",
+    "a new version of the app being rolled out"
+  ]
+}

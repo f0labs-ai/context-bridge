@@ -1,0 +1,25 @@
+[package]
+name = "cb-eval"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Ranking rules, the two-conversation rule, measures and statistics of the ContextBridge proof, computed offline from run files."
+
+[lints]
+workspace = true
+
+[dependencies]
+cb-types = { path = "../cb-types" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+rand_chacha.workspace = true
+sha2.workspace = true
+
+[[bin]]
+name = "cb-eval"
+path = "src/main.rs"

@@ -1,0 +1,118 @@
+{
+  "id": "email",
+  "name": "email",
+  "label": "Email",
+  "plural": false,
+  "kind": "online",
+  "customer_names": ["my Meridian email", "my email account", "the email I have with you", "my email"],
+  "modes": [
+    {
+      "id": "cannot_sign_in",
+      "title": "Cannot sign in to email",
+      "symptom": "mailboxes refusing correct passwords at sign-in",
+      "customer_says": [
+        "I can't get into my email. It says my password is wrong, and I haven't changed it.",
+        "My email won't let me log in on the website or on my phone. It was fine the last time I used it.",
+        "The email sign-in keeps rejecting me. I've tried resetting the password and that fails too.",
+        "I'm locked out of my email account. Every attempt says the details are not recognised."
+      ],
+      "causes": [
+        { "cause": "a directory server that fell out of sync with the mail platform", "fixes": ["resynchronising the directory server with the mail platform"] },
+        { "cause": "a lockout rule triggered across a whole range of accounts", "fixes": ["lifting the lockout rule from the affected accounts"] },
+        { "cause": "an identity service outage in the regional data hall", "fixes": ["failing the identity service over to another data hall"] }
+      ],
+      "workarounds": [
+        "read mail on a phone or tablet that is already signed in",
+        "use the read-only webmail address listed on the service status page"
+      ],
+      "aftercare": [
+        "sign in again with the usual password",
+        "ignore any password reset emails requested during the fault"
+      ]
+    },
+    {
+      "id": "mail_not_arriving",
+      "title": "Incoming mail delayed",
+      "symptom": "incoming messages held in a delivery queue",
+      "customer_says": [
+        "I'm not receiving any emails. People say they've sent me things and my inbox is empty.",
+        "Emails are taking ages to reach me. A booking confirmation never turned up.",
+        "Nothing new has come into my inbox, and I know for certain that messages have been sent.",
+        "My email has gone quiet. I sent myself a test from another account and it hasn't arrived."
+      ],
+      "causes": [
+        { "cause": "a virus scanning engine that stalled on a malformed attachment", "fixes": ["restarting the virus scanning engine with the bad attachment quarantined"] },
+        { "cause": "a mail routing record pointing at a retired server", "fixes": ["correcting the mail routing record"] },
+        { "cause": "a storage quota fault that froze inbound delivery", "fixes": ["clearing the storage quota fault"] }
+      ],
+      "workarounds": [
+        "ask senders to copy urgent messages to a second email address",
+        "check the spam folder, where a few delayed messages are landing"
+      ],
+      "aftercare": [
+        "expect held messages to arrive in order of their original sending time",
+        "ask senders to resend anything that has not arrived by the end of the day"
+      ]
+    },
+    {
+      "id": "cannot_send",
+      "title": "Cannot send mail",
+      "symptom": "outgoing messages bouncing back with a relay error",
+      "customer_says": [
+        "I can't send emails. They sit in the outbox and then come back with a failure notice.",
+        "Every email I send bounces. I can receive fine, but nothing will go out.",
+        "My outgoing mail isn't working. I get a message about the relay being denied.",
+        "Emails I send come straight back as undeliverable, even to my own family."
+      ],
+      "causes": [
+        { "cause": "an outbound mail relay placed on a third-party blocklist", "fixes": ["moving outbound mail to a clean relay address"] },
+        { "cause": "a sending limit set to zero by a faulty anti-abuse update", "fixes": ["restoring the normal sending limit"] },
+        { "cause": "an expired security certificate on the sending servers", "fixes": ["installing a new security certificate on the sending servers"] }
+      ],
+      "workarounds": [
+        "send from the webmail page rather than a mail program",
+        "save urgent messages as drafts and send them once relaying is restored"
+      ],
+      "aftercare": [
+        "resend any message that bounced during the fault",
+        "empty the outbox of stuck messages before sending again"
+      ]
+    },
+    {
+      "id": "folders_missing",
+      "title": "Folders and old mail missing",
+      "symptom": "folders and older messages missing from mailboxes",
+      "customer_says": [
+        "All my email folders have gone. Years of saved messages aren't showing.",
+        "My inbox only shows this week's emails. Everything older has disappeared.",
+        "The folders I keep my receipts in have vanished from my email account.",
+        "Half my email is missing. I can see new messages, but none of my old ones."
+      ],
+      "causes": [
+        { "cause": "a mailbox migration that paused halfway", "fixes": ["completing the paused mailbox migration"] },
+        { "cause": "a search index that failed to load after a restart", "fixes": ["reloading the mailbox search index"] },
+        { "cause": "an archive storage tier that went offline", "fixes": ["bringing the archive storage tier back online"] }
+      ],
+      "workarounds": [
+        "open older messages from a mail program that keeps its own copy",
+        "use the search by date option, which still reaches archived mail"
+      ],
+      "aftercare": [
+        "refresh the folder list in webmail",
+        "check the restored folders and report anything still missing"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a mailbox that has gone over its storage limit",
+    "a forwarding rule set up by mistake",
+    "an outdated mail program on the computer",
+    "a password saved wrongly in the phone"
+  ],
+  "wrong_provider_side": [
+    "a planned move to a new email system",
+    "a wave of spam slowing every mailbox",
+    "a security lock placed after a suspected breach",
+    "a fault at the other person's email provider"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "mobile_calls",
+  "name": "mobile calls and texts",
+  "label": "Mobile calls and text",
+  "plural": true,
+  "kind": "mobile",
+  "customer_names": ["calls on my mobile", "my phone service", "calls and texts on my phone", "my mobile"],
+  "modes": [
+    {
+      "id": "calls_failing",
+      "title": "Calls not connecting",
+      "symptom": "outgoing calls ending as soon as they are dialled",
+      "customer_says": [
+        "I can't make any calls. I dial, it beeps three times and drops straight back to the keypad.",
+        "Every call I try to make fails instantly. Texts seem to go, but calls won't connect.",
+        "My phone won't ring out. It says call failed the second I press the green button.",
+        "I've been trying to phone my daughter and it just cuts off before it even rings."
+      ],
+      "causes": [
+        { "cause": "a failed call switching node", "fixes": ["moving call traffic to the backup switching node"] },
+        { "cause": "an incorrect number routing table loaded during maintenance", "fixes": ["reloading the correct number routing table"] },
+        { "cause": "a licence limit reached on the voice core", "fixes": ["raising the licence limit on the voice core"] }
+      ],
+      "workarounds": [
+        "turn on Wi-Fi calling in the phone's settings",
+        "use the Meridian Talk app over Wi-Fi to place calls"
+      ],
+      "aftercare": [
+        "restart the phone if calls still fail",
+        "turn Wi-Fi calling off again if it is not normally used"
+      ]
+    },
+    {
+      "id": "texts_delayed",
+      "title": "Text messages delayed",
+      "symptom": "text messages arriving hours late or not at all",
+      "customer_says": [
+        "My texts aren't getting through. People say they've sent me messages and nothing has arrived.",
+        "Text messages are turning up really late. I got a security code long after I'd asked for it.",
+        "I can't send texts. They sit there saying sending and then fail with a red mark.",
+        "Messages to my family aren't being delivered, and I'm not getting theirs either."
+      ],
+      "causes": [
+        { "cause": "a backlog in the message centre queue", "fixes": ["draining the backlog in the message centre queue"] },
+        { "cause": "a full disk on the text delivery server", "fixes": ["clearing space on the text delivery server"] },
+        { "cause": "a spam filter update that held back ordinary messages", "fixes": ["withdrawing the spam filter update"] }
+      ],
+      "workarounds": [
+        "send urgent messages through an internet messaging app",
+        "ask for security codes by voice call instead of by text"
+      ],
+      "aftercare": [
+        "resend any text that still shows as failed",
+        "expect delayed messages to arrive in a burst over the next hour"
+      ]
+    },
+    {
+      "id": "no_signal",
+      "title": "No signal",
+      "symptom": "handsets showing no service across several postcodes",
+      "customer_says": [
+        "My phone says no service. It has been emergency calls only all over town.",
+        "I've lost all signal on my mobile. Not one bar, at home or at work.",
+        "There's no reception at all on my phone. My neighbour is with Meridian too and his is the same.",
+        "My mobile has no signal whatsoever. I've walked right down the street and it makes no difference."
+      ],
+      "causes": [
+        { "cause": "a tripped circuit breaker at the main mast site", "fixes": ["resetting the tripped circuit breaker at the mast site"] },
+        { "cause": "a failed baseband unit on the area's main mast", "fixes": ["fitting a replacement baseband unit"] },
+        { "cause": "vandalism to the feeder cables at a mast", "fixes": ["repairing the vandalised feeder cables"] }
+      ],
+      "workarounds": [
+        "connect to any Wi-Fi network and use Wi-Fi calling",
+        "divert calls to a landline by dialling the divert code from another phone"
+      ],
+      "aftercare": [
+        "switch the phone off and on so it finds the mast again",
+        "cancel any call divert that was set up during the fault"
+      ]
+    },
+    {
+      "id": "one_way_audio",
+      "title": "One-way audio",
+      "symptom": "calls connecting with sound in one direction only",
+      "customer_says": [
+        "When I ring someone they can hear me, but I can't hear them at all.",
+        "Calls connect, but there's silence on my end. The other person says they're shouting hello.",
+        "People keep hanging up on me because they can't hear me, although I can hear them perfectly.",
+        "Half the conversation is missing on every call. It is silence on one side."
+      ],
+      "causes": [
+        { "cause": "a faulty media gateway card", "fixes": ["taking the faulty media gateway card out of service"] },
+        { "cause": "a codec mismatch introduced by a voice platform patch", "fixes": ["removing the voice platform patch"] },
+        { "cause": "a firewall rule blocking audio packets in one direction", "fixes": ["correcting the firewall rule that blocks audio packets"] }
+      ],
+      "workarounds": [
+        "turn off 4G calling so calls fall back to the older network",
+        "place important calls from a landline or over an internet calling app"
+      ],
+      "aftercare": [
+        "turn 4G calling back on for clearer sound",
+        "restart the phone if calls are still silent"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a call barring setting left switched on",
+    "a faulty microphone in the handset",
+    "an account suspended for a missed payment",
+    "a phone case blocking the antenna"
+  ],
+  "wrong_provider_side": [
+    "a planned upgrade of the masts in the area",
+    "a fault with another network that passes calls to ours",
+    "heavy call volumes after a local emergency",
+    "a solar storm disturbing radio signals"
+  ]
+}

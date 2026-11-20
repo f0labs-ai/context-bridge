@@ -1,0 +1,39 @@
+[package]
+name = "cb-data"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "Builds the data sets of the ContextBridge proof."
+
+[lints]
+workspace = true
+
+[dependencies]
+cb-types = { path = "../cb-types" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+chrono.workspace = true
+rand.workspace = true
+rand_chacha.workspace = true
+sha2.workspace = true
+# The polite fetcher of the public sources (src/public/fetch.rs).
+tokio.workspace = true
+reqwest.workspace = true
+# The readers of the two Zenodo archives (src/public/zenodo.rs): zip files, one holding
+# the Google Cloud Parquet file (src/public/gcp.rs).
+zip = { version = "9", default-features = false, features = ["deflate-flate2-zlib-rs"] }
+parquet = { version = "60", default-features = false, features = ["snap"] }
+bytes = "1"
+
+[dev-dependencies]
+# The fetcher's tests talk to a stub server on a local socket.
+tokio = { workspace = true, features = ["net", "io-util"] }
+
+[[bin]]
+name = "cb-data"
+path = "src/main.rs"

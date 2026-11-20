@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Understanding your monthly bill",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "What each part of the bill shows",
+        "text": "Your bill has three parts. The summary at the top gives the total due, the date we will collect it and your account number. The middle section lists your regular monthly charges for each service, billed one month in advance. The last section shows anything extra from the month just gone, such as calls outside your allowance, rentals or one-off fees. Any credit we owe you appears as a minus figure in the summary, and it reduces the total automatically.",
+        "questions": ["What do the different sections of my Meridian bill mean?", "Where on my bill can I see the extra charges from last month?"]
+      },
+      {
+        "heading": "Why your bill covers two periods",
+        "text": "We charge for your plan in advance and for usage in arrears. That means a single bill can cover two different date ranges: the coming month for your fixed plan price, and the past month for anything you used beyond your allowance. The dates for each range are printed beside the charges. If you change plan part-way through a month, you will also see a part-month charge for the old plan and one for the new plan, worked out by the day.",
+        "questions": ["Why are there two different date ranges on my bill?", "Am I billed in advance or after I use the service?"]
+      },
+      {
+        "heading": "When your bill is produced",
+        "text": "Your bill is produced on the same date each month, called your bill date. You can find it in the summary box and in your online account under billing preferences. We collect payment about ten days after the bill date, which gives you time to check the figures. If the collection day falls on a weekend or a public holiday, we take the payment on the next working day. You may ask us to move your bill date once in any twelve-month period.",
+        "questions": ["On what day of the month is my bill issued, and can I change it?", "How long after the bill date is payment taken?"]
+      },
+      {
+        "heading": "If a charge looks wrong",
+        "text": "Start by opening the itemised view in your online account, where every call, text and purchase is listed with its date and cost. Many surprises turn out to be part-month charges after a plan change, or a discount that has reached its end date. If something still looks wrong, contact us within six months of the bill date and tell us which line you are querying. We will put that amount on hold while we investigate, so that you only pay the part of the bill that is not in dispute.",
+        "questions": ["What should I do if I think a charge on my bill is a mistake?", "Do I have to pay a disputed amount while it is being looked into?"]
+      }
+    ]
+  },
+  {
+    "title": "Ways to pay your bill",
+    "topic": "billing",
+    "service": "online_payments",
+    "sections": [
+      {
+        "heading": "Paying by card online",
+        "text": "You can pay by debit or credit card at any time from the billing page of your online account or in the app. Choose Make a payment, enter the amount and confirm with your card details. Card payments normally show on your balance within a few minutes, and you will receive a receipt by email. You can save a card for next time, although a saved card is never charged automatically. Each payment needs you to press the button, unless you set up a direct debit instead.",
+        "questions": ["How do I pay my bill with a debit card on the website?", "If I save my card, will Meridian charge it automatically each month?"]
+      },
+      {
+        "heading": "Paying by bank transfer",
+        "text": "To pay from your bank, use the sort code and account number printed on the back page of your bill, and quote your Meridian account number as the payment reference. Without the correct reference we cannot match the money to your account, and it may be returned to your bank. Transfers usually reach us the same day but can take up to three working days, so please allow for that if your payment date is close. Standing orders are accepted on the same details.",
+        "questions": ["What reference do I use when paying my bill by bank transfer?", "How long does a bank transfer take to show on my Meridian account?"]
+      },
+      {
+        "heading": "Paying by phone",
+        "text": "Our automated payment line is open all day, every day. Have your account number and card ready, follow the spoken instructions, and you will be given a confirmation number at the end. No adviser hears or sees your card details, because the system masks the tones as you key them in. If you would rather speak to someone, an adviser can take a payment during opening hours using the same secure system. Payments made by phone appear on your balance straight away.",
+        "questions": ["Can I pay my bill over the phone without speaking to an adviser?", "Is it safe to give my card details on the payment line?"]
+      },
+      {
+        "heading": "Paying in person or by post",
+        "text": "You can pay with cash or card at any Meridian shop by showing your bill or giving your account number. Shop payments are applied the same day. We also accept cheques by post. Write your account number on the back, make the cheque payable to Meridian Connect and send it to the address shown on your bill. Please allow five working days for a posted payment to arrive and clear. We advise against sending cash through the post, because we cannot trace it if it goes missing.",
+        "questions": ["Can I pay my bill in cash at a shop?", "How do I pay by cheque, and how long does it take?"]
+      }
+    ]
+  },
+  {
+    "title": "Direct debit: setting up and changing",
+    "topic": "billing",
+    "service": "online_payments",
+    "sections": [
+      {
+        "heading": "Setting up a direct debit",
+        "text": "Direct debit is the simplest way to pay, and most of our plans include a small monthly discount for using it. To set one up, go to billing preferences in your online account, choose Direct debit and enter the sort code and account number of a current account in your own name. We confirm the instruction by letter or email within ten days. Your first collection is always at least ten working days after set-up, so you may need to pay one bill by another method in the meantime.",
+        "questions": ["How do I set up a direct debit for my Meridian bill?", "How soon after setting up a direct debit is the first payment collected?"]
+      },
+      {
+        "heading": "Changing the bank account we collect from",
+        "text": "If you open a new bank account, update the details in billing preferences at least ten working days before your next collection. We cancel the old instruction for you, so there is no need to contact your previous bank. If you use a bank switching service, your direct debit normally moves across automatically. It is still worth checking your next bill to make sure that the last four digits of the account shown are the ones you expect.",
+        "questions": ["How do I change the bank account my direct debit comes from?", "Will my direct debit move automatically if I switch banks?"]
+      },
+      {
+        "heading": "Choosing your payment date",
+        "text": "By default we collect ten days after your bill date. If another day suits you better, for example just after pay day, you can choose any date between the first and the twenty-eighth of the month. Change it in billing preferences or ask an adviser. The new date takes effect from the next full billing cycle, and your next bill may be a little larger or smaller than usual, because it covers the days between the old date and the new one.",
+        "questions": ["Can I pick the day of the month my direct debit is taken?", "Why was my bill a different amount after I changed my payment date?"]
+      },
+      {
+        "heading": "If a direct debit fails",
+        "text": "When your bank refuses a collection, we email and text you the same day. We then try once more, five working days later, without any charge. If the second attempt also fails, a late payment fee is added to your next bill and the direct debit discount is removed until a payment succeeds. To avoid that, you can make a card payment for the missed amount at any point before the second attempt, and we will cancel the retry.",
+        "questions": ["What happens if my direct debit bounces?", "Is there a fee when a direct debit payment fails?"]
+      }
+    ]
+  },
+  {
+    "title": "If you are struggling to pay",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Tell us as early as you can",
+        "text": "If you think you will miss a payment, contact us before the due date. Advisers in our payment support team are trained to help, not to judge, and the earlier we know, the more options we have. You do not need to explain your whole situation. Tell us what you can afford and when. While we are agreeing a way forward, we pause reminder messages and late fees on the account, so that the amount you owe does not grow.",
+        "questions": ["Who should I contact if I can't afford my bill this month?", "Will I get late fees while I'm arranging help with my bill?"]
+      },
+      {
+        "heading": "Payment plans",
+        "text": "A payment plan spreads an overdue balance over a number of months, on top of your normal bill. Most plans run for three to twelve months. There is no interest and no set-up charge. We agree the instalment with you based on what you tell us you can manage, and you can pay it by direct debit or by card. If your circumstances change again, ask us to review the plan. One missed instalment does not cancel it, provided that you get in touch.",
+        "questions": ["Can I spread what I owe over several months?", "Does a payment plan with Meridian charge interest?"]
+      },
+      {
+        "heading": "Moving to a cheaper plan",
+        "text": "If your bill is more than you can afford, we can move you to a lower-cost plan without the usual change fee, even inside a minimum term. We also offer a social tariff for customers who receive certain benefits. It gives a basic home internet or mobile service at a reduced monthly price, with no contract and no exit fee. An adviser can check whether you qualify in a few minutes, and the cheaper price starts from your next bill date.",
+        "questions": ["Can I switch to a cheaper tariff if I'm in financial difficulty?", "What is the social tariff, and who can get it?"]
+      },
+      {
+        "heading": "What happens if a bill stays unpaid",
+        "text": "We send a reminder seven days after a missed payment and a second reminder a week later. If we still have not heard from you after thirty days, we may restrict the service, which means that outgoing calls and browsing are limited but emergency calls always work. Disconnection is a last resort, and we never take that step without written notice. Unpaid balances can be passed to a collection agency and reported to credit reference agencies, which is another reason to talk to us early.",
+        "questions": ["Will my service be cut off if I don't pay my bill?", "How long after a missed payment is the service restricted?"]
+      }
+    ]
+  }
+]

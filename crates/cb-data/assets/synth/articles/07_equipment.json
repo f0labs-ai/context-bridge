@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Connecting the set-top box to the internet",
+    "topic": "equipment_setup",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Cable or Wi-Fi",
+        "text": "The set-top box needs an internet connection for on demand programmes, the programme guide, cloud recordings and, where there is no aerial, live channels too. A network cable from the hub is the most reliable option and is recommended for high definition viewing. If the hub is in another room, Wi-Fi works well for most homes, provided the signal near the television is strong. A pair of powerline adapters, which carry the network over your electrical wiring, is a good middle option.",
+        "questions": ["Should I connect my TV box by cable or Wi-Fi?", "My hub is in a different room from the TV. How can I connect the box?"]
+      },
+      {
+        "heading": "Checking the connection strength",
+        "text": "Open Settings on the box, then Network, then Test connection. The test reports whether the box is online, the speed it receives and the strength of the Wi-Fi signal shown as bars. High definition channels need a steady five megabits per second, and ultra high definition needs twenty-five. If the result is below these figures, the box lowers the picture quality automatically to avoid freezing, and you may notice a softer picture during busy evening hours.",
+        "questions": ["How can I test the internet speed my TV box is getting?", "What speed does the set-top box need for high definition?"]
+      },
+      {
+        "heading": "Changing the Wi-Fi network",
+        "text": "If you change your Wi-Fi name or password, the box loses its connection and shows a message on screen. Go to Settings, Network, Wi-Fi and choose your network from the list, then enter the new password using the remote. If your network does not appear, it may be hidden or using a band the box cannot see: move the box closer to the hub to test, or connect a cable while you investigate the problem.",
+        "questions": ["I changed my Wi-Fi password and now my TV box won't connect. What do I do?", "Why can't my set-top box see my Wi-Fi network?"]
+      },
+      {
+        "heading": "When the box says it is offline",
+        "text": "When the box reports that it is offline, first check whether other devices in the home can get online. If they cannot, the problem is with the home connection, and the service status page will show any fault in your area. If other devices work, restart the box by holding the power button for ten seconds. Live aerial channels and recordings already stored on the box keep working while it is offline, but the guide and on demand do not.",
+        "questions": ["My TV box keeps saying it's offline. What should I check?", "Can I still watch recordings when the set-top box has no internet?"]
+      }
+    ]
+  },
+  {
+    "title": "Activating a new SIM",
+    "topic": "equipment_setup",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "Before you put the SIM in",
+        "text": "Your SIM arrives in a card that fits every size of SIM tray, so push out the size your phone needs. Check that your phone is not locked to another network: phones bought from us are never locked, but older phones from other providers may be. Back up the phone before changing anything. If you are keeping your number from another provider, do not put the new SIM in until we text you to say the transfer date has arrived.",
+        "questions": ["Which part of the SIM card do I need for my phone?", "When should I put my new SIM in if I'm keeping my old number?"]
+      },
+      {
+        "heading": "Activating the SIM",
+        "text": "Switch the phone off, insert the SIM and switch it on again. Most SIMs activate automatically within an hour of being inserted, and the phone shows the Meridian network name when it is ready. If you ordered online, you may need to activate the SIM yourself in the app or on the activation page by entering the long number printed on the SIM card. You will receive a welcome text that confirms your new number and plan.",
+        "questions": ["How do I activate my new Meridian SIM card?", "How long does it take for a new SIM to start working?"]
+      },
+      {
+        "heading": "Setting up mobile data",
+        "text": "Data settings are normally sent to your phone automatically in a text message after activation. If a message asks you to install new settings, accept it. If mobile data still does not work, restart the phone, make sure mobile data is switched on, and check that the access point name in the network settings matches the one in our help centre. On phones with two SIM slots, choose which SIM should be used for data in the settings.",
+        "questions": ["My new SIM works for calls but not for internet. What do I do?", "How do I choose which SIM uses data on a dual SIM phone?"]
+      },
+      {
+        "heading": "If the SIM is not recognised",
+        "text": "If the phone shows no SIM or an invalid SIM message, switch it off, take the SIM out, check it is the right way round and that the gold contacts are clean, then try again. Test the SIM in another phone if you can, to tell whether the problem lies with the SIM or the handset. If the SIM does not work in any phone, we send a free replacement by post, and your number transfers to it automatically.",
+        "questions": ["My phone says no SIM card. What can I try?", "Can I get a replacement SIM if mine isn't working?"]
+      }
+    ]
+  },
+  {
+    "title": "Setting up Wi-Fi extenders",
+    "topic": "equipment_setup",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "When an extender helps",
+        "text": "Wi-Fi extenders spread the signal from your hub to rooms where it is weak, such as upstairs bedrooms, a loft conversion or a garden office. They work together with the hub as one network, so your devices move between them without dropping the connection. An extender cannot make your broadband faster than the line itself. If every room is slow, run a wired speed test next to the hub before adding extenders, because the line may be the limit.",
+        "questions": ["Will a Wi-Fi extender help my weak signal upstairs?", "Can an extender make my broadband faster?"]
+      },
+      {
+        "heading": "Pairing an extender",
+        "text": "Plug the extender into a socket in the same room as the hub and wait for its light to flash white. Press the pairing button on the extender and then, within two minutes, the WPS button on the hub. The extender's light turns steady white once it has joined. You can then unplug it and move it to its final position, where it reconnects by itself. Pairing can also be started from the My equipment page of the Meridian app.",
+        "questions": ["How do I connect a Wi-Fi extender to my hub?", "Can I set up my extender using the app?"]
+      },
+      {
+        "heading": "Choosing the right spot",
+        "text": "Place each extender about halfway between the hub and the area with poor coverage, not in the dead spot itself, because it needs a good signal from the hub to pass on. The light on the extender shows how well it receives the hub: white means a strong link, amber means it is too far away and should be moved closer. Avoid placing extenders behind televisions, inside cupboards or next to mirrors and large metal objects.",
+        "questions": ["Where's the best place to put my Wi-Fi extender?", "My extender has an amber light. What does that mean?"]
+      },
+      {
+        "heading": "Using several extenders",
+        "text": "Most homes need no more than two extenders. Each extra extender can be paired in the same way, and the app shows a map of how they connect to the hub and to each other. Extenders connected to the hub by a network cable give the best speed, which is useful when the hub and a home office are at opposite ends of the house. Restarting the hub restarts the whole network, so allow a few minutes for every extender to rejoin.",
+        "questions": ["Can I use more than one Wi-Fi extender?", "Can I connect an extender to the hub with a cable?"]
+      }
+    ]
+  },
+  {
+    "title": "When an engineer installs your service",
+    "topic": "equipment_setup",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "What the engineer does",
+        "text": "For a full fibre installation, the engineer runs a fibre cable from the nearest connection point in the street, either underground or from a pole, to the outside wall of your home. They then fit a small connection box outside and a fibre point inside, normally near the front door. Finally they connect your hub, test the speed and show you that a device can get online. The work usually takes between two and four hours, depending on the route of the cable.",
+        "questions": ["What happens during a full fibre installation?", "How long does a broadband engineer visit take?"]
+      },
+      {
+        "heading": "Choosing where the fibre point goes",
+        "text": "Tell the engineer where you would like the fibre point before work begins. It needs to be on an outside wall, near a power socket, and ideally somewhere central so that the Wi-Fi reaches the whole home. The engineer can run the cable up to fifteen metres inside the property, clipped along skirting boards. Hiding cables inside walls or under floors is not part of a standard installation and must be arranged separately at your own cost.",
+        "questions": ["Can I choose where the engineer puts the fibre socket?", "Will the engineer hide the cables inside my walls?"]
+      },
+      {
+        "heading": "Permission from landlords and neighbours",
+        "text": "If you rent, the property owner must agree to the installation, because it involves drilling through an outside wall. For flats, the building's management may need to approve work in shared areas, and we can contact them for you if you provide their details. When the cable must cross a neighbour's land, the engineer needs their permission too. If permission cannot be obtained, we will look for another route or cancel the order without charge.",
+        "questions": ["Do I need my landlord's permission for a fibre installation?", "What happens if my neighbour won't let the cable cross their garden?"]
+      },
+      {
+        "heading": "If the installation cannot be finished",
+        "text": "Sometimes an installation cannot be completed on the first visit, for example when an underground duct is blocked or a road permit is needed. The engineer explains the reason before leaving, and we text you with the next steps within two working days. Work in the street can take a few weeks to arrange. Your monthly charges do not start until the service is live, and if the delay is long we can lend you a 4G router in the meantime.",
+        "questions": ["Why couldn't the engineer finish installing my broadband?", "Do I pay for broadband before it's installed?"]
+      }
+    ]
+  }
+]

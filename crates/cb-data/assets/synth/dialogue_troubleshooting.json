@@ -1,0 +1,74 @@
+{
+  "clarify": {
+    "line": [
+      ["A: Is it affecting every device in the house, or only one of them?", "C: It's not just one device, put it that way."],
+      ["A: Can you tell me what lights are showing on the front of the equipment right now?", "C: There's a power light, and then one that keeps blinking. I couldn't tell you what it means."],
+      ["A: Has anything changed at home recently? New equipment, building work, anything like that?", "C: No, nothing. It's all exactly as it was last week."],
+      ["A: Are you connected by Wi-Fi or with a cable when you see the problem?", "C: Wi-Fi mostly. I haven't got a cable anywhere handy."],
+      ["A: Did it stop all at once, or has it been getting gradually worse?", "C: All at once, I think. One minute it was fine and then it wasn't."],
+      ["A: Do you have a landline with us too, and is that working?", "C: We don't use the landline, so I honestly couldn't say."],
+      ["A: Roughly where in the property is the equipment kept?", "C: In the hall, on a shelf by the front door. It's always been there."]
+    ],
+    "mobile": [
+      ["A: Is this happening wherever you go, or only in one place?", "C: Everywhere I've been today. Home, work, the shops."],
+      ["A: What kind of phone are you using, and is it the one you bought from us?", "C: It's a couple of years old. I got it from you with the contract."],
+      ["A: Is anyone else in your household on our network, and do they have the same trouble?", "C: My partner is, and hers is doing exactly the same thing."],
+      ["A: Have you changed handsets recently, or is it the same phone as last month?", "C: Same phone. I haven't changed anything on it."],
+      ["A: Are you calling me from the affected phone at the moment?", "C: No, I've borrowed a different phone to ring you."],
+      ["A: Does the phone show the Meridian network name at the top of the screen?", "C: It does, yes. It looks perfectly normal, which is the strange part."],
+      ["A: Have you travelled abroad with the phone in the last few days?", "C: No, I've not been anywhere."]
+    ],
+    "tv": [
+      ["A: Is it the same on every channel and every programme, or only some?", "C: Most of them, as far as I can tell. I've tried quite a few."],
+      ["A: Which room is this in, and do you have more than one screen with us?", "C: It's the living room one. We've only got the one."],
+      ["A: Is the television itself working normally with other things, like a games console?", "C: Yes, everything else plugged into the telly is fine."],
+      ["A: Do you see any message or code on the screen when it goes wrong?", "C: Something flashes up, but it's gone before I can read it."],
+      ["A: Was it working properly earlier in the week?", "C: Yes, perfectly. We watched a film on it at the weekend."],
+      ["A: Is your home internet working normally for everything else?", "C: It seems to be. My phone's fine on the Wi-Fi."],
+      ["A: Has anybody changed any settings recently, or moved any cables?", "C: Not that I know of. The grandchildren might have, but I doubt it."]
+    ],
+    "online": [
+      ["A: Are you using a computer, a tablet or a phone when this happens?", "C: My phone mostly, but I tried another device too and it was the same."],
+      ["A: Do you get an error message, and can you read me what it says?", "C: Nothing that tells me what's actually wrong, put it that way."],
+      ["A: When did you last manage to use it without a problem?", "C: A few days ago, I think. It was fine then."],
+      ["A: Are you on your home connection or a different one, like at work?", "C: At home, on my own Wi-Fi."],
+      ["A: Have you changed your password or any security details lately?", "C: No, I've left all that alone."],
+      ["A: Is anyone else you know having the same trouble?", "C: My sister is with you as well, and she said hers was playing up."],
+      ["A: Is it every time you try, or does it sometimes work?", "C: Most times, yes. I must have tried ten times before ringing."]
+    ]
+  },
+  "troubleshooting": {
+    "line": [
+      ["A: Let's try a full restart first. Could you switch the equipment off at the wall, leave it for thirty seconds, and switch it back on?", "C: OK, doing that now. Right, it's off.", "A: Lovely. Give it the full thirty seconds, because it needs to clear its memory.", "C: Back on. The lights are coming up one by one.", "A: It can take a couple of minutes to settle. Tell me when they stop flashing.", "C: They've stopped. It's exactly the same as before, though."],
+      ["A: Can you check the cable that goes from the equipment to the wall socket? Make sure it's pushed in firmly at both ends.", "C: Hang on, I'll have to move the bookcase. Yes, it's in tight at both ends.", "A: Thank you. And is there any damage along the cable, any kinks or chew marks?", "C: No, it looks fine to me.", "A: OK. That rules out the simplest explanation.", "C: I didn't think it would be that, to be honest."],
+      ["A: I'm going to run a line test from here. It takes about a minute, and your connection may flicker while it runs.", "C: It can't flicker much more than it already is.", "A: Fair enough. The test is running now.", "C: OK.", "A: Right, the test has finished. It hasn't found a fault on the line into your property, which tells me the problem is further back.", "C: So it's not my house, then."],
+      ["A: Do you have a computer you could plug straight into the equipment with a cable? It would tell us whether the Wi-Fi is the weak point.", "C: I've got an old laptop and a cable somewhere. Give me a second.", "A: Take your time.", "C: Right, it's plugged in. There's no difference at all. Still the same.", "A: Thank you, that's useful. So it isn't a wireless problem."],
+      ["A: Could you look at the label on the equipment and read me the serial number? I want to check it's registered correctly.", "C: It's tiny writing. It starts with a nine and ends in four four two, if that helps.", "A: That matches our records, thank you. The equipment is registered and showing as the right model.", "C: So that's not it, then.", "A: No. Everything on the account side looks correct."],
+      ["A: I'd like to send a refresh signal to your equipment. It only takes a moment, and you don't need to touch anything.", "C: Go on, then.", "A: That's been sent. Could you try again now, and tell me what you see?", "C: One second. No, no change. It's doing the same thing.", "A: OK. Thank you for trying."]
+    ],
+    "mobile": [
+      ["A: Could you turn flight mode on, wait ten seconds, and turn it off again? It makes the phone register with the network afresh.", "C: OK. It's on. And off again.", "A: Thank you. Give it a moment to find the network.", "C: The bars have come back, but it's still not working properly.", "A: Understood. That tells me the phone can see the mast."],
+      ["A: When did you last restart the phone completely? Not just locking the screen, but powering it right off.", "C: I couldn't tell you. Weeks ago, probably.", "A: Let's do that now, if you don't mind. Hold the power button and choose restart.", "C: It's restarting. OK, it's back on now.", "A: And how is it?", "C: The same, I'm afraid. No better."],
+      ["A: I'd like you to take the SIM card out, give it a gentle wipe, and put it back in. Do you have the little pin for the tray?", "C: I've got a paper clip. Will that do?", "A: That works just as well.", "C: Right, the SIM is out. It looks clean. It's going back in now.", "A: Let the phone settle for a minute, and then try again.", "C: No change. It's still doing the same thing."],
+      ["A: In the settings, under mobile network, is the network selection set to automatic?", "C: Let me look. Yes, it says automatic.", "A: Good. And is the option for 4G or 5G switched on?", "C: Yes, that's on as well.", "A: Then your settings are as they should be. It's not a configuration problem on the handset."],
+      ["A: I'm going to send your phone a fresh set of network settings. You'll get a message asking you to install them.", "C: OK. Something's just come through.", "A: Tap install or accept on that message.", "C: Done. It says the settings were installed.", "A: Could you try again now?", "C: Still the same. Nothing's changed."],
+      ["A: Do you have another phone you could put your SIM into, just as a test?", "C: There's my old one in a drawer. Hold on.", "A: Thank you. I know it's a nuisance.", "C: Right, the SIM is in the old phone, and it's exactly the same on this one.", "A: That's very helpful. It means the handset isn't the problem."]
+    ],
+    "tv": [
+      ["A: Let's restart the device first. Could you hold the power button until it switches off completely, and then turn it back on?", "C: It's going off. And it's back on now.", "A: Give it a minute to load fully.", "C: OK, it's loaded. It's no different, though.", "A: Thank you for trying. That's the first thing ticked off."],
+      ["A: Could you check the cable between the device and the television? Unplug it at both ends and push it back in firmly.", "C: Right. I've done both ends.", "A: And is the television on the right input for it?", "C: Yes, it's on the same input it's always on.", "A: OK. So the connection to the screen is fine."],
+      ["A: I'd like you to sign out of your TV account on the device and sign back in. Do you know your details?", "C: I think so. Let me try. OK, I'm signed out.", "A: Now sign in again with the same email and password.", "C: I'm back in. It's still doing the same thing.", "A: All right. At least we know your sign-in is working."],
+      ["A: Can you go into settings, then system, and tell me the software version that's shown?", "C: It's a long number. It ends in point seven.", "A: That's the current version, so you're up to date.", "C: So it's not that I've missed an update.", "A: No, nothing is outstanding on your device."],
+      ["A: I'm sending a refresh signal to your equipment now. The screen may go blank for a few seconds.", "C: Yes, it's gone black. Now it's back.", "A: Good. Could you try what you were doing before?", "C: Same again. No improvement.", "A: Thank you. I've noted that the refresh didn't help."],
+      ["A: Does the same thing happen if you use our app on a phone or a tablet, instead of on the television?", "C: I've not tried. Give me a second to open it on my phone.", "A: Of course.", "C: It's the same on my phone, actually.", "A: That's useful to know. It suggests the fault isn't with the equipment in your living room."]
+    ],
+    "online": [
+      ["A: Could you close the browser completely and open it again? Then go straight to our site, rather than using a bookmark.", "C: OK. Closed. Opening it again now.", "A: Thank you. Try signing in when the page comes up.", "C: Same result as before.", "A: All right. So it isn't a stuck page."],
+      ["A: Let's try clearing the saved data for our site. In your browser settings there's an option for cookies and site data.", "C: I think I've found it. Clear data for this site?", "A: That's the one. Go ahead and confirm.", "C: Done. I'm trying again now. No, it's exactly the same.", "A: OK. That rules out old data on your computer."],
+      ["A: Do you have a different browser or another device that you could try?", "C: I've got a tablet here. Hold on a moment.", "A: Thank you.", "C: It's doing the same on the tablet.", "A: Right. Then it's not specific to one device, which is helpful to know."],
+      ["A: Could you check that the date and time on your device are correct? It sounds odd, but it can cause this.", "C: They look right to me. It's set to automatic.", "A: Good. That's another possibility ruled out.", "C: I'd never have thought of that one.", "A: It catches a lot of people out, but it isn't the answer today."],
+      ["A: I'm going to reset your session from my side. You'll be signed out everywhere, and then I'd like you to sign in again.", "C: OK, I've been thrown out to the sign-in page.", "A: That's expected. Sign in as normal for me.", "C: Right. No, it's still not working.", "A: Thank you. I've recorded that the session reset made no difference."],
+      ["A: Could you remove the app and install it again from the store? You won't lose anything, because it's all held on your account.", "C: Deleting it. Installing. It takes a minute.", "A: No problem at all.", "C: It's back, and I'm signed in. Same as before, I'm afraid.", "A: OK. So it isn't a damaged copy of the app."]
+    ]
+  }
+}

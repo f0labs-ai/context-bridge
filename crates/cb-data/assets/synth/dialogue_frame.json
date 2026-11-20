@@ -1,0 +1,310 @@
+{
+  "greeting": {
+    "wordy_technical": [
+      "Good day and thank you for calling Meridian Connect technical support. My name is {agent} and I'll be your adviser today. How can I help?",
+      "Thank you for calling Meridian Connect, you're through to the service desk and you're speaking with {agent}. What can I help you with today?",
+      "Hello, you've reached Meridian Connect support. This is {agent} on the technical team. Before we start, calls may be recorded for training. What seems to be the problem?",
+      "Welcome to Meridian Connect. My name is {agent}, I'm one of the service advisers here. Tell me what's happening and I'll see what our systems show."
+    ],
+    "wordy_everyday": [
+      "Hello there, thanks ever so much for calling Meridian Connect. My name's {agent}. How are you doing today, and what can I do for you?",
+      "Hi, you're through to Meridian Connect and you're speaking to {agent}. Thanks for waiting. Now, what can I help you with today?",
+      "Good day, thank you for calling Meridian Connect, it's {agent} here. I hope you've not been holding too long. What's the trouble?",
+      "Hello, Meridian Connect, {agent} speaking. Lovely to talk to you. Now, tell me what's been going on and we'll get it sorted between us."
+    ],
+    "brief_technical": [
+      "Meridian Connect support, {agent} speaking. What's the issue?",
+      "Meridian Connect service desk, this is {agent}. How can I help?",
+      "Technical support, {agent} here. What are you seeing?",
+      "Meridian Connect, {agent} on the support line. Go ahead."
+    ],
+    "brief_everyday": [
+      "Hi, Meridian Connect, {agent} speaking. How can I help?",
+      "Hello, it's {agent} at Meridian Connect. What can I do for you?",
+      "Meridian Connect, you're talking to {agent}. What's up?",
+      "Hi there, {agent} here at Meridian Connect. What's the problem today?"
+    ]
+  },
+  "probe": {
+    "wordy_technical": [
+      "Of course. Can you describe exactly what you're seeing, and when you first noticed it?",
+      "Certainly, I can look into that for you. What symptoms are you experiencing at the moment?",
+      "No problem. Talk me through what happens when you try to use it, and I'll take some notes."
+    ],
+    "wordy_everyday": [
+      "Oh, of course, I'll help you with that. What's it doing, or not doing, should I say?",
+      "Right, no problem at all. Tell me what's been happening, in your own words.",
+      "Of course, let's have a look. So what's going on with it today?"
+    ],
+    "brief_technical": [
+      "OK. What are the symptoms?",
+      "Sure. What exactly is happening?",
+      "Right. Describe the fault for me."
+    ],
+    "brief_everyday": [
+      "OK. What's it doing?",
+      "Sure. What's going on?",
+      "Right. What's the problem with it?"
+    ]
+  },
+  "opener": [
+    "Hi, yes, I'm calling about {my_service}.",
+    "Hello. I've got a problem with {my_service}.",
+    "Hi {agent}, I need some help with {my_service}, please.",
+    "Yes, hello, it's about {my_service}.",
+    "Hi, I'm hoping you can help. Something's wrong with {my_service}.",
+    "Good, a real person at last. I'm ringing about {my_service}.",
+    "Hello, I'm not sure if I've come through to the right department. It's {my_service}.",
+    "Hi there. I'm having trouble with {my_service} and I don't know what else to try.",
+    "Hello, yes. I want to report a fault with {my_service}.",
+    "Hi, thanks for picking up. It's {my_service} I'm calling about."
+  ],
+  "elapsed_sentence": [
+    "It's been like this {elapsed}.",
+    "This has been going on {elapsed}.",
+    "It's been happening {elapsed}.",
+    "I've been putting up with it {elapsed}.",
+    "It's been that way {elapsed}, as far as I can tell.",
+    "We've had this {elapsed}."
+  ],
+  "impact": {
+    "line": [
+      "I work from home, so this is a real problem for me.",
+      "My kids have got homework to hand in online tonight.",
+      "I run a small business from here and I'm losing customers.",
+      "We've got guests staying and it's all a bit embarrassing.",
+      "I've already switched everything off and on again, before you ask.",
+      "I pay good money every month for this, so I'm not best pleased.",
+      "I'm not very technical, so you'll have to bear with me.",
+      "I've been a customer for years and I've never had this before."
+    ],
+    "mobile": [
+      "I'm a carer for my mum and I need to be reachable.",
+      "I've got an important call later and I need this working.",
+      "I'm out and about for work all day, so I rely on my phone.",
+      "I'm waiting to hear back about a job interview.",
+      "I've already restarted the phone twice, before you ask.",
+      "I pay good money every month for this, so I'm not best pleased.",
+      "It's not the end of the world, but it's getting annoying now.",
+      "I'm not very technical, so you'll have to bear with me."
+    ],
+    "tv": [
+      "We've got the family round tonight to watch the match.",
+      "My dad's housebound and the telly is his company.",
+      "There's a programme on tonight I really didn't want to miss.",
+      "I've already switched it off and on again, before you ask.",
+      "I pay good money every month for this, so I'm not best pleased.",
+      "It's not the end of the world, but it's getting annoying now.",
+      "I'm not very technical, so you'll have to bear with me.",
+      "I've been a customer for years and I've never had this before."
+    ],
+    "online": [
+      "I'm in the middle of a job application that closes today.",
+      "I need to get this sorted before the end of the month.",
+      "I run a small business and my customers rely on reaching me.",
+      "I've tried on two different devices already, before you ask.",
+      "I don't want to end up with a late payment fee because of this.",
+      "It's not the end of the world, but it's getting annoying now.",
+      "I'm not very technical, so you'll have to bear with me.",
+      "I've been a customer for years and I've never had this before."
+    ]
+  },
+  "empathy": {
+    "wordy_technical": [
+      "I'm sorry to hear that, and I appreciate you describing it so clearly. Let me verify your account, and then I'll check the diagnostics and the status of the network in your area.",
+      "I understand, and I apologise for the disruption. I'll need to take you through security first, and then I can look at your service and at our status tools.",
+      "Thank you for the detail, that helps narrow it down. Once I've confirmed a few account details I'll run a check from our side and review any open network events."
+    ],
+    "wordy_everyday": [
+      "Oh dear, I'm really sorry about that, that must be so frustrating for you. Don't worry, we'll get to the bottom of it. I just need to ask a couple of quick questions to find your account first.",
+      "Oh no, that's no good at all, I'm sorry. Let's see what we can do. First things first, I'll need to make sure I'm talking to the right person, if that's all right.",
+      "I'm so sorry you've had that, I know how much of a pain it is when it's not working. Let me take a few details from you and then I'll have a proper look."
+    ],
+    "brief_technical": [
+      "Understood. I'll verify the account, then check your service and the status tools.",
+      "Sorry about that. Security first, then I'll run diagnostics.",
+      "Noted. Let me confirm your details and check for open network events."
+    ],
+    "brief_everyday": [
+      "Sorry about that. Let me take a few details and have a look.",
+      "OK, sorry to hear it. I just need to find your account first.",
+      "Right, let's get that looked at. A couple of quick questions first."
+    ]
+  },
+  "ask_name": [
+    "Can I take your full name, please?",
+    "Who am I speaking with today?",
+    "Could you give me the name on the account?",
+    "First of all, may I have your name?",
+    "What's the name the account is under?",
+    "Can you confirm your first name and surname for me?"
+  ],
+  "give_name": [
+    "It's {name}.",
+    "Yes, it's {name}.",
+    "{name}.",
+    "The account's under {name}.",
+    "My name's {name}.",
+    "Sure, it's {name}, that's {first} with the usual spelling."
+  ],
+  "ask_account": [
+    "And do you have your account number to hand?",
+    "Could you read me your account number? It starts with MC and it's on the top of your bill.",
+    "What's the account number, please?",
+    "Can I take the account number next?",
+    "Do you know your Meridian account number?",
+    "I'll need the account number as well, if you have it nearby."
+  ],
+  "give_account": [
+    "Yes, it's {account}.",
+    "One second, I've got a bill here. It's {account}.",
+    "{account}.",
+    "I think it's {account}. Yes, that's it.",
+    "It's on the app, hang on. {account}.",
+    "Sure. {account}."
+  ],
+  "ask_phone": [
+    "And what's the best number to call you back on if we get cut off?",
+    "Can I take a contact number for you?",
+    "Is there a phone number we can reach you on today?",
+    "What number should we use if we need to ring you back?",
+    "Could you confirm a callback number for the account?",
+    "And a daytime phone number, please?"
+  ],
+  "give_phone": [
+    "You can get me on {phone}.",
+    "It's {phone}.",
+    "Use {phone}, that's my mobile.",
+    "{phone} is the best one.",
+    "Yes, {phone}.",
+    "The number's {phone}. I've usually got it with me."
+  ],
+  "ask_address": [
+    "And can you confirm the first line of the address and the area?",
+    "What address is the service registered at?",
+    "For security, could you tell me the address on the account?",
+    "Can I check the address we hold for you?"
+  ],
+  "give_address": [
+    "It's {address}.",
+    "{address}.",
+    "Yes, {address}. We've been here about six years.",
+    "The address is {address}."
+  ],
+  "ask_email": [
+    "And is there an email address we can send updates to?",
+    "What email address do we hold for you?",
+    "Could you confirm the email on the account?",
+    "Can I check the email address as well?"
+  ],
+  "give_email": [
+    "It's {email}.",
+    "Yes, it's {email}, all lower case.",
+    "{email}.",
+    "You should have {email} on file."
+  ],
+  "ack": [
+    "Thank you, {first}.",
+    "Lovely, thanks {first}.",
+    "Thanks, that matches what I have here.",
+    "Perfect, thank you.",
+    "Great, that's found your account.",
+    "Thank you, that's all confirmed.",
+    "OK, got that.",
+    "Thanks {first}, I've got your account open now.",
+    "Brilliant, thank you for that.",
+    "That's fine, thank you."
+  ],
+  "lookup": {
+    "wordy_technical": [
+      "Thank you. I'm going to put a query through our network status system for {region} and pull up the event log for {service}. It may take a moment, so please stay on the line.",
+      "Right, give me a moment while I open the incident board and check whether there are any open events against {service} in {region}. I'll also look at the diagnostics on your account.",
+      "I'm just loading the service status dashboard for {region} now. I want to see whether monitoring has flagged anything for {service} before we look at your own set-up."
+    ],
+    "wordy_everyday": [
+      "Thanks for that. Now, bear with me for a minute while I have a look at what's going on in {region}. I'll see if there's anything on our system about {service}, so you might hear me go quiet.",
+      "Right then, let me have a little look at our screens for {region}. Sometimes there's a note on there about {service} that explains everything. Won't be a moment.",
+      "OK, I'm just going to check a couple of things for you. I want to see whether it's only you or whether other people in {region} are having trouble with {service} too. Bear with me."
+    ],
+    "brief_technical": [
+      "Checking the status board for {service} in {region}. One moment.",
+      "Let me query open network events for {region}.",
+      "Pulling up diagnostics and the incident log for {region} now."
+    ],
+    "brief_everyday": [
+      "Let me check what's happening with {service} in {region}. One second.",
+      "I'll just look that up for {region}. Bear with me.",
+      "Give me a moment to check our system for {region}."
+    ]
+  },
+  "hold_ok": [
+    "Sure, no problem.",
+    "OK, take your time.",
+    "Yes, that's fine.",
+    "Go ahead.",
+    "No rush.",
+    "All right, I'll hang on.",
+    "Fine, thanks.",
+    "OK."
+  ],
+  "back": [
+    "Thanks for holding.",
+    "Right, thank you for bearing with me.",
+    "OK, I'm back with you.",
+    "Thanks for your patience.",
+    "Sorry to keep you waiting.",
+    "Right, I've had a look.",
+    "OK, that's loaded now.",
+    "Thank you for waiting there."
+  ],
+  "anything_else": [
+    "Is there anything else I can help you with today?",
+    "Was there anything else you needed while you're on the line?",
+    "Anything else I can do for you?",
+    "Before I let you go, is there anything else at all?",
+    "Is there anything more I can look at for you?",
+    "Does that cover everything for today?"
+  ],
+  "nothing_else": [
+    "No, that's everything, thank you.",
+    "No, that's all. Thanks for your help.",
+    "That's it, thanks.",
+    "No thanks, I just wanted to know what was going on.",
+    "Nothing else. I'll wait and see what happens.",
+    "No, you've been helpful, thank you.",
+    "No, I think that's it for now.",
+    "That's all, cheers."
+  ],
+  "farewell": {
+    "wordy_technical": [
+      "Thank you for calling Meridian Connect, {first}. A summary of this call has been added to your account notes, and you can follow progress on the service status page. Have a good day.",
+      "You're welcome. I've logged this contact against your account with the diagnostic results. If the fault persists, quote today's call and we'll pick it up from the notes. Goodbye, {first}.",
+      "Thanks, {first}. Everything we discussed is recorded on the account, and status updates are published as soon as engineering confirms them. Thank you for calling."
+    ],
+    "wordy_everyday": [
+      "You're very welcome, {first}. I'm sorry again for all the bother, and thank you for being so patient with me. You take care now, and do ring back if you need anything at all. Bye for now.",
+      "Not at all, {first}, it's been a pleasure. I hope the rest of your day goes a bit more smoothly. Thanks for calling Meridian Connect. Bye bye.",
+      "Thank you, {first}. I've popped a note on your account so you won't have to explain it all again if you call back. Look after yourself. Goodbye."
+    ],
+    "brief_technical": [
+      "Thanks, {first}. The call is logged on your account. Goodbye.",
+      "Noted on the account. Thank you for calling, {first}.",
+      "Thank you. Check the status page for updates. Goodbye."
+    ],
+    "brief_everyday": [
+      "Thanks for calling, {first}. Take care.",
+      "No problem, {first}. Bye for now.",
+      "Cheers, {first}. Have a good one."
+    ]
+  },
+  "bye": [
+    "Thanks, bye.",
+    "Bye now.",
+    "Thank you. Goodbye.",
+    "Cheers, bye.",
+    "OK, thanks, bye bye.",
+    "Thanks very much. Bye.",
+    "Right, bye then.",
+    "Take care, bye."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "agent_names": [
+    "Dana", "Marcus", "Priya", "Tobias", "Ines", "Callum", "Noor", "Felix", "Greta", "Samir",
+    "Odette", "Rhys", "Leila", "Jonas", "Maeve", "Idris", "Carys", "Mateo", "Hana", "Edmund",
+    "Sunita", "Lorcan", "Bianca", "Anders", "Thea", "Kwame", "Rosalind", "Dmitri", "Aoife", "Nikhil",
+    "Clara", "Emeka", "Sorcha", "Viktor", "Yasmin", "Gareth", "Mirela", "Tariq", "Elspeth", "Rafael",
+    "Ingrid", "Declan", "Amara", "Stellan", "Niamh", "Farid", "Corinne", "Bram", "Zainab", "Lucian",
+    "Petra", "Osian", "Kalinda", "Hugo", "Seren", "Ravi", "Margit", "Cormac", "Anika", "Leopold",
+    "Tamsin", "Jorge", "Freya", "Imran", "Delphine", "Alistair", "Mina", "Ruben", "Saoirse", "Kofi",
+    "Linnea", "Gethin", "Aylin", "Barnaby", "Chiara", "Deepak", "Esme", "Florian", "Roisin", "Tomasz"
+  ],
+  "first_names": [
+    "Harriet", "Owen", "Miriam", "Desmond", "Lucinda", "Gavin", "Parisa", "Stuart", "Bronwen", "Emil",
+    "Josephine", "Terrence", "Nadia", "Rupert", "Kirsten", "Winston", "Agnes", "Darius", "Philippa", "Hamish",
+    "Renata", "Clive", "Shreya", "Malcolm", "Ottilie", "Brendan", "Farah", "Neville", "Cordelia", "Ian",
+    "Marguerite", "Dylan", "Zofia", "Howard", "Anneliese", "Curtis", "Meera", "Angus", "Beatrix", "Lionel",
+    "Sinead", "Rowan", "Ivana", "Graham", "Tabitha", "Yusuf", "Constance", "Wilfred", "Laleh", "Fergus",
+    "Astrid", "Norman", "Kavita", "Jasper", "Henrietta", "Emrys", "Paloma", "Douglas", "Imogen", "Cedric"
+  ],
+  "surnames": [
+    "Harrowfield", "Tessmore", "Quenby", "Arkwell", "Brindlow", "Castellane", "Dunmorrow", "Everleigh", "Fenwycke", "Gallowby",
+    "Hartsmere", "Ilderton", "Jessamy", "Kettlewood", "Larkspur", "Merriden", "Nethercombe", "Orlesby", "Pennywell", "Quarrington",
+    "Rosewarne", "Stanmoor", "Thackwell", "Underhay", "Vennicott", "Wetherby-Lane", "Yardleigh", "Ashgrave", "Bellweather", "Coldharrow",
+    "Drummore", "Elmstead", "Farrowdale", "Greyfriar", "Hollinrake", "Ingleborne", "Jarrowby", "Kirkstane", "Lowthwaite", "Marchbanks",
+    "Northaway", "Oakhanger", "Pettigrove", "Rainsborrow", "Summerlea", "Trevallack", "Upcroft", "Varrowfield", "Winterbourne-Hale", "Yeldersley",
+    "Abernant", "Blackthorne", "Cresswick", "Dovedale-Marsh", "Eskrigg", "Foxhollow", "Glenmarrow", "Heatherby", "Ivelchild", "Kestermoor"
+  ],
+  "streets": [
+    "Wren Hollow Lane", "Copperbeech Close", "Tanner's Row", "Old Ferry Road", "Mill Race Walk", "Saffron Bank",
+    "Quarryman's Way", "Lantern Street", "Hazelmere Avenue", "Foundry Yard", "Bell Orchard Road", "Cinder Path",
+    "Larkrise Terrace", "Weaver's Green", "Stonecutter Lane", "Harbour View Crescent", "Rookery Drive", "Pump House Lane",
+    "Orchard End", "Vicarage Meadow", "Ropewalk Gardens", "Chandler's Court", "Heron Reach", "Smithy Brow",
+    "Clover Field Way", "Tollgate Rise", "Marlpit Lane", "Summerhouse Road", "Brickfield Close", "Kiln Lane",
+    "Dovecote Mews", "Furnace Hill", "Juniper Bank", "Saddler's Yard", "Greenfinch Grove", "Wharf Side",
+    "Barley Mow Lane", "Cobbler's Wynd", "Starling Court", "Watermill Parade"
+  ],
+  "email_domains": ["postbox.example", "mailhaven.example", "inboxly.example", "letterdrop.example"]
+}

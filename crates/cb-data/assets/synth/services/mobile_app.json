@@ -1,0 +1,118 @@
+{
+  "id": "mobile_app",
+  "name": "the Meridian mobile app",
+  "label": "Mobile app",
+  "plural": false,
+  "kind": "online",
+  "customer_names": ["the Meridian app", "the app on my phone", "your mobile app", "my account app"],
+  "modes": [
+    {
+      "id": "app_crashing",
+      "title": "App closing on launch",
+      "symptom": "the app closing immediately after it is opened",
+      "customer_says": [
+        "The Meridian app crashes the moment I open it. I see the logo and then I'm back on my home screen.",
+        "Your app won't stay open. It flashes up and shuts down straight away.",
+        "I can't use the app at all. It closes itself as soon as it starts.",
+        "The app keeps quitting on launch. I've reinstalled it and it still does it."
+      ],
+      "causes": [
+        { "cause": "a faulty remote configuration flag for the new home screen", "fixes": ["turning off the faulty remote configuration flag"] },
+        { "cause": "a malformed promotional banner that the app could not display", "fixes": ["withdrawing the malformed promotional banner"] },
+        { "cause": "an app release built with a broken analytics library", "fixes": ["publishing a corrected app release"] }
+      ],
+      "workarounds": [
+        "open the account in a phone browser at the portal address",
+        "switch the phone to flight mode, open the app, then turn flight mode off"
+      ],
+      "aftercare": [
+        "update the app from the app store",
+        "open the app once while connected so it fetches fresh settings"
+      ]
+    },
+    {
+      "id": "usage_not_updating",
+      "title": "Usage figures out of date",
+      "symptom": "usage figures frozen at an old reading",
+      "customer_says": [
+        "The app is showing the wrong data usage. The figure just isn't moving.",
+        "My allowance in the app is stuck. It says I've used nothing, and I've been streaming videos.",
+        "The usage screen won't update. I can't tell how much data I have left.",
+        "The minutes and data shown in the app are clearly out of date."
+      ],
+      "causes": [
+        { "cause": "a usage records feed that stopped at the mediation system", "fixes": ["restarting the usage records feed"] },
+        { "cause": "a reporting database replica that fell hours behind", "fixes": ["rebuilding the reporting database replica"] },
+        { "cause": "a batch job that failed on a bad record and halted", "fixes": ["rerunning the halted batch job past the bad record"] }
+      ],
+      "workarounds": [
+        "dial the free balance code from the phone's keypad for a live figure",
+        "text the word USAGE to the short number printed on the bill"
+      ],
+      "aftercare": [
+        "pull down on the usage screen to refresh the figures",
+        "allow a few hours for older usage to appear in full"
+      ]
+    },
+    {
+      "id": "notifications_flood",
+      "title": "Repeated notifications",
+      "symptom": "the same notification being sent again and again",
+      "customer_says": [
+        "The app keeps pinging me with the same bill reminder. I've had about thirty.",
+        "My phone won't stop buzzing with identical notifications from the Meridian app.",
+        "I'm getting your bill is ready over and over from the app, every few minutes.",
+        "The app is spamming me with the same alert. I've had to mute my phone."
+      ],
+      "causes": [
+        { "cause": "a notification campaign stuck in a retry loop", "fixes": ["cancelling the looping notification campaign"] },
+        { "cause": "a delivery receipt service that stopped confirming sent alerts", "fixes": ["restoring the delivery receipt service"] },
+        { "cause": "a scheduler that started the same send job twice a minute", "fixes": ["removing the duplicated send job from the scheduler"] }
+      ],
+      "workarounds": [
+        "mute notifications for the app in the phone's settings",
+        "sign out of the app until the repeated alerts stop"
+      ],
+      "aftercare": [
+        "turn the app's notifications back on",
+        "ignore any duplicate reminders that are still waiting on the phone"
+      ]
+    },
+    {
+      "id": "biometric_login",
+      "title": "Fingerprint and face sign-in failing",
+      "symptom": "fingerprint and face sign-in being rejected by the app",
+      "customer_says": [
+        "The app won't accept my fingerprint any more. It makes me type the password, and then fails as well.",
+        "Face unlock has stopped working in the Meridian app. It just says cannot verify.",
+        "I can't get into the app with my fingerprint. It worked fine before.",
+        "The app keeps refusing my face login and asking me to set it up again."
+      ],
+      "causes": [
+        { "cause": "a device trust service that rejected every stored key", "fixes": ["restoring the key database of the device trust service"] },
+        { "cause": "an expired signing certificate in the app's sign-in service", "fixes": ["renewing the signing certificate in the app's sign-in service"] },
+        { "cause": "a security policy update that cancelled all remembered devices", "fixes": ["reversing the security policy update"] }
+      ],
+      "workarounds": [
+        "sign in with the password and the one-time code sent by text",
+        "use the portal in a browser, which does not rely on device sign-in"
+      ],
+      "aftercare": [
+        "turn fingerprint or face sign-in on again in the app's security settings",
+        "sign in once with the password to register the phone again"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a phone that is short of storage space",
+    "an operating system too old for the app",
+    "battery saver mode restricting the app",
+    "a corrupted download of the app"
+  ],
+  "wrong_provider_side": [
+    "an app store outage",
+    "a new version of the app still rolling out",
+    "a scheduled refresh of customer accounts",
+    "a phone maker's update that broke several apps"
+  ]
+}

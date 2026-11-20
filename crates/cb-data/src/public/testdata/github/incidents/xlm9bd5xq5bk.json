@@ -1,0 +1,67 @@
+{
+  "id": "xlm9bd5xq5bk",
+  "name": "Incident with Codespaces and API Requests",
+  "status": "resolved",
+  "impact": "minor",
+  "created_at": "2023-12-27T02:51:56.067Z",
+  "resolved_at": "2023-12-27T03:06:56.849Z",
+  "scheduled_for": null,
+  "components": [
+    {
+      "name": "API Requests"
+    },
+    {
+      "name": "Codespaces"
+    }
+  ],
+  "incident_updates": [
+    {
+      "id": "5nj09h80lw8s",
+      "status": "resolved",
+      "body": "On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/",
+      "created_at": "2023-12-27T03:06:56.849Z",
+      "updated_at": "2024-01-22T18:03:03.605Z",
+      "display_at": "2023-12-27T03:06:56.849Z",
+      "affected_components": [
+        {
+          "name": "API Requests"
+        },
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "rpgq3nklczbb",
+      "status": "investigating",
+      "body": "Codespaces is operating normally.",
+      "created_at": "2023-12-27T03:06:51.332Z",
+      "updated_at": "2023-12-27T03:06:51.332Z",
+      "display_at": "2023-12-27T03:06:51.332Z",
+      "affected_components": [
+        {
+          "name": "API Requests"
+        },
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "wjt7n062nzwh",
+      "status": "investigating",
+      "body": "We are investigating reports of degraded performance for Codespaces and API Requests",
+      "created_at": "2023-12-27T02:51:56.135Z",
+      "updated_at": "2023-12-27T02:51:56.135Z",
+      "display_at": "2023-12-27T02:51:56.135Z",
+      "affected_components": [
+        {
+          "name": "API Requests"
+        },
+        {
+          "name": "Codespaces"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "web_portal",
+  "name": "the customer web portal",
+  "label": "Customer web portal",
+  "plural": false,
+  "kind": "online",
+  "customer_names": ["the Meridian website", "my online account", "the customer portal", "the account page"],
+  "modes": [
+    {
+      "id": "login_fails",
+      "title": "Sign-in failing",
+      "symptom": "sign-in attempts ending on a blank page",
+      "customer_says": [
+        "I can't log in to my account on the website. I enter my details and get a white screen.",
+        "The website won't sign me in. It thinks about it for ages and then shows nothing.",
+        "I'm trying to get into my online account, and the page just goes blank after the password.",
+        "Logging in to the portal doesn't work. No error, no account, just an empty page."
+      ],
+      "causes": [
+        { "cause": "a single sign-on service that lost its database connection", "fixes": ["restoring the single sign-on service's database connection"] },
+        { "cause": "a broken release of the sign-in page", "fixes": ["rolling back the sign-in page release"] },
+        { "cause": "a load balancer sending visitors to a server that was switched off", "fixes": ["removing the dead server from the load balancer"] }
+      ],
+      "workarounds": [
+        "sign in through the Meridian mobile app, which uses a separate route",
+        "open the portal in a private browsing window and sign in with a one-time code"
+      ],
+      "aftercare": [
+        "clear the browser's saved cookies for the Meridian site before signing in",
+        "use the usual sign-in page rather than any bookmarked link"
+      ]
+    },
+    {
+      "id": "bills_not_showing",
+      "title": "Bills not displaying",
+      "symptom": "the billing page showing no statements",
+      "customer_says": [
+        "My bills have disappeared from the website. The billing page says there are no statements.",
+        "I can't see or download my latest bill online. The page is just empty.",
+        "The account page loads, but when I click on bills there is nothing there at all.",
+        "I need a copy of my bill and the portal says no documents found."
+      ],
+      "causes": [
+        { "cause": "a document store that went offline during a storage upgrade", "fixes": ["bringing the document store back after the storage upgrade"] },
+        { "cause": "a billing interface returning empty results after a schema change", "fixes": ["reverting the schema change on the billing interface"] },
+        { "cause": "an expired access key between the portal and the statement archive", "fixes": ["issuing a new access key for the statement archive"] }
+      ],
+      "workarounds": [
+        "request a copy of the bill by email through the automated phone line",
+        "view the latest balance on the account summary page, which is unaffected"
+      ],
+      "aftercare": [
+        "reload the billing page to see the restored statements",
+        "download any statement that was needed during the fault"
+      ]
+    },
+    {
+      "id": "orders_stuck",
+      "title": "Orders and changes not saving",
+      "symptom": "orders and plan changes failing at the final step",
+      "customer_says": [
+        "I'm trying to upgrade my package on the website and it fails right at the end, every time.",
+        "The portal won't let me finish an order. I press confirm and get sorry, something went wrong.",
+        "I've tried three times to change my plan online, and it never goes through.",
+        "The website gets all the way to the last page of my order and then throws an error."
+      ],
+      "causes": [
+        { "cause": "an order management service that stopped accepting new requests", "fixes": ["restarting the order management service"] },
+        { "cause": "a stock checking call that timed out for every product", "fixes": ["bypassing the failing stock checking call"] },
+        { "cause": "a pricing catalogue published with invalid entries", "fixes": ["republishing a valid pricing catalogue"] }
+      ],
+      "workarounds": [
+        "save the basket and complete the order later from the saved basket link",
+        "place the order through the chat option on the help pages"
+      ],
+      "aftercare": [
+        "check the orders page for any duplicate order before trying again",
+        "complete the saved basket once the confirmation step is working"
+      ]
+    },
+    {
+      "id": "pages_timing_out",
+      "title": "Pages loading slowly",
+      "symptom": "account pages timing out before they load",
+      "customer_says": [
+        "The Meridian website is impossibly slow. Half the pages time out before they show anything.",
+        "I can sign in, but every page in my account takes minutes or just fails to load.",
+        "The portal keeps saying the page took too long to respond.",
+        "Your website is hanging on every click. Other websites are fine for me."
+      ],
+      "causes": [
+        { "cause": "a runaway database query from the usage reporting page", "fixes": ["stopping the runaway database query"] },
+        { "cause": "a cache layer that was emptied by a failed deployment", "fixes": ["warming the emptied cache layer"] },
+        { "cause": "a flood of automated traffic against the portal", "fixes": ["blocking the automated traffic at the network edge"] }
+      ],
+      "workarounds": [
+        "use the lightweight mobile version of the portal",
+        "avoid the usage page and go directly to the page that is needed"
+      ],
+      "aftercare": [
+        "refresh the page once rather than clicking repeatedly",
+        "sign out and back in if pages still load slowly"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "an outdated web browser",
+    "a browser extension that blocks the page",
+    "an account locked after too many wrong passwords",
+    "a workplace firewall blocking the site"
+  ],
+  "wrong_provider_side": [
+    "the monthly bill run slowing the site down",
+    "a redesign of the website going live",
+    "routine maintenance scheduled for the portal",
+    "a fault at another internet provider"
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Booking an engineer for your new home",
+    "topic": "moving_home",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "When a visit is needed",
+        "text": "An engineer visit is needed when the new property has no working line, when the main socket is damaged, or when you are moving to full fibre and there is no fibre point inside the home yet. The availability checker tells you which applies when you enter the new address. If a visit is needed, you choose a morning or afternoon slot during the booking. For new-build homes, the developer must have finished the cabling to the street before we can connect you.",
+        "questions": ["Why do I need an engineer when I move into a new flat?", "Can you connect a brand new house that has just been built?"]
+      },
+      {
+        "heading": "Getting ready for the visit",
+        "text": "Clear a space near the main socket or the point where the fibre enters the home, usually on an outside wall close to the front door. The engineer may need to drill a small hole through the wall for the cable, so please check that the property owner is happy with this if you rent. Somebody aged eighteen or over must be present for the whole visit, which normally takes two to four hours. Keep pets in another room while the engineer works.",
+        "questions": ["What do I need to do before the engineer comes to install my broadband?", "Does an adult have to be home during the installation?"]
+      },
+      {
+        "heading": "Changing or cancelling the appointment",
+        "text": "You can move the appointment in your online account up to two working days before the visit, as often as you need. Later changes must be made by phone, and a missed appointment without notice may be charged. If we need to move your slot, we tell you by text at least one day ahead whenever possible. When an engineer misses a booked appointment without letting you know, we add a credit to your account automatically under our service promise.",
+        "questions": ["How do I rearrange my engineer appointment?", "Will I be charged if I miss the installation visit?"]
+      },
+      {
+        "heading": "After the engineer leaves",
+        "text": "Before leaving, the engineer tests the line, connects the hub and checks that at least one device can get online. You will receive a text when the job is closed, together with a short survey. If anything stops working within thirty days of the visit, contact us and mention the installation, because faults during that period are treated as part of the job and handled first. Any cable clips or wall plates the engineer fitted remain the property of the building owner.",
+        "questions": ["What should happen before the engineer finishes the job?", "My broadband stopped working a week after it was installed. Who do I contact?"]
+      }
+    ]
+  },
+  {
+    "title": "Moving to an area we do not cover",
+    "topic": "moving_home",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Checking coverage before you commit",
+        "text": "Enter the new address in the availability checker on our website before you finalise a move. It lists every service we can provide there, the expected speed, and whether an engineer is needed. If home internet is not available, the checker says so plainly and offers to notify you if that changes. Mobile coverage is shown on a separate map, which describes indoor and outdoor signal for each technology at street level for the area around the property.",
+        "questions": ["How can I find out if Meridian is available at the house I'm buying?", "Where can I see mobile signal coverage for a new address?"]
+      },
+      {
+        "heading": "Leaving without an exit fee",
+        "text": "If we cannot provide your home internet service at the new address, you may end that part of your contract without an early exit fee. We ask for proof of the move, such as a tenancy agreement, a completion letter or a council tax bill in your name at the new address. Your final bill will cover service up to the date you leave the old property. Any equipment on loan must be returned within thirty days, using the prepaid bag we send.",
+        "questions": ["Do I have to pay a cancellation fee if you can't supply my new home?", "What proof of moving do you need to end my contract early?"]
+      },
+      {
+        "heading": "Keeping your other services",
+        "text": "Your mobile plans, email address and TV app subscription are not tied to an address, so they continue as normal after you move. Bundle discounts are recalculated once the home internet service ends, which may raise the price of the services you keep. We show you the new monthly total before the change takes effect. You can still manage everything through the same online account, and your account number does not change when part of the bundle is closed.",
+        "questions": ["Can I keep my Meridian mobile if I move somewhere you don't do broadband?", "What happens to my bundle discount if my broadband is cancelled because of a move?"]
+      },
+      {
+        "heading": "Coming back to us later",
+        "text": "Coverage grows every month as our network is extended. If you register your interest through the availability checker, we email you as soon as home internet can be ordered at your address. Former customers who return within twelve months may be able to reuse their previous account number and email settings, and they are offered the same introductory prices as new customers. Equipment that you returned is not reused, so a new hub is sent when you rejoin.",
+        "questions": ["How will I know when Meridian broadband reaches my area?", "Can I rejoin Meridian later and keep my old account?"]
+      }
+    ]
+  },
+  {
+    "title": "Moving in with someone who is already a customer",
+    "topic": "moving_home",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Two accounts at one address",
+        "text": "When two customers move in together, only one home internet service can normally run at the property. Decide whose plan you want to keep, usually the one with the longer minimum term left or the better price. The other home internet service can be cancelled without an exit fee, because the move makes it impossible to use. Each person keeps their own mobile plans, and those can stay on separate accounts or be combined into one account to share the bundle discount.",
+        "questions": ["My partner and I both have Meridian broadband. What happens when we move in together?", "Do I pay a fee to cancel my broadband because we now live together?"]
+      },
+      {
+        "heading": "Combining accounts",
+        "text": "To combine two accounts, the person who will be the account holder asks us to add the other person's services, and the other person confirms by replying to a text we send them. Their services move across with their current prices and end dates intact. From then on there is one bill, one payment method and one set of discounts. The person whose services moved keeps their own sign-in for the app, with access only to their own phone lines.",
+        "questions": ["Can we merge two Meridian accounts into one bill?", "Will my partner be able to see my phone usage if we combine accounts?"]
+      },
+      {
+        "heading": "Who is responsible for the bill",
+        "text": "The account holder is responsible for paying the whole bill, including the services of anyone added to the account. If you would rather keep your finances separate, leave the accounts apart: there is no rule that people sharing an address must share an account. Authorised users can be added to an account so that they can call us about it, but they cannot change the payment details or close the account themselves.",
+        "questions": ["If we share an account, who has to pay the bill?", "Can my housemate call Meridian about my account?"]
+      },
+      {
+        "heading": "Separating accounts again",
+        "text": "If you later want to split a combined account, the services can move to a new account in the other person's name after a credit check. The services keep their prices and minimum terms. Bundle discounts are worked out again for each account, which can raise the total cost. Where a relationship ends and one person needs urgent control over their own phone line, our support team can make the separation the same day once identity is confirmed.",
+        "questions": ["How do I take my phone off my ex-partner's account?", "Can a shared account be split back into two?"]
+      }
+    ]
+  },
+  {
+    "title": "Your TV service when you move",
+    "topic": "moving_home",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Moving the set-top box",
+        "text": "Your set-top box comes with you. Before moving, unplug it, keep the power adapter and remote control together, and pack the box upright if you can. At the new address it needs a connection to your home internet, by Wi-Fi or a network cable, and a power socket near the television. An aerial is optional: without one, live channels arrive over the internet. The box restarts its set-up automatically when it detects a new network, which takes about ten minutes.",
+        "questions": ["Can I take my TV box with me when I move?", "Does my set-top box need an aerial at my new house?"]
+      },
+      {
+        "heading": "Recordings and settings",
+        "text": "Recordings stored on the box stay on its hard drive and travel with it. Cloud recordings, available on newer boxes, are linked to your account rather than the address, so they are unaffected. Your favourite channels, parental controls and series links are kept as well. Regional news channels change to match your new area once the box has been set up at the new address, so a few channel numbers may move.",
+        "questions": ["Will I lose my recordings if I move house?", "Why have some of my channel numbers changed since I moved?"]
+      },
+      {
+        "heading": "If the new home is not ready",
+        "text": "If your home internet at the new address will not be live straight away, you can keep watching on a phone, tablet or laptop with the TV app over mobile data or any Wi-Fi network. The TV app works anywhere in the country, with a small number of channels limited to viewing at home. We do not charge for TV while your new home internet connection is delayed by us, and the credit is applied automatically.",
+        "questions": ["Can I still watch TV while my broadband isn't connected at the new place?", "Do I pay for TV if my internet installation is delayed?"]
+      },
+      {
+        "heading": "TV licence and your new address",
+        "text": "Our TV service does not include the licence that the law requires for watching live television, so remember to update the address on your own licence when you move. We cannot do this for you. If you are moving into a home where a licence is already held by someone else, such as a family member, check whether their licence covers you. Watching only on demand programmes may need a different arrangement, so check the rules that apply to you.",
+        "questions": ["Does my Meridian TV subscription include a TV licence?", "Do I need to update my TV licence when I move?"]
+      }
+    ]
+  }
+]

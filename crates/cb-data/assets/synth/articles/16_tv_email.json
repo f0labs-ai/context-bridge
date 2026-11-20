@@ -1,0 +1,110 @@
+[
+  {
+    "title": "TV app subscriptions without a set-top box",
+    "topic": "tv",
+    "service": "tv_app",
+    "sections": [
+      {
+        "heading": "App-only TV",
+        "text": "If you would rather not have a set-top box, the app-only TV plan gives you live channels, catch-up and the on demand library on phones, tablets, computers and smart televisions. It runs month to month with no minimum term and can be paused for up to three months a year. App-only TV works with any internet connection, including one from another provider, so you do not need Meridian home internet to subscribe.",
+        "questions": ["Can I get Meridian TV without a set-top box?", "Do I need Meridian broadband to use the TV app subscription?"]
+      },
+      {
+        "heading": "Adding packs in the app",
+        "text": "Channel packs can be added in the app under My subscription. The pack becomes available within a few minutes and is billed from that day, with a part-month charge on your next bill. Packs bought in the app follow the same minimum terms as packs added through the website or on the box. If you subscribe through your phone's app store instead, the charge appears on your app store bill and is managed there.",
+        "questions": ["How do I add a channel pack from the TV app?", "Why doesn't my pack appear on my Meridian bill?"]
+      },
+      {
+        "heading": "Pausing a subscription",
+        "text": "To pause app-only TV, go to My subscription and choose Pause. You can pause for one, two or three months, and no charge is made while paused. Your profiles, watch list and purchased films are kept, but downloads expire as usual. The subscription restarts automatically on the date you chose, and you receive a reminder by email a week before. You can also restart early at any time.",
+        "questions": ["Can I pause my TV app subscription while I'm away?", "Will I lose my watch list if I pause my subscription?"]
+      },
+      {
+        "heading": "Moving from the app to a box",
+        "text": "You can add a set-top box to an app-only plan at any time, which changes it to the Essentials package. The box is sent by post with set-up instructions and usually arrives within three working days. Your profiles, purchases and watch history carry over to the box straight away. Moving to Essentials starts a twelve-month minimum term unless you also take home internet from us, in which case there is none.",
+        "questions": ["Can I get a set-top box if I only have the TV app?", "Does adding a box start a new contract?"]
+      }
+    ]
+  },
+  {
+    "title": "Setting up email on your phone or computer",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "Automatic set-up",
+        "text": "Most mail programs and phone mail apps can set up your Meridian email automatically. Add a new account, enter your full email address and your email password, and the program finds the right settings by itself. If it asks which type of account, choose IMAP, which keeps your messages on our servers and shows the same mailbox on every device. Avoid the older POP type unless you only use one computer.",
+        "questions": ["How do I add my Meridian email to my phone?", "Should I choose IMAP or POP for my email?"]
+      },
+      {
+        "heading": "Manual settings",
+        "text": "If automatic set-up fails, enter the settings by hand. Incoming mail uses the IMAP server shown in the help centre, port 993, with SSL encryption. Outgoing mail uses the sending server, port 465, with SSL, and it requires sign-in using the same email address and password. Your user name is always your full email address, including the part after the at sign. Incorrect ports are the most common reason sending fails.",
+        "questions": ["What are the server settings for Meridian email?", "Why can I receive emails but not send them from my mail program?"]
+      },
+      {
+        "heading": "Email password versus account password",
+        "text": "Your email password can be different from the password for your Meridian online account. You can change it under Email in the online account. Mail programs that use the old password stop receiving new messages and show a sign-in error until you update them. If you turn on two-step verification for email, older mail programs need an app password, which you create on the same page and enter instead of your normal password.",
+        "questions": ["Is my email password the same as my Meridian account password?", "What is an app password for email?"]
+      },
+      {
+        "heading": "Syncing folders and contacts",
+        "text": "With IMAP, folders you create in webmail appear in your mail program and on your phone, and messages moved on one device move on all of them. Contacts and calendars are not part of IMAP and are only available in webmail, although you can export your contacts as a file and import them into your phone. If folders are missing from a phone, check the app's settings for which folders to synchronise.",
+        "questions": ["Why don't my email folders show up on my phone?", "Can I get my webmail contacts onto my phone?"]
+      }
+    ]
+  },
+  {
+    "title": "Mailbox storage and limits",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "How much you can store",
+        "text": "Each Meridian mailbox holds up to ten gigabytes of mail, including attachments and the contents of every folder. The storage meter at the bottom of the webmail screen shows how much you have used. We email you when the mailbox reaches eighty percent and again at ninety-five percent. When it is completely full, new incoming messages are returned to their senders with a message saying the mailbox is full.",
+        "questions": ["How much storage does my Meridian email have?", "What happens to incoming email when my mailbox is full?"]
+      },
+      {
+        "heading": "Freeing up space",
+        "text": "Large attachments use most of the space. In webmail, sort a folder by size to find the biggest messages, and save any attachments you need to your computer before deleting the emails. Empty the Deleted Items and Junk folders, because messages in them still count towards your storage. Sent Items often grows unnoticed over the years. Deleted messages can be recovered for fourteen days before they are removed permanently.",
+        "questions": ["How do I free up space in my email?", "Do deleted emails still use my storage?"]
+      },
+      {
+        "heading": "Sending limits",
+        "text": "To protect our customers from spam, each mailbox can send up to five hundred messages a day, with a maximum of one hundred recipients on any one message. Attachments are limited to twenty-five megabytes per message. To send larger files, upload them to a file sharing service and send a link instead. If you reach the daily limit, sending resumes automatically twenty-four hours after the first message in that period.",
+        "questions": ["How many emails can I send in a day?", "What's the largest attachment I can send?"]
+      },
+      {
+        "heading": "Inactive mailboxes",
+        "text": "A mailbox that has not been signed in to for twelve months is marked inactive. We email the address and the contact details on your account to warn you, and you have ninety days to sign in before the mailbox and its contents are deleted. Signing in once from any device or webmail is enough to keep it active. Mailboxes kept after leaving Meridian follow the same rule.",
+        "questions": ["Will my email be deleted if I don't use it?", "How do I keep an old email address active?"]
+      }
+    ]
+  },
+  {
+    "title": "Spam and junk filtering",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "How filtering works",
+        "text": "Every message sent to your Meridian mailbox is checked for viruses and spam before it arrives. Messages containing viruses are deleted, and their senders are told. Messages that look like spam are placed in your Junk folder instead of your inbox, where they stay for thirty days before being deleted automatically. The filter learns from the messages that you mark as junk or not junk, and it improves over time.",
+        "questions": ["Why do some emails go to my junk folder?", "How long do messages stay in the Junk folder?"]
+      },
+      {
+        "heading": "Messages wrongly marked as junk",
+        "text": "Check your Junk folder now and then for genuine messages. If you find one, open it and choose Not junk, which moves it to the inbox and trusts that sender in future. Add frequent senders, such as your bank or school, to your safe senders list under Email settings. Messages from addresses in your webmail contacts are never sent to junk unless they contain a virus.",
+        "questions": ["An important email went to my junk folder. How do I stop that happening?", "How do I add someone to my safe senders list?"]
+      },
+      {
+        "heading": "Too much spam in the inbox",
+        "text": "Mark each unwanted message as junk rather than deleting it, so the filter can learn. You can raise the filter's strictness under Email settings and Junk, although a stricter setting catches more genuine messages too. Block a sender's address or a whole domain from the same page. Never click unsubscribe links in messages you did not sign up for, because doing so confirms to the sender that your address is active.",
+        "questions": ["I'm getting loads of spam in my inbox. What can I do?", "Is it safe to click unsubscribe on spam emails?"]
+      },
+      {
+        "heading": "Spotting dangerous messages",
+        "text": "Be wary of messages that create urgency, ask you to confirm account details, or contain unexpected attachments or links, even if they appear to come from someone you know. Hover over a link to see where it really goes. Our messages always address you by name and never ask for your password or full card number. Report suspicious messages by forwarding them to our abuse address, then delete them.",
+        "questions": ["How can I tell if an email is a scam?", "Where do I report a suspicious email that claims to be from Meridian?"]
+      }
+    ]
+  }
+]

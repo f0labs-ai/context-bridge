@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Pay monthly and prepaid mobile",
+    "topic": "plans",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "How the two ways of paying differ",
+        "text": "With pay monthly, you agree a plan for a minimum term and we bill you after each month, adding anything outside your allowance. With prepaid, you buy credit or a bundle in advance and nothing is ever billed afterwards, so you can never owe us money. Prepaid suits people who want firm control of spending or who use their phone lightly. Pay monthly gives larger allowances for the price, extras such as roaming bundles, and the option of a new handset.",
+        "questions": ["What's the difference between a prepaid SIM and a pay monthly plan?", "Can I end up owing money on a prepaid phone?"]
+      },
+      {
+        "heading": "Topping up prepaid credit",
+        "text": "You can top up in the app, on our website, by calling the free top-up line from your phone, or with a voucher bought in many shops. Credit appears within a minute. Set up automatic top-ups if you would like a fixed amount added when your balance falls below a level you choose, or on the same date each month. Unused credit stays on your account for as long as the number is active, which means making at least one chargeable call, text or top-up every six months.",
+        "questions": ["How do I add credit to my prepaid phone?", "Does prepaid credit expire if I don't use it?"]
+      },
+      {
+        "heading": "Bundles on prepaid",
+        "text": "A prepaid bundle gives you a set amount of data, minutes and texts for thirty days, paid for from your credit. When the bundle starts, the full price is taken from your balance. If you run out before the thirty days are up, calls and texts are charged from your remaining credit at the standard rates, while data stops until you buy more. You can choose to renew the bundle automatically, provided there is enough credit on the account on the renewal day.",
+        "questions": ["How do prepaid bundles work?", "What happens if I use up my prepaid bundle before the month ends?"]
+      },
+      {
+        "heading": "Switching between prepaid and pay monthly",
+        "text": "You can move from prepaid to pay monthly and keep your number and SIM card. Choose a plan in the app or online, pass a quick credit check, and the plan starts within a day. Any prepaid credit left over is moved to your new account as a credit against your first bill. Moving the other way, from pay monthly to prepaid, is possible once your minimum term has ended. Your outstanding balance must be paid before the switch takes place.",
+        "questions": ["Can I change from prepaid to a contract without changing my number?", "Is it possible to go from pay monthly back to prepaid?"]
+      }
+    ]
+  },
+  {
+    "title": "TV packages and add-ons",
+    "topic": "plans",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "What the base package includes",
+        "text": "Every TV plan starts with the Essentials package: more than seventy live channels, the full catch-up library for the last thirty days, the on demand film rental store and the use of one set-top box. You can watch on the box and in the TV app on up to two devices at the same time. Essentials has no minimum term when you already take home internet from us. On its own it runs for twelve months, after which it continues month to month.",
+        "questions": ["What do I get with the basic TV package?", "How many screens can watch at once on the Essentials package?"]
+      },
+      {
+        "heading": "Adding a channel pack",
+        "text": "Channel packs add groups of channels on top of Essentials, such as Sport, Movies, Kids and World. You can add a pack from the box's menu, in the app or on the website, and the channels unlock within a few minutes. Most packs have a one-month minimum, so you can add one for a season and remove it afterwards. Sport is the exception: when you take it on a discounted offer it carries a twelve-month minimum, which is shown before you confirm.",
+        "questions": ["How do I add the sports channels to my TV plan?", "Can I take a channel pack for just one month?"]
+      },
+      {
+        "heading": "Extra boxes and multiroom",
+        "text": "Multiroom lets you have a second or third set-top box elsewhere in the home, each able to watch a different channel. It costs a fixed monthly amount per extra box and includes the box on loan. Recordings made on the main box can be watched on the others when they are all connected to the same home network. You can order an extra box online and fit it yourself, or ask for an engineer to install it if you need a new aerial point.",
+        "questions": ["Can I have a TV box in my bedroom as well as the living room?", "Can I watch recordings from my main box on a second box?"]
+      },
+      {
+        "heading": "Removing a pack or downgrading",
+        "text": "To remove a channel pack, go to My TV in your online account and choose Remove next to the pack. The channels stay available until the end of your current billing month, and the charge stops after that. If the pack is still within a minimum term, the page shows the cost of ending it early before you confirm. Downgrading from Essentials to a TV app only plan returns the set-top box to us, and we send prepaid packaging for it.",
+        "questions": ["How do I cancel a channel pack I no longer watch?", "When do the channels disappear after I remove a pack?"]
+      }
+    ]
+  },
+  {
+    "title": "Price changes and your price promise",
+    "topic": "plans",
+    "service": null,
+    "sections": [
+      {
+        "heading": "The yearly price change",
+        "text": "Prices for most plans change once a year, in April, by a fixed amount in pounds that is written into your contract when you join. Because the amount is fixed, you can work out your price for every year of the contract from the day you sign. The change appears on the first bill after the April date. We remind you by email or letter at least thirty days beforehand, with your old price and new price set side by side.",
+        "questions": ["When do Meridian prices go up each year?", "How much will my bill rise in April?"]
+      },
+      {
+        "heading": "Plans covered by a price promise",
+        "text": "Some plans come with a price promise, which means the monthly price stays the same for the whole minimum term with no yearly rise. Your order confirmation and your online account show whether a promise applies and the date it runs until. When the promise ends, the plan moves to the standard price for the same plan and becomes subject to the yearly change. We let you know before that happens, so that you can review your options.",
+        "questions": ["Does my plan have a fixed price for the whole contract?", "What happens to my price when my price promise ends?"]
+      },
+      {
+        "heading": "Changes we make for other reasons",
+        "text": "Occasionally we may need to change a price or a term for a reason not covered by the yearly change, for example when a tax rate changes. In that case we give you at least thirty days' written notice. If the change is to your disadvantage, you may leave your contract without paying an early exit fee, provided that you tell us within thirty days of the notice. Changes to extras you buy separately, such as calls to premium numbers, are published on our price guide.",
+        "questions": ["Can Meridian change my price in the middle of the year?", "Can I leave without a fee if my contract terms change?"]
+      },
+      {
+        "heading": "Checking you are on the best plan",
+        "text": "Once a year, and whenever your minimum term ends, we send you a summary of your usage and the best plan for it. You can also run the plan checker in the app at any time. It compares your last three months of use against every current plan and shows any saving. Moving at the end of a minimum term carries no fee. Customers who are out of contract and have not reviewed their plan can often save money by re-contracting.",
+        "questions": ["How can I tell if there's a cheaper plan for me?", "Will Meridian tell me when a better deal is available?"]
+      }
+    ]
+  },
+  {
+    "title": "Moving home with Meridian",
+    "topic": "moving_home",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "Tell us at least two weeks ahead",
+        "text": "If you are moving, let us know your new address and the date you will get the keys as soon as you can, and at least fourteen days before you move. Use the Moving home form in your online account or the app. We check which services are available at the new property and give you a moving date for each one. Telling us early gives the best chance of being connected on the day you move in rather than a week or two later.",
+        "questions": ["How much notice do I need to give before moving house?", "Where do I tell Meridian I'm moving?"]
+      },
+      {
+        "heading": "Keeping your contract when you move",
+        "text": "In most cases your contract moves with you and the minimum term continues unchanged. There is no fee for moving if the same plan is available at the new address. If the new property can only receive a slower technology, we offer the closest plan available, and if that plan is cheaper your bill goes down. You will not pay an early exit fee because your current plan is unavailable at the new address. You keep the same account number throughout the move.",
+        "questions": ["Will my broadband contract carry on at my new address?", "Is there a charge for moving my service to a new home?"]
+      },
+      {
+        "heading": "What happens on moving day",
+        "text": "Your service at the old address stops at midnight before your moving date, and the new connection goes live during that day. Where the new property already has a working line, you only need to plug your hub into the main socket and wait for the lights to turn white. If an engineer is needed, we book the visit for your moving date or the earliest day after it. You must be at home for an engineer visit, and the slot is confirmed by text.",
+        "questions": ["When will my internet start working at my new house?", "Do I need to be home for the engineer on moving day?"]
+      },
+      {
+        "heading": "Staying connected in the gap",
+        "text": "If there is a gap between your old service stopping and the new one starting, we can add free extra mobile data to any Meridian mobile plan on your account until the home connection is live. Ask for this when you book the move. If you have no mobile plan with us, we can lend you a 4G router for up to thirty days, sent by post and returned in the same box. The loan is free when the gap is caused by our installation date.",
+        "questions": ["How can I get online if there's a delay setting up broadband at my new address?", "Can I borrow a 4G router while I wait for my new connection?"]
+      }
+    ]
+  }
+]

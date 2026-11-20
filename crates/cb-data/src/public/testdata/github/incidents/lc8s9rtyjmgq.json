@@ -1,0 +1,77 @@
+{
+  "id": "lc8s9rtyjmgq",
+  "name": "Incident with GitHub Actions",
+  "status": "resolved",
+  "impact": "major",
+  "created_at": "2021-08-10T20:09:03.904Z",
+  "resolved_at": "2021-08-10T23:10:51.289Z",
+  "scheduled_for": null,
+  "components": [
+    {
+      "name": "Actions"
+    }
+  ],
+  "incident_updates": [
+    {
+      "id": "3k1jctggkrhn",
+      "status": "resolved",
+      "body": "This incident has been resolved.",
+      "created_at": "2021-08-10T23:10:51.289Z",
+      "updated_at": "2021-08-10T23:10:51.289Z",
+      "display_at": "2021-08-10T23:10:51.289Z",
+      "affected_components": [
+        {
+          "name": "GitHub Actions"
+        }
+      ]
+    },
+    {
+      "id": "j5w02y0pl9qg",
+      "status": "monitoring",
+      "body": "A fix has been rolled out and we are monitoring recovery. Jobs are starting to run and logs/artifacts are loading now.",
+      "created_at": "2021-08-10T22:37:02.850Z",
+      "updated_at": "2021-08-10T22:37:03.615Z",
+      "display_at": "2021-08-10T22:37:02.850Z",
+      "affected_components": [
+        {
+          "name": "GitHub Actions"
+        }
+      ]
+    },
+    {
+      "id": "7s2f3pfqymk9",
+      "status": "identified",
+      "body": "We hit an issue with the main request routing service which is causing errors with running jobs, and retrieving logs/artifacts. The team has identified the cause and is actively mitigating.",
+      "created_at": "2021-08-10T22:24:05.186Z",
+      "updated_at": "2021-08-10T22:24:06.977Z",
+      "display_at": "2021-08-10T22:24:05.186Z",
+      "affected_components": [
+        {
+          "name": "GitHub Actions"
+        }
+      ]
+    },
+    {
+      "id": "zlj1prclymm0",
+      "status": "investigating",
+      "body": "GitHub Actions is now experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2021-08-10T20:16:57.461Z",
+      "updated_at": "2021-08-10T20:16:57.461Z",
+      "display_at": "2021-08-10T20:16:57.461Z",
+      "affected_components": null
+    },
+    {
+      "id": "v6gmhtpzsn8y",
+      "status": "investigating",
+      "body": "We are investigating reports of degraded performance for GitHub Actions.",
+      "created_at": "2021-08-10T20:09:04.042Z",
+      "updated_at": "2021-08-10T20:09:04.042Z",
+      "display_at": "2021-08-10T20:09:04.042Z",
+      "affected_components": [
+        {
+          "name": "GitHub Actions"
+        }
+      ]
+    }
+  ]
+}

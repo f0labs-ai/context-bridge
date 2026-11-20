@@ -1,0 +1,43 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/cb-types",
+    "crates/cb-eval",
+    "crates/cb-data",
+    "crates/cb-run",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+rust-version = "1.99"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+chrono = { version = "0.4", default-features = false, features = ["std", "clock"] }
+rand = "0.9"
+rand_chacha = "0.9"
+sha2 = "0.10"
+tokio = { version = "1.47", features = ["rt-multi-thread", "macros", "time", "fs", "sync", "signal"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "json", "multipart", "gzip"] }
+futures = "0.3"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

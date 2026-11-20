@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Choosing a home internet plan",
+    "topic": "plans",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "How much speed a household needs",
+        "text": "Speed is measured in megabits per second. As a rough guide, one high definition video stream uses about five, a video call about three, and general browsing far less. Add up what your household does at the busiest time of the evening. A couple who stream and browse are comfortable on our Essential plan. A family with several screens, online games and someone working from home will notice the benefit of Fast or Ultra, particularly for uploads and large downloads.",
+        "questions": ["Which home internet speed should I choose for a family of four?", "How many megabits do I need to stream video and make video calls?"]
+      },
+      {
+        "heading": "Full fibre and part fibre",
+        "text": "Full fibre runs an optical cable all the way into your home, and it delivers the speed you pay for at any time of day. Part fibre uses optical cable as far as the street cabinet and a copper line for the last stretch, so the speed falls the further you live from the cabinet. The availability checker tells you which technology reaches your address and gives a personal speed estimate. Where both are offered, full fibre is the better choice for reliability.",
+        "questions": ["What is the difference between full fibre and part fibre broadband?", "Why would my speed depend on how far I am from the street cabinet?"]
+      },
+      {
+        "heading": "Our minimum speed guarantee",
+        "text": "When you order, we give you a minimum guaranteed download speed for your line, and it is written on your order confirmation. If a wired speed test shows that your connection is below that figure, tell us and we will investigate. We have thirty days to bring the speed back above the minimum. If we cannot, you may move to a cheaper plan or leave your contract without paying an early exit fee. The guarantee covers the line into your home, not the Wi-Fi inside it.",
+        "questions": ["What can I do if my broadband is slower than the speed I was promised?", "Does the speed guarantee cover slow Wi-Fi in my house?"]
+      },
+      {
+        "heading": "What every plan includes",
+        "text": "All home internet plans come with unlimited usage, a Wi-Fi hub on loan, a static-free set-up by post or engineer as required, and access to our security tools and family filter. None of our plans slows your connection at peak times or limits particular kinds of traffic. The plans differ in speed, in the number of Wi-Fi extenders included and in the length of the price promise. Phone line rental is part of the monthly price and is not billed separately.",
+        "questions": ["Is there a data limit on Meridian home internet plans?", "What comes included with a home internet plan apart from the connection?"]
+      }
+    ]
+  },
+  {
+    "title": "Mobile plans: allowances and extras",
+    "topic": "plans",
+    "service": "mobile_data",
+    "sections": [
+      {
+        "heading": "Picking a data allowance",
+        "text": "Most people use less data than they expect, because phones connect to Wi-Fi at home and at work. Look at the usage screen in the app to see your last three months before you choose. Light use such as messaging, maps and email fits within five gigabytes. Regular music and social media suit fifteen to thirty. If you watch video on the move or share your connection with a laptop, choose an unlimited plan so that you never have to think about it.",
+        "questions": ["How much mobile data do I actually need each month?", "How can I see my past data usage before picking a plan?"]
+      },
+      {
+        "heading": "What happens when the allowance runs out",
+        "text": "We text you when you have used eighty percent of your monthly data, and again when it is all gone. After that, data stops until your next bill date, so you cannot run up charges by accident. Calls and texts carry on as normal. To get back online sooner, buy a one-off data boost in the app or move to a larger plan, which takes effect immediately. Unused data does not roll over, except on plans that are labelled Rollover.",
+        "questions": ["Will I be charged extra if I use all my mobile data?", "Does unused data carry over to the next month?"]
+      },
+      {
+        "heading": "SIM only or phone plan",
+        "text": "A SIM only plan gives you the service alone, on a one-month or twelve-month term, and you bring your own handset. A phone plan combines the service with a new device, and the cost of the handset is spread over twenty-four or thirty-six months as a separate, interest-free agreement. When the device is paid off, that part of your bill stops automatically. SIM only is cheaper per month. A phone plan suits you if you prefer not to pay for a handset in one go.",
+        "questions": ["What is the difference between a SIM only deal and a phone contract?", "Does my bill go down once I've finished paying for the handset?"]
+      },
+      {
+        "heading": "Family and shared plans",
+        "text": "You can hold up to five mobile plans on one account, and each extra line receives a discount for as long as the first line stays active. The account holder sees a single bill and can set a spending cap for every line. Data gifting lets you pass spare gigabytes from one line to another, free of charge, once in each billing month. Each person keeps a separate number and allowance, and no one can see anyone else's call history.",
+        "questions": ["Can I put my children's phones on my account, and is there a discount?", "Can I give some of my data to another person on my family plan?"]
+      }
+    ]
+  },
+  {
+    "title": "Changing your plan during a contract",
+    "topic": "plans",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Upgrading",
+        "text": "You can move to a faster or larger plan at any time without a fee. Choose Change my plan in your online account, pick the new plan and confirm. A mobile upgrade is active within minutes. A home internet upgrade usually takes effect within a day, unless the new speed needs different equipment or an engineer. Upgrading starts a new minimum term only if you accept a new promotional price. If you move to the standard price, your existing end date is unchanged.",
+        "questions": ["Can I upgrade to a faster plan before my contract ends?", "Does upgrading my plan restart my minimum term?"]
+      },
+      {
+        "heading": "Downgrading",
+        "text": "You can move down by one plan level once during your minimum term without charge. Moving down further, or more than once, may carry a change fee, which reflects the discount you received for committing to the higher plan. Your account shows the fee before you confirm, so there are no surprises. A downgrade takes effect from your next bill date rather than immediately. Until then you keep the allowance and the speed that you have already paid for.",
+        "questions": ["Is there a fee for moving to a cheaper plan mid-contract?", "When does a downgrade to a smaller plan take effect?"]
+      },
+      {
+        "heading": "How the change appears on your bill",
+        "text": "After a plan change, your next bill shows three lines: a credit for the unused days of the old plan, a charge for the same days on the new plan, and a full month of the new plan in advance. The result is a bill that is higher or lower than usual, once only. Promotional discounts that were tied to the old plan end on the day of the change, unless the terms of the offer say they can be transferred.",
+        "questions": ["What will my bill look like after I change my plan?", "Do I keep my discount if I switch to a different plan?"]
+      },
+      {
+        "heading": "Changing your mind",
+        "text": "If a new plan does not suit you, you can go back to your previous plan within fourteen days of the change, and we will not charge a fee for either move. Tell us through your online account or by phone. Any equipment that we sent for the new plan must be returned in the prepaid packaging. After fourteen days, the usual rules for upgrading and downgrading apply, and the old promotional price may no longer be available.",
+        "questions": ["Can I go back to my old plan if I don't like the new one?", "How long do I have to reverse a plan change?"]
+      }
+    ]
+  },
+  {
+    "title": "Bundles and multi-service discounts",
+    "topic": "plans",
+    "service": null,
+    "sections": [
+      {
+        "heading": "How the bundle discount works",
+        "text": "When one account holds home internet together with at least one mobile plan or a TV subscription, a bundle discount is applied to the monthly total. The discount grows with each service that you add, up to a maximum of four services. It appears on your bill as a separate line, so you can see exactly how much you are saving. There is nothing to claim. The discount starts on the day the second service becomes active.",
+        "questions": ["Do I get money off for having broadband and mobile together?", "How do I claim the multi-service discount?"]
+      },
+      {
+        "heading": "Extra benefits of a bundle",
+        "text": "Besides the lower price, bundle customers receive a larger mobile data allowance on every line, one free Wi-Fi extender and priority handling when they call about a fault. If your home internet stops working, we add unlimited data to your mobile plans, free of charge, until it is repaired, so that you can use a phone as a hotspot. These benefits switch on automatically within a day of the bundle forming, and they are listed in the app under My benefits.",
+        "questions": ["What extras come with a Meridian bundle besides the discount?", "Will I get free mobile data if my home internet goes down?"]
+      },
+      {
+        "heading": "Different end dates within a bundle",
+        "text": "Each service in a bundle keeps its own contract and its own end date. Adding a mobile plan does not extend your home internet term, and the reverse is also true. For this reason the services may come up for renewal at different times. You can ask us to align the end dates when you next renew, which makes the bundle easier to manage. Your online account lists every service with the date on which its minimum term finishes.",
+        "questions": ["Does adding a mobile plan extend my broadband contract?", "Can the contract end dates of my bundled services be lined up?"]
+      },
+      {
+        "heading": "Removing a service from a bundle",
+        "text": "If you cancel one service, the bundle discount is recalculated from that date for the services that remain. If only one service is left, the discount and the bundle benefits stop altogether, and the remaining service continues at its normal price. Early exit fees, where they apply, relate only to the service that you cancel. We tell you the new monthly total before you confirm, so that you can decide whether cancelling is still worthwhile.",
+        "questions": ["What happens to my discount if I cancel one service in my bundle?", "Will I pay exit fees on all my services if I cancel just one?"]
+      }
+    ]
+  }
+]

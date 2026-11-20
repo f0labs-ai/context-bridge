@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Recognising scam calls and messages",
+    "topic": "security",
+    "service": null,
+    "sections": [
+      {
+        "heading": "What Meridian will never ask",
+        "text": "We will never ask you for your full password, a sign-in code, your full card number or your card's security code by phone, text or email. We will never ask you to install software that lets someone control your computer, and we never threaten to cut off your service within the hour unless you pay at once. If a caller claiming to be from Meridian asks for any of these, hang up and call us back on the number printed on your bill.",
+        "questions": ["Would Meridian ever ask me for my password over the phone?", "Someone claiming to be from Meridian wants remote access to my computer. Is that real?"]
+      },
+      {
+        "heading": "Common tricks",
+        "text": "Scammers often claim your broadband has been hacked or will be cut off, offer a refund that requires your bank details, or pretend to be a delivery company, a bank or a government office. They create urgency so that you act before thinking. Texts may contain links to convincing copies of real websites. Caller display can be faked, so a familiar number on the screen does not prove who is calling.",
+        "questions": ["What kinds of scams pretend to be from phone companies?", "Can scammers make a call look like it's from a real number?"]
+      },
+      {
+        "heading": "If you think you have been caught out",
+        "text": "If you gave a scammer your card or bank details, call your bank straight away using the number on the back of your card. If you shared your Meridian password or a sign-in code, reset your password and contact us so that we can check your account for changes. If you let someone control your computer, disconnect it from the internet and have it checked before using it for banking again.",
+        "questions": ["I gave my bank details to a scam caller. What should I do?", "I let a stranger control my computer. What now?"]
+      },
+      {
+        "heading": "Reporting scams",
+        "text": "Report scam texts by forwarding them to our free spam reporting number, and scam emails by forwarding them to our abuse address. Report phone scams to us through the help centre, giving the number that called and the time of the call. Each report helps us block the sources for every customer. You can also report fraud to the police, particularly if you have lost money or shared personal details.",
+        "questions": ["How do I report a scam call to Meridian?", "Should I report a phone scam to the police?"]
+      }
+    ]
+  },
+  {
+    "title": "Keeping your account secure",
+    "topic": "security",
+    "service": "web_portal",
+    "sections": [
+      {
+        "heading": "Security questions and your account password",
+        "text": "When you call us, an adviser checks your identity by asking for characters from your account password and the answer to a security question. Set these under Account settings and Security. Choose a security answer that cannot be found online, such as on social media, and avoid answers like your first school or your mother's maiden name if those are easy to discover. The answer does not have to be true, as long as you remember it.",
+        "questions": ["Why does Meridian ask for letters from my password when I call?", "How should I choose my security question answer?"]
+      },
+      {
+        "heading": "Alerts for important changes",
+        "text": "We send an email and a text whenever someone changes your contact details, payment details or password, orders a replacement SIM, or signs in from a new device. These alerts cannot be switched off. If you receive one for a change you did not make, contact us immediately using the number on your bill, and we will freeze the account while we investigate. Acting within minutes can stop a criminal taking over your phone number.",
+        "questions": ["I got an alert about a change I didn't make. What should I do?", "Can I turn off the security emails Meridian sends?"]
+      },
+      {
+        "heading": "Reviewing account activity",
+        "text": "The Security page of your online account lists recent sign-ins, with the device, approximate location and time of each, and the changes made in the last ninety days. Review it occasionally, especially if you have shared a password in the past. Sign out every device you do not recognise and change your password. Recent orders, such as new SIMs or handsets, are listed under Orders.",
+        "questions": ["How can I see who has signed in to my Meridian account?", "Where can I check recent changes made to my account?"]
+      },
+      {
+        "heading": "Protecting a vulnerable person's account",
+        "text": "If you help an older relative or someone who may be targeted by scammers, ask for extra protection on their account. With it, changes to payment details, SIM orders and new contracts need confirmation from a nominated trusted person or a visit to a shop with identification. The account holder must agree, either by calling us or in writing. The protection can be removed at any time with the same agreement.",
+        "questions": ["Can I add extra protection to my elderly mother's account?", "How do I stop someone ordering a new contract on my dad's account?"]
+      }
+    ]
+  },
+  {
+    "title": "SIM swap protection",
+    "topic": "security",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "What a SIM swap is",
+        "text": "In a SIM swap fraud, a criminal persuades a mobile provider to move a victim's number to a SIM card they control. The criminal then receives the victim's calls and texts, including bank security codes, and can use them to get into accounts. Signs that it is happening include your phone suddenly losing signal everywhere, together with an alert from us about a replacement SIM that you did not order.",
+        "questions": ["What is a SIM swap scam?", "How would I know if someone has taken over my phone number?"]
+      },
+      {
+        "heading": "How we protect your number",
+        "text": "Before we issue a replacement SIM, we check your identity with your account password and a code sent to your registered email address. Online SIM orders require two-step verification when it is switched on. We also send alerts to every contact detail on the account when a SIM is ordered, and new SIMs ordered online cannot be activated for an hour, giving you time to stop a change you did not make.",
+        "questions": ["How does Meridian stop someone stealing my number?", "Why can't I use my new SIM straight away after ordering it online?"]
+      },
+      {
+        "heading": "Adding a SIM lock",
+        "text": "For the strongest protection, add a SIM lock under Mobile settings and Security. With a SIM lock, a replacement SIM or a number transfer to another provider can only be arranged in a Meridian shop with photo identification, or after you remove the lock in the app with two-step verification. The lock costs nothing and is recommended for anyone who uses text messages for banking codes.",
+        "questions": ["Can I lock my number so it can't be moved to a new SIM?", "Is there a charge for the SIM lock?"]
+      },
+      {
+        "heading": "If your phone suddenly loses service",
+        "text": "If your phone shows no service and other people's phones nearby are working, check whether you received an alert about a SIM change. If you did not order one, contact us at once from another phone or in the online account, and contact your bank too. We can restore your number to your own SIM, block the fraudulent one and investigate how the change was made. Keep a note of the time you lost service.",
+        "questions": ["My phone lost signal and I got a SIM change alert I didn't request. What do I do?", "Can you give my number back if it was moved to someone else's SIM?"]
+      }
+    ]
+  },
+  {
+    "title": "Device protection and security software",
+    "topic": "security",
+    "service": null,
+    "sections": [
+      {
+        "heading": "What the security bundle includes",
+        "text": "Meridian Secure protects up to five devices, including computers, phones and tablets, with virus protection, a safe browsing tool that warns you about dangerous websites, and a password manager. It is included with Fast and Ultra home internet plans and can be added to other plans for a monthly fee. Download it from the Security page of your online account, where you can also see which devices are protected.",
+        "questions": ["What does Meridian Secure include?", "How many devices can I protect with the security bundle?"]
+      },
+      {
+        "heading": "Installing on your devices",
+        "text": "Sign in to the online account on the device you want to protect, open Security and choose Protect this device. Follow the steps to download and install the software. On phones, you install it from the app store and sign in with your Meridian details. If you already use another security program on a computer, remove it first, because two programs running at once can slow the computer down or conflict.",
+        "questions": ["How do I install Meridian Secure on my laptop?", "Can I run Meridian Secure alongside another antivirus program?"]
+      },
+      {
+        "heading": "Keeping devices up to date",
+        "text": "Security software helps, but the most important protection is keeping your devices updated. Turn on automatic updates for your computer's operating system, your phone, your browser and your apps. Updates fix weaknesses that criminals actively look for. Devices that no longer receive updates from their maker, such as very old phones and computers, are best not used for banking, shopping or email.",
+        "questions": ["Why is it important to update my phone and computer?", "Is it safe to use an old phone that doesn't get updates for banking?"]
+      },
+      {
+        "heading": "Backing up your files",
+        "text": "Back up your photos, documents and other important files regularly, so that a virus, theft or broken device does not mean losing them. Use an external drive that you disconnect after each backup, an online backup service, or both. Ransomware can lock files on any drive that stays connected, so a disconnected copy is the safest. Test a backup now and then by restoring a single file from it.",
+        "questions": ["What's the best way to back up my family photos?", "Why should I unplug my backup drive?"]
+      }
+    ]
+  }
+]

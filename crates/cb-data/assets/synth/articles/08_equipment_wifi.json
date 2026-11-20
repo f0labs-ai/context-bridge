@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Using your own router",
+    "topic": "equipment_setup",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "Is it allowed",
+        "text": "You are free to use your own router instead of the Meridian hub. For full fibre, connect your router's internet port to the fibre point with a network cable, and it will receive an address automatically. For part fibre lines, your router must support the line technology used at your address, which our help centre lists for each plan. We support the connection up to the wall socket, but we cannot help you configure equipment we did not supply.",
+        "questions": ["Can I use my own router with Meridian broadband?", "Will Meridian help me set up a router I bought myself?"]
+      },
+      {
+        "heading": "Settings your router needs",
+        "text": "Most routers connect without any settings at all. If yours asks for sign-in details, use the user name and password shown under My equipment in the online account, which are different from your account password. Set the connection type to automatic and leave the network tag blank unless the help centre lists one for your plan. Our domain name servers are given out automatically, but you may enter different ones if you prefer.",
+        "questions": ["What username and password does my own router need?", "What connection settings should I use with a third-party router?"]
+      },
+      {
+        "heading": "What you give up",
+        "text": "Some features rely on the Meridian hub. Without it, the app cannot show your connected devices, pair extenders or run remote diagnostics, and our advisers cannot see the hub's health when you report a fault. Our home phone service also needs the hub. The family filter still works, because it runs on our network rather than in the hub. Keep the Meridian hub safely stored, because we may ask you to reconnect it to diagnose a fault.",
+        "questions": ["What won't work if I don't use the Meridian hub?", "Do I need to keep the Meridian router if I use my own?"]
+      },
+      {
+        "heading": "Faults when using your own router",
+        "text": "If your connection fails, reconnect the Meridian hub before contacting us, because it lets us test the line remotely. If the line works with our hub, the problem is with your own router, and its maker is the best source of help. If the line fails with both, we treat it as a normal fault. Where an engineer visit finds the fault was caused by your own equipment, a visit charge may apply, and we always tell you about it beforehand.",
+        "questions": ["My own router won't connect. Who should I call?", "Will I be charged for an engineer if my own router is the problem?"]
+      }
+    ]
+  },
+  {
+    "title": "Improving Wi-Fi coverage at home",
+    "topic": "wifi",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "Where the hub sits matters most",
+        "text": "Wi-Fi spreads outwards from the hub and loses strength through walls, floors and furniture. The best position is central, raised to at least table height and out in the open. Hubs hidden in cupboards, behind televisions or on the floor in a hallway give noticeably weaker coverage. Water absorbs Wi-Fi, so fish tanks and radiators between the hub and your devices make a difference, as do mirrors and metal kitchen appliances.",
+        "questions": ["Where should I put my router for the best Wi-Fi?", "Why is my Wi-Fi so weak in the back bedroom?"]
+      },
+      {
+        "heading": "Interference from other devices",
+        "text": "Microwave ovens, baby monitors, wireless doorbells and older cordless phones can interfere with Wi-Fi, especially on the 2.4 GHz band. Neighbouring networks also compete for the same channels in flats and terraced houses. The hub picks the clearest channel automatically each night, but you can ask it to rescan straight away from the app, under My equipment and Optimise Wi-Fi. A rescan briefly disconnects your devices for a few seconds.",
+        "questions": ["Can my microwave affect my Wi-Fi?", "How do I make my hub pick a less crowded Wi-Fi channel?"]
+      },
+      {
+        "heading": "Checking the signal room by room",
+        "text": "The Wi-Fi checker in the Meridian app measures signal strength wherever you stand. Walk around the home with your phone and note any room where the result shows one bar or less. Those are the places where an extender or a wired connection will help most. Take readings at the time of day you usually notice problems, because heavy use by other people in the home can make a weak spot feel worse than it really is.",
+        "questions": ["How can I find the weak Wi-Fi spots in my house?", "Is there a way to measure my Wi-Fi signal in each room?"]
+      },
+      {
+        "heading": "When to use a cable instead",
+        "text": "For devices that stay in one place, such as a desktop computer, a games console or a smart television near the hub, a network cable gives the fastest and steadiest connection and frees up Wi-Fi capacity for everything else. The hub has four network ports on the back. Flat network cables can run under carpets and along skirting boards. Powerline adapters are an alternative where running a cable between rooms is impractical.",
+        "questions": ["Should I plug my games console into the router with a cable?", "How many devices can I connect to the hub with cables?"]
+      }
+    ]
+  },
+  {
+    "title": "Changing your Wi-Fi name and password",
+    "topic": "wifi",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "Why you might change them",
+        "text": "Change your Wi-Fi password if you think someone outside your household knows it, if you have shared it widely with visitors, or if you notice devices you do not recognise in the connected devices list. Changing the network name can make it easier to recognise among your neighbours' networks. Avoid using your house number, surname or address in the name, because it tells passers-by which network belongs to which home.",
+        "questions": ["When should I change my Wi-Fi password?", "Is it safe to use my surname as my Wi-Fi name?"]
+      },
+      {
+        "heading": "Making the change in the app",
+        "text": "Open the Meridian app, go to My equipment and choose Wi-Fi name and password. Enter the new details and save. The hub restarts its wireless networks, which takes about a minute, and every device is disconnected. Your password must be at least twelve characters long; a short phrase of four unrelated words is easy to remember and hard to guess. The new details apply to every extender in the home automatically.",
+        "questions": ["How do I change the Wi-Fi password using the Meridian app?", "How long does my new Wi-Fi password need to be?"]
+      },
+      {
+        "heading": "Reconnecting your devices",
+        "text": "After the change, each device must join the network again with the new password. Phones and computers usually show the network with a prompt to enter the password. Smart speakers, cameras, printers and plugs must be set up again through their own apps, which can take some time, so plan the change for a moment when you can do this. If you keep the old network name and only change the password, some devices handle the switch more smoothly.",
+        "questions": ["Do I have to reconnect everything after changing my Wi-Fi password?", "How do I reconnect my smart speaker after a Wi-Fi change?"]
+      },
+      {
+        "heading": "Going back to the original details",
+        "text": "If you forget the new password, you can see it in the app under My equipment, as long as you are signed in to your account. Alternatively, a factory reset of the hub returns the Wi-Fi name and password to those printed on the sticker. A reset also removes other changes, such as port settings and parental control schedules, so use it only as a last resort. The reset takes about ten minutes to complete.",
+        "questions": ["I've forgotten the new Wi-Fi password I set. How do I find it?", "Does resetting the hub put the original Wi-Fi password back?"]
+      }
+    ]
+  },
+  {
+    "title": "Guest Wi-Fi",
+    "topic": "wifi",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "What a guest network is",
+        "text": "A guest network is a second Wi-Fi network from your hub with its own name and password. Visitors who join it can use the internet but cannot see or reach your own devices, such as computers, printers or cameras. That keeps your devices private and means you never have to share your main password. The guest network shares your broadband speed with the main network, so heavy use by guests can still slow things down for everyone in the home.",
+        "questions": ["What is a guest Wi-Fi network for?", "Can visitors on the guest Wi-Fi see my devices?"]
+      },
+      {
+        "heading": "Turning it on",
+        "text": "Open the Meridian app, choose My equipment and then Guest Wi-Fi, and switch it on. You can keep the name and password suggested by the app or choose your own. The guest network can be set to switch itself off after a set time, such as four hours or one day, which is useful for parties or short stays. The details also appear on a card printed on the underside of newer hubs, ready to share with visitors.",
+        "questions": ["How do I switch on guest Wi-Fi?", "Can the guest network turn itself off after a party?"]
+      },
+      {
+        "heading": "Sharing access safely",
+        "text": "The app can show the guest network as a scannable code that visitors point their phone camera at to join, with no typing needed. You can also share the details in a message. Change the guest password from time to time, and after any occasion when it was shared with many people, such as a large gathering. Guests can be limited to a lower speed in the settings, which keeps the main network quick for your household.",
+        "questions": ["How can my guests join the Wi-Fi without typing a password?", "Can I limit how fast the guest Wi-Fi is?"]
+      },
+      {
+        "heading": "Smart devices on the guest network",
+        "text": "Some people place smart home devices on the guest network, so that a weakness in a cheap camera or plug cannot be used to reach their computers. This works well for devices that only need the internet. Devices that you control from your phone over the home network, such as some speakers and printers, may stop working when separated, because your phone cannot find them. Try one device first before moving the rest.",
+        "questions": ["Should I put my smart plugs on the guest network?", "Why can't my phone find my speaker after I moved it to guest Wi-Fi?"]
+      }
+    ]
+  }
+]

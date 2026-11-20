@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Using the programme guide",
+    "topic": "tv",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Opening and moving around the guide",
+        "text": "Press the Guide button on the remote to see what is on now and next across all channels. Move up and down to change channel and left and right to move through time, up to fourteen days ahead and seven days back. Programmes from the past seven days that are available on catch-up show a play symbol, and you can start them straight from the guide. Press Back to return to the programme you were watching.",
+        "questions": ["How far ahead can I see in the TV guide?", "Can I watch programmes from earlier in the week from the guide?"]
+      },
+      {
+        "heading": "Favourites and filters",
+        "text": "Mark channels you watch often as favourites by highlighting them and pressing the yellow button. The Favourites filter at the top of the guide then shows only those channels, which makes a long list much easier to use. Other filters show only high definition channels, only channels in your packs, or a category such as films, sport or children's programmes. Favourites are saved to your account and appear in the app too.",
+        "questions": ["How do I add a channel to my favourites?", "Can I hide channels I don't pay for in the guide?"]
+      },
+      {
+        "heading": "Programme details and reminders",
+        "text": "Highlight a programme and press OK to see its description, episode number, running time and age rating. From the same screen you can record it, record the series or set a reminder. A reminder makes a message appear on screen a minute before the programme starts, offering to switch to the channel. Reminders work on the set-top box only and are not sent to your phone.",
+        "questions": ["How do I set a reminder for a programme?", "Where can I see the age rating of a programme?"]
+      },
+      {
+        "heading": "When guide information is missing",
+        "text": "Listings are downloaded overnight. If the guide shows no information for some channels, leave the box in standby for an hour so it can collect the latest listings. Channels added recently may take a day to show their full schedule. If listings are missing for every channel for more than a day, restart the box and check its internet connection in Settings, because the guide needs the connection to update.",
+        "questions": ["Why is the TV guide showing no information?", "How long does it take for new channels to appear in the guide?"]
+      }
+    ]
+  },
+  {
+    "title": "On demand and catch-up",
+    "topic": "tv",
+    "service": "tv_app",
+    "sections": [
+      {
+        "heading": "Catch-up television",
+        "text": "Catch-up lets you watch programmes from the main channels for thirty days after they were shown, without having recorded them. Open Catch-up from the home screen or press left in the guide to move into the past. Programmes stream from our servers, so they need an internet connection. Some programmes, particularly live sport and certain films, are not available on catch-up because of broadcasting rights, and the guide shows which ones.",
+        "questions": ["How long can I watch programmes on catch-up?", "Why isn't a football match available on catch-up?"]
+      },
+      {
+        "heading": "Box sets and the on demand library",
+        "text": "The on demand library holds complete series and films that are included in your packs at no extra cost. Box sets show every season, and new episodes are added as they are broadcast. Programmes leave the library from time to time when the rights expire, and the app marks those leaving within thirty days. Anything you have downloaded remains watchable until its own download period ends.",
+        "questions": ["What's included in the on demand library?", "How do I know when a box set is leaving?"]
+      },
+      {
+        "heading": "Renting and buying films",
+        "text": "The film store offers new releases to rent or buy. A rental lasts thirty days, and once you press play you have forty-eight hours to finish the film. Purchased films stay in your library permanently and can be watched on any registered device. The price is added to your next bill, and a PIN can be set so that nobody can rent or buy without your permission, which is wise in homes with children.",
+        "questions": ["How long do I have to watch a rented film?", "How do I stop my children renting films without asking?"]
+      },
+      {
+        "heading": "Fixing playback problems",
+        "text": "If on demand programmes buffer or will not start, test your connection under Settings and Network on the box, or run a speed test on another device. On demand needs at least five megabits per second for high definition. Close and reopen the app or restart the box. If one programme fails but others work, the problem is probably with that title, and you can report it from its details page so that our team can investigate.",
+        "questions": ["On demand programmes keep buffering. What can I do?", "How do I report a programme that won't play?"]
+      }
+    ]
+  },
+  {
+    "title": "Parental controls on TV",
+    "topic": "tv",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Setting your TV PIN",
+        "text": "Your TV PIN protects programmes above an age rating you choose, rentals and purchases, and changes to the parental control settings themselves. Set it on the box under Settings and Parental controls, or in the online account. Choose four digits that your children will not guess, avoiding birthdays and repeated numbers. The same PIN works on the set-top box and in the TV app, unless you choose separate PINs for each.",
+        "questions": ["How do I set a PIN on my TV box?", "Is the TV PIN the same on the box and the app?"]
+      },
+      {
+        "heading": "Choosing a rating level",
+        "text": "Select the highest age rating that can be watched without the PIN, for example programmes suitable for twelve and under. Anything above that level asks for the PIN before playing, and its title and picture are hidden in the guide if you choose. Programmes shown on the main channels after nine in the evening are treated as adult content by default, whatever their rating, but you can change this in the settings.",
+        "questions": ["How do I block programmes above a certain age rating?", "Can I hide adult programmes from the TV guide?"]
+      },
+      {
+        "heading": "Locking channels",
+        "text": "As well as rating levels, you can lock individual channels so that they always need the PIN, regardless of what is showing. This is useful for channels that show mainly adult content or for any channel you would rather children did not watch. Locked channels still appear in the guide with a padlock symbol. Recordings from locked channels also ask for the PIN before they play.",
+        "questions": ["Can I lock a specific channel on my TV?", "Do recordings from a locked channel need the PIN?"]
+      },
+      {
+        "heading": "Forgotten PIN",
+        "text": "If you forget your TV PIN, reset it in the online account under My TV, where you will need your account password. The new PIN takes effect on the box and the app within a few minutes. Our advisers can also reset the PIN after you pass security. Children cannot reset the PIN from the box itself, because a reset always needs access to the account holder's online account or a call to us.",
+        "questions": ["I've forgotten my TV PIN. How do I reset it?", "Can my child reset the TV PIN from the box?"]
+      }
+    ]
+  },
+  {
+    "title": "Picture and sound settings",
+    "topic": "tv",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Choosing the right resolution",
+        "text": "The box detects what your television supports and chooses the best resolution automatically. If the picture looks stretched, squashed or blurry, open Settings and Picture and choose the resolution that matches your television, or select Automatic. Ultra high definition programmes need an ultra high definition television, a suitable cable and a connection of at least twenty-five megabits per second. Otherwise they are shown in high definition.",
+        "questions": ["My TV picture looks stretched. How do I fix it?", "What do I need to watch ultra high definition programmes?"]
+      },
+      {
+        "heading": "Sound settings",
+        "text": "If you have a sound bar or home cinema system, connect it to the television or to the box's optical audio socket, then choose Surround sound under Settings and Sound. If you hear no sound or a clicking noise, switch back to Stereo, because your equipment may not support the surround format. A setting called Night mode reduces the difference between loud action scenes and quiet speech, which is useful late at night.",
+        "questions": ["How do I get surround sound from my TV box?", "How do I make quiet speech louder compared to loud scenes?"]
+      },
+      {
+        "heading": "Subtitles and audio description",
+        "text": "Press the Subtitles button on the remote to turn subtitles on or off for the programme you are watching, or set them to always appear under Settings and Accessibility. Audio description, where a narrator describes the action for people with sight loss, is available on many programmes and can be switched on in the same menu. The guide marks programmes with subtitles and audio description using small symbols.",
+        "questions": ["How do I turn on subtitles on Meridian TV?", "Which programmes have audio description?"]
+      },
+      {
+        "heading": "Picture or sound out of step",
+        "text": "If voices do not match lip movements, the delay is usually caused by the television or sound bar processing the picture or sound. Turn off any picture enhancement modes on the television, or use the audio delay adjustment under Settings and Sound on the box to bring the two back into step. If the problem happens on one channel only, it may come from the broadcaster, in which case it usually corrects itself.",
+        "questions": ["The sound on my TV doesn't match people's lips. How can I fix it?", "Why is the audio delayed on only one channel?"]
+      }
+    ]
+  }
+]

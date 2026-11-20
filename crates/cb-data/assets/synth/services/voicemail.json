@@ -1,0 +1,118 @@
+{
+  "id": "voicemail",
+  "name": "voicemail",
+  "label": "Voicemail",
+  "plural": false,
+  "kind": "mobile",
+  "customer_names": ["my voicemail", "the voicemail on my phone", "my answerphone", "my message service"],
+  "modes": [
+    {
+      "id": "cannot_retrieve",
+      "title": "Cannot listen to messages",
+      "symptom": "customers unable to play back their stored messages",
+      "customer_says": [
+        "I can't get into my voicemail. I dial it and it rings and rings and then cuts off.",
+        "My phone says I've got new voicemails, but when I call to listen there's just silence.",
+        "The voicemail service won't play my messages. It says please try again later every single time.",
+        "I've got messages waiting and no way of hearing them. The voicemail number just hangs up on me."
+      ],
+      "causes": [
+        { "cause": "a failed storage array behind the voicemail platform", "fixes": ["bringing the standby storage array into service"] },
+        { "cause": "a crashed playback server", "fixes": ["rebuilding the crashed playback server"] },
+        { "cause": "a broken trunk between the voice core and the voicemail platform", "fixes": ["re-routing voicemail calls over a second trunk"] }
+      ],
+      "workarounds": [
+        "listen to messages through the visual voicemail screen in the Meridian app",
+        "ask callers to send a text instead of leaving a message"
+      ],
+      "aftercare": [
+        "dial the voicemail number once to refresh the message list",
+        "delete old messages if the mailbox reports that it is full"
+      ]
+    },
+    {
+      "id": "not_recording",
+      "title": "Callers cannot leave messages",
+      "symptom": "callers hearing an engaged tone instead of the voicemail greeting",
+      "customer_says": [
+        "People tell me they can't leave me a message. They just get a busy tone when I don't pick up.",
+        "My voicemail isn't taking messages. Callers say it never reaches the greeting.",
+        "When I miss a call it doesn't go to voicemail any more. It just rings out and ends.",
+        "My clients say my answerphone has stopped working. They can't leave anything."
+      ],
+      "causes": [
+        { "cause": "a call divert rule deleted during a platform migration", "fixes": ["restoring the deleted call divert rule"] },
+        { "cause": "a recording service that ran out of free ports", "fixes": ["adding ports to the recording service"] },
+        { "cause": "a mailbox database locked by a failed backup job", "fixes": ["releasing the lock left by the failed backup job"] }
+      ],
+      "workarounds": [
+        "set a temporary divert to another number for missed calls",
+        "switch on missed call text alerts from the phone's keypad menu"
+      ],
+      "aftercare": [
+        "ring the mobile from another phone to confirm the greeting plays",
+        "remove any temporary divert that was set up"
+      ]
+    },
+    {
+      "id": "notifications_missing",
+      "title": "No new message alerts",
+      "symptom": "new message alerts not reaching handsets",
+      "customer_says": [
+        "I'm not getting told when I have a voicemail. I only find out if I ring in and check.",
+        "The voicemail icon never appears any more. I found three old messages by accident.",
+        "My phone doesn't alert me to new voicemails. No text, no icon, nothing.",
+        "I've missed important messages because nothing tells me that they are there."
+      ],
+      "causes": [
+        { "cause": "a stalled notification queue on the alert server", "fixes": ["restarting the stalled notification queue"] },
+        { "cause": "an alert template rejected by the message centre", "fixes": ["correcting the rejected alert template"] },
+        { "cause": "a sync fault between the mailbox platform and the alert server", "fixes": ["resyncing the mailbox platform with the alert server"] }
+      ],
+      "workarounds": [
+        "call the voicemail number twice a day to check for messages",
+        "turn on voicemail-to-email forwarding in the account settings"
+      ],
+      "aftercare": [
+        "expect a batch of late alerts for messages that are already stored",
+        "switch off email forwarding if it is no longer needed"
+      ]
+    },
+    {
+      "id": "greeting_reset",
+      "title": "Greetings and PINs reset",
+      "symptom": "personal greetings replaced by the standard greeting",
+      "customer_says": [
+        "My voicemail greeting has gone back to the robot voice. I recorded my own for the business.",
+        "Callers are hearing the default greeting instead of mine, and it won't accept my PIN to change it.",
+        "My personal greeting has disappeared, and the voicemail is asking me to set everything up from scratch.",
+        "The voicemail has forgotten my greeting and my PIN. It is treating me like a brand new customer."
+      ],
+      "causes": [
+        { "cause": "a profile table overwritten during a database restore", "fixes": ["restoring the profile table from the last good backup"] },
+        { "cause": "a settings sync job that ran against the wrong region", "fixes": ["reversing the settings sync job"] },
+        { "cause": "a schema change that hid customers' saved preferences", "fixes": ["applying a corrected schema to the preferences store"] }
+      ],
+      "workarounds": [
+        "record a short temporary greeting from the voicemail menu",
+        "use the default PIN shown in the account settings until profiles are restored"
+      ],
+      "aftercare": [
+        "check that the personal greeting plays when the mailbox is called",
+        "choose a new PIN if the default one was used"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a mailbox that has reached its message limit",
+    "voicemail switched off by a divert code dialled by mistake",
+    "a PIN entered wrongly too many times",
+    "an old handset that does not support visual voicemail"
+  ],
+  "wrong_provider_side": [
+    "the yearly clear-out of old voicemail messages",
+    "a mast fault in the area",
+    "an upgrade to a new voicemail system",
+    "a number change on the account that has not finished"
+  ]
+}

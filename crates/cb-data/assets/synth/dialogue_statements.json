@@ -1,0 +1,383 @@
+{
+  "lead_in": {
+    "wordy_technical": [
+      "I've got the incident record open in front of me now, so let me take you through what it says.",
+      "There is an open network event that matches what you're describing, and I can give you the current status.",
+      "I can confirm this is not specific to your line. Here's what the operations centre has published so far.",
+      "The status system does show an event for your area, so let me read you the latest entry."
+    ],
+    "wordy_everyday": [
+      "Right, so I've found something, and the good news is it's not just you. Let me tell you what I've got on my screen.",
+      "OK, so there is a note on here about your area, and I'll explain it as best I can.",
+      "So, I can see what's going on now. It isn't anything you've done, let me say that first.",
+      "Well, that explains it. There's a message on our system about this, so I'll tell you what it says."
+    ],
+    "brief_technical": [
+      "There's an open incident for your area.",
+      "This matches a logged network event.",
+      "Found it. Status as follows.",
+      "It's a known event on our side."
+    ],
+    "brief_everyday": [
+      "OK, it's not just you.",
+      "Right, there's a known problem in your area.",
+      "Found it. Here's what I know.",
+      "So, we do know about this."
+    ]
+  },
+  "problem": {
+    "wordy_technical": [
+      "Monitoring picked up {symptom} affecting {service} in {region}, and the event has been running since {since}{since_day}.",
+      "The incident is logged as {symptom} across {region}. The start time on the record is {since}{since_day}, and it covers customers using {service} in that area.",
+      "What we have on the board is {symptom} for {service} in the {region} area, first detected at {since}{since_day}.",
+      "The operations centre has declared an incident for {service} in {region}: {symptom}, with an onset of {since}{since_day}."
+    ],
+    "wordy_everyday": [
+      "What it says is that a lot of people in {region} have had {symptom} with {service}, and it all seems to have started at about {since}{since_day}.",
+      "So there's a fault in {region} at the moment. We're getting reports of {symptom}, and it's been going on since {since}{since_day}, so you're certainly not on your own.",
+      "It looks like the whole of {region} is having trouble with {service}. The note mentions {symptom}, starting from {since}{since_day}.",
+      "Basically, there's been a problem with {service} in {region} since {since}{since_day}. What people are seeing is {symptom}, which sounds just like what you've told me."
+    ],
+    "brief_technical": [
+      "Incident on {service} in {region}: {symptom}, since {since}{since_day}.",
+      "We have {symptom} in {region}. Start time {since}{since_day}.",
+      "Logged at {since}{since_day}: {symptom} affecting {service} in {region}.",
+      "{region} has {symptom}, onset {since}{since_day}."
+    ],
+    "brief_everyday": [
+      "There's a fault with {service} in {region}. It's {symptom}, since {since}{since_day}.",
+      "We've had {symptom} in {region} since {since}{since_day}.",
+      "People in {region} have had {symptom} since {since}{since_day}.",
+      "It started at {since}{since_day} in {region}: {symptom}."
+    ]
+  },
+  "no_cause_yet": {
+    "wordy_technical": [
+      "At this stage the engineers are still investigating, and no root cause has been confirmed on the record.",
+      "The event is in the investigation phase, which means diagnostics are running but the underlying fault has not been identified yet.",
+      "There's no confirmed cause on the incident at present. The network team is working through the usual fault isolation steps."
+    ],
+    "wordy_everyday": [
+      "The engineers are looking into it right now, but I'm afraid they haven't worked out what's causing it just yet.",
+      "Nobody's been able to tell us why it's happened so far. They're on it, I can promise you that, but there's no answer yet.",
+      "At the moment all it says is that they're investigating. I wish I could tell you more, but they don't know the reason yet."
+    ],
+    "brief_technical": [
+      "Root cause not yet identified. Investigation is in progress.",
+      "No confirmed cause so far. Engineers are diagnosing.",
+      "Status is investigating. Cause unknown at present."
+    ],
+    "brief_everyday": [
+      "They're looking into it. No cause yet.",
+      "We don't know why yet. Engineers are on it.",
+      "It's being investigated. Nothing more so far."
+    ]
+  },
+  "next_update": {
+    "wordy_technical": [
+      "The record states that the next status update is due by {next_update}{next_update_day}.",
+      "Engineering has committed to posting a further update by {next_update}{next_update_day}."
+    ],
+    "wordy_everyday": [
+      "They've said they'll tell us more by {next_update}{next_update_day}, so there should be some news then.",
+      "There's a note saying we'll get another update by {next_update}{next_update_day}, if that helps at all."
+    ],
+    "brief_technical": [
+      "Next update due by {next_update}{next_update_day}.",
+      "Further status expected by {next_update}{next_update_day}."
+    ],
+    "brief_everyday": [
+      "We'll know more by {next_update}{next_update_day}.",
+      "Next news is due by {next_update}{next_update_day}."
+    ]
+  },
+  "cause": {
+    "wordy_technical": [
+      "The engineers have now isolated the fault. The root cause on the incident record is {cause}.",
+      "Diagnostics have been completed, and the cause has been identified as {cause}, according to the latest entry from the network team.",
+      "The investigation has traced the problem to {cause}. That was confirmed by the operations centre in the most recent update.",
+      "We do now have a confirmed root cause, which is {cause}. The record was updated with that a short while ago."
+    ],
+    "wordy_everyday": [
+      "They've found out what's behind it now. It turns out to be {cause}, which is why so many people have been affected at once.",
+      "The engineers have got to the bottom of it, you'll be glad to hear. What's gone wrong is {cause}, so it's definitely nothing at your end.",
+      "So what they're telling us is that it's down to {cause}. I know that might not mean much, but it does mean they know what they're dealing with.",
+      "We've been told the reason now, and it's {cause}. So there was nothing you could have done about it yourself."
+    ],
+    "brief_technical": [
+      "Root cause identified: {cause}.",
+      "Cause confirmed as {cause}.",
+      "The fault has been traced to {cause}.",
+      "Engineering reports {cause} as the cause."
+    ],
+    "brief_everyday": [
+      "They've found the cause. It's {cause}.",
+      "It's down to {cause}.",
+      "The problem is {cause}.",
+      "Turns out it's {cause}."
+    ]
+  },
+  "workaround": {
+    "wordy_technical": [
+      "In terms of mitigation, the published workaround is to {workaround} until the permanent fix has been applied.",
+      "There is an approved workaround on the record. Customers are advised to {workaround} while restoration work continues.",
+      "As an interim measure, engineering recommends that affected customers {workaround}. That should keep you going until the fault itself is repaired.",
+      "The incident notes include a workaround, which is to {workaround}. It doesn't repair the fault, but it gets around it for now."
+    ],
+    "wordy_everyday": [
+      "Now, there is something you can do in the meantime. The advice is to {workaround}, and that should tide you over until it's fixed properly.",
+      "While they're sorting it out, what we're suggesting to everybody is to {workaround}. It's not ideal, I know, but it does help.",
+      "There's a way round it for now, which is to {workaround}. Plenty of other customers have said that's got them going again.",
+      "What you can do for the time being is {workaround}. It's only a stopgap, but it'll save you waiting with nothing."
+    ],
+    "brief_technical": [
+      "Workaround: {workaround}.",
+      "Interim advice is to {workaround}.",
+      "Mitigation available. Customers should {workaround}.",
+      "Until the fix lands, {workaround}."
+    ],
+    "brief_everyday": [
+      "For now you can {workaround}.",
+      "In the meantime, {workaround}.",
+      "The tip is to {workaround}.",
+      "What helps is to {workaround}."
+    ]
+  },
+  "no_workaround": {
+    "wordy_technical": [
+      "I do have to be clear that there is no workaround for this incident. Service will only come back once the fault itself has been repaired.",
+      "The record confirms there is no workaround available, so nothing you change on your own equipment will restore service before the fix."
+    ],
+    "wordy_everyday": [
+      "I'm sorry to say there's no workaround for this one. It really is a case of waiting until the engineers have finished, and there's nothing you can do from home.",
+      "I wish I had a trick for you, but there's no workaround, I'm afraid. Switching things off and on won't make any difference, so please don't wear yourself out trying."
+    ],
+    "brief_technical": [
+      "There is no workaround. Service returns when the fault is repaired.",
+      "No workaround is available for this incident."
+    ],
+    "brief_everyday": [
+      "There's no workaround, sorry. It needs the fix.",
+      "I'm afraid there's no workaround. We just have to wait."
+    ]
+  },
+  "fix": {
+    "wordy_technical": [
+      "Restoration is now under way. The engineers are {fix}, and the estimated time for service to return is {eta}{eta_day}.",
+      "The incident has moved to the fix phase. The team is {fix}, with an expected restoration time of {eta}{eta_day} on the record.",
+      "A fix is in progress as we speak. Engineering is {fix}, and the current estimate is that service will be back by {eta}{eta_day}.",
+      "The latest update says the repair has started. They are {fix}, and the target for full restoration is {eta}{eta_day}."
+    ],
+    "wordy_everyday": [
+      "The good news is they've started putting it right. The engineers are {fix}, and they're expecting everything to be back by {eta}{eta_day}.",
+      "They're working on the repair as we speak. What they're doing is {fix}, and we've been told it should all be back on by {eta}{eta_day}.",
+      "So the fix is under way now. They're {fix}, and the time they've given us for it to be working again is {eta}{eta_day}.",
+      "It's being fixed right now, you'll be pleased to know. The team are {fix}, and they reckon you'll be back up by {eta}{eta_day}."
+    ],
+    "brief_technical": [
+      "Fix in progress: {fix}. Estimated restoration {eta}{eta_day}.",
+      "Engineers are {fix}. Service expected back by {eta}{eta_day}.",
+      "Repair under way, {fix}. Target time {eta}{eta_day}.",
+      "They are {fix}. Restoration estimate is {eta}{eta_day}."
+    ],
+    "brief_everyday": [
+      "They're {fix}. Should be back by {eta}{eta_day}.",
+      "It's being fixed now. They're {fix}, and it's due back by {eta}{eta_day}.",
+      "Engineers are {fix}. Expect it back by {eta}{eta_day}.",
+      "The repair's started, {fix}. Back by {eta}{eta_day}, they say."
+    ]
+  },
+  "fix_overdue": {
+    "wordy_technical": [
+      "Restoration work is still in progress. The engineers are {fix}. The estimated time on the record was {eta}{eta_day}, so the repair is running later than planned.",
+      "The fix is under way but has overrun. The team is {fix}, and the restoration time they gave was {eta}{eta_day}. A revised estimate has not been published yet."
+    ],
+    "wordy_everyday": [
+      "They're still working on it, I'm afraid. The engineers are {fix}. They'd hoped to have it done by {eta}{eta_day}, so it's taking a bit longer than they thought.",
+      "It's being repaired as we speak, but it's running late. They're {fix}, and the time we were given was {eta}{eta_day}, so they've gone past that now."
+    ],
+    "brief_technical": [
+      "Fix still in progress: {fix}. The estimate was {eta}{eta_day}; it has overrun.",
+      "Engineers are {fix}. Original estimate {eta}{eta_day}, now passed."
+    ],
+    "brief_everyday": [
+      "They're still {fix}. It was due back by {eta}{eta_day}, so it's running late.",
+      "Still being fixed. They're {fix}. They said {eta}{eta_day}, but it's overdue."
+    ]
+  },
+  "resolved": {
+    "wordy_technical": [
+      "The incident affecting {service} in {region} has now been closed. The record shows that service was restored at {resolved_at}{resolved_day}.",
+      "I can see that the event for {region} is marked as resolved. Engineering confirmed full restoration of {service} at {resolved_at}{resolved_day}.",
+      "According to the status system, the fault on {service} in {region} was cleared at {resolved_at}{resolved_day}, and the incident has been closed.",
+      "The network team reports that the incident is resolved, with {service} restored across {region} at {resolved_at}{resolved_day}."
+    ],
+    "wordy_everyday": [
+      "Well, the good news is that the problem with {service} in {region} has been fixed. It says here everything was put right at {resolved_at}{resolved_day}.",
+      "So there was a fault in {region}, but it's sorted now. They got {service} working again at {resolved_at}{resolved_day}, according to my screen.",
+      "You'll be glad to hear that's all been repaired. The engineers finished at {resolved_at}{resolved_day}, and {service} in {region} should be back to normal.",
+      "It's actually been fixed already. We had trouble with {service} across {region}, and it was all cleared up at {resolved_at}{resolved_day}."
+    ],
+    "brief_technical": [
+      "Incident resolved. {Service} in {region} restored at {resolved_at}{resolved_day}.",
+      "The fault was cleared at {resolved_at}{resolved_day}. The incident is closed.",
+      "Service was restored at {resolved_at}{resolved_day} for {region}.",
+      "Status is resolved as of {resolved_at}{resolved_day}."
+    ],
+    "brief_everyday": [
+      "It's fixed. Everything came back at {resolved_at}{resolved_day}.",
+      "That was sorted at {resolved_at}{resolved_day}.",
+      "Good news, it was fixed at {resolved_at}{resolved_day}.",
+      "The fault in {region} was fixed at {resolved_at}{resolved_day}."
+    ]
+  },
+  "cause_was": {
+    "wordy_technical": [
+      "For your information, the root cause was recorded as {cause}.",
+      "The closing note gives the root cause as {cause}, and that has been fully repaired."
+    ],
+    "wordy_everyday": [
+      "If you're wondering what it was, it turned out to be {cause}.",
+      "Apparently it was all down to {cause}, and that's been dealt with now."
+    ],
+    "brief_technical": [
+      "Root cause was {cause}.",
+      "Recorded cause: {cause}."
+    ],
+    "brief_everyday": [
+      "It was {cause}.",
+      "The cause was {cause}."
+    ]
+  },
+  "aftercare": {
+    "wordy_technical": [
+      "If your own service has not recovered automatically, the recommended step is to {aftercare}.",
+      "Engineering's closing advice for anyone still affected is to {aftercare}.",
+      "As a follow-up action on your side, please {aftercare}."
+    ],
+    "wordy_everyday": [
+      "If it's still not right for you, the thing to do is {aftercare}, and that normally does the trick.",
+      "Now, to get yourself going again, you may just need to {aftercare}.",
+      "The only thing they've asked, if things haven't come back by themselves, is that people {aftercare}."
+    ],
+    "brief_technical": [
+      "If still affected, {aftercare}.",
+      "Recommended action: {aftercare}.",
+      "On your side, {aftercare}."
+    ],
+    "brief_everyday": [
+      "If it's still off, {aftercare}.",
+      "You may need to {aftercare}.",
+      "Just {aftercare} and you should be fine."
+    ]
+  },
+  "no_known_issue": [
+    "I've checked the status board, and there's nothing reported for {service} in {region} at the moment.",
+    "I'm not seeing any known faults in {region} right now, so this may be something on your own connection.",
+    "There are no open incidents showing for {region} as far as I can see.",
+    "Our system isn't showing any problems with {service} in your area just now.",
+    "Nothing has been flagged for {region} yet, so let's look at your own set-up.",
+    "I can't see anything logged against {service} in {region}. You might be one of the first to report it.",
+    "The status page is all green for {region}, so I'll treat this as an individual fault for now.",
+    "There's no network event recorded for your area at this point."
+  ],
+  "raise_fault": [
+    "Since that hasn't cleared it, I'm going to raise a fault report on your account and pass it to the network team. If more reports come in from your area, it will be picked up as a wider problem.",
+    "OK, that rules out the obvious things. I'll log this as a fault now, and the engineers will run some tests on the line from their side.",
+    "Right, as that's made no difference I'll open a ticket for you. You'll get a text with the reference, and we'll update you as soon as we know more.",
+    "I've now logged a fault for you. It goes to our second line team, and they'll also check whether other customers nearby are reporting the same thing.",
+    "Let me escalate this. I'm raising it with the technical team as an unexplained fault, and I've added the steps we've already tried so nobody asks you to repeat them.",
+    "I'll put a fault report through now. If it does turn out to be an area problem, your report will be linked to it automatically."
+  ],
+  "wrong_customer_side": [
+    "Looking at this, my feeling is the problem is at your end. I think it's {wrong}.",
+    "From what you're describing, I'd put this down to {wrong}.",
+    "Honestly, nine times out of ten when I see this it's {wrong}, and I suspect that's what we have here.",
+    "The checks on my side point to {wrong}, so I don't believe it's a network problem.",
+    "I think I can see what this is. It looks to me like {wrong}.",
+    "My best guess is {wrong}. That would explain everything you've told me.",
+    "I'm fairly sure this is {wrong} rather than anything on our network.",
+    "Going by the symptoms, the most likely explanation is {wrong}."
+  ],
+  "wrong_provider_side": [
+    "Between you and me, I think this is {wrong}. We've seen it before in your area.",
+    "I haven't had it confirmed, but I'm fairly certain it's {wrong}.",
+    "A colleague mentioned earlier that it's {wrong}, so that will be what's behind this.",
+    "My understanding is that it's {wrong}, although the official note hasn't caught up yet.",
+    "It'll be {wrong}, I expect. That's usually what it is when this happens.",
+    "From what I've heard on the floor today, the cause is {wrong}.",
+    "I'd say this is {wrong}. It has all the signs of it.",
+    "Unofficially, we're being told it's {wrong}."
+  ],
+  "wrong_time_back": [
+    "As for timing, I'd expect it to be back by {wrong_time}{wrong_day}.",
+    "You should be up and running again by {wrong_time}{wrong_day}, from what I can tell.",
+    "These normally clear quite quickly, so I'd say {wrong_time}{wrong_day} at the latest.",
+    "I can tell you it should be back on by {wrong_time}{wrong_day}.",
+    "I've been told to expect service back by {wrong_time}{wrong_day}.",
+    "If you can hold out until {wrong_time}{wrong_day}, it should be working again by then.",
+    "My screen suggests everything will be restored by {wrong_time}{wrong_day}.",
+    "Going by similar faults, you're looking at {wrong_time}{wrong_day} for it to come back."
+  ],
+  "wrong_time_back_unconfirmed": [
+    "If it does turn out to be something on the network, these usually clear quickly. I'd expect it back by {wrong_time}{wrong_day}.",
+    "Even if it is a wider fault, I'd be surprised if it lasted beyond {wrong_time}{wrong_day}.",
+    "My guess is it'll sort itself out by {wrong_time}{wrong_day}, but don't hold me to that.",
+    "In my experience something like this is usually back to normal by {wrong_time}{wrong_day}.",
+    "Give it until {wrong_time}{wrong_day}. Nine times out of ten that's enough for it to come back."
+  ],
+  "customer_thanks": [
+    "OK, thanks.",
+    "Right, thank you.",
+    "OK. That's fine.",
+    "All right, thanks for that.",
+    "OK, I'll wait to hear, then.",
+    "Fair enough. Thank you."
+  ],
+  "backchannel": [
+    "Right.",
+    "OK.",
+    "I see.",
+    "Oh, right.",
+    "Mm-hm.",
+    "OK, go on.",
+    "Yes.",
+    "Right, OK.",
+    "Uh-huh.",
+    "Oh dear."
+  ],
+  "reaction_waiting": [
+    "Well, at least I know it's not something I've broken.",
+    "So I just have to wait, then. That's not what I wanted to hear.",
+    "OK. That's annoying, but thanks for being straight with me.",
+    "Right. I did wonder if it was a bigger problem.",
+    "I see. I suppose there's not much I can do about that.",
+    "Oh, that's a relief in a way. I thought it was my equipment.",
+    "Hmm. OK. Well, thanks for checking.",
+    "That figures. My neighbour said theirs was off as well."
+  ],
+  "reaction_workaround": [
+    "OK, I can try that. Let me write it down.",
+    "Right, that's worth a go. Thanks.",
+    "Oh, I didn't know I could do that. I'll give it a try.",
+    "Fine, that'll keep me going for now.",
+    "OK. It's a bit of a faff, but it's better than nothing.",
+    "All right, I'll do that as soon as we're off the phone."
+  ],
+  "reaction_resolved": [
+    "Oh, really? It's still not right here, so I'll have another look.",
+    "Is it? Well, that's good news. I'll go and check in a minute.",
+    "Oh, brilliant. I hadn't noticed it had come back.",
+    "Right, so it should be working. Let me have a look while you're there.",
+    "That's good to hear. I just wanted to be sure before I started fiddling with things.",
+    "Oh, good. It did seem better just before I rang, actually."
+  ],
+  "reaction_nothing_known": [
+    "Really? Well, it's definitely not working here.",
+    "Oh. So it's just me, then?",
+    "That's odd. I was sure it would be a bigger problem.",
+    "Right. I don't know what else it could be at my end.",
+    "Hmm. My neighbour said hers was playing up too.",
+    "OK. So what do we do now?"
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Taking your equipment with you",
+    "topic": "moving_home",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "What to pack and what to leave",
+        "text": "Take the Wi-Fi hub, its power adapter, any Wi-Fi extenders and the set-top box with its remote. Leave behind anything fixed to the building, such as the main socket, the fibre point on the wall and any cable clips. These belong to the property and are needed by whoever moves in next. If the previous occupant left a hub of their own at your new home, do not use it, because it is registered to their account and will not connect to yours.",
+        "questions": ["Which bits of broadband equipment should I take when I move out?", "There's an old router left in my new house. Can I use it?"]
+      },
+      {
+        "heading": "Setting the hub up again",
+        "text": "At the new address, plug the hub into the main socket or fibre point with the cable supplied, then switch it on. It contacts our network, downloads its settings and is ready when the light on the front turns steady white, usually within fifteen minutes. Your Wi-Fi name and password stay the same, so your devices reconnect without any changes. If the light stays amber for more than half an hour, restart the hub once before contacting us.",
+        "questions": ["How do I get my hub working at my new address?", "Do I need to reconnect all my devices to Wi-Fi after moving?"]
+      },
+      {
+        "heading": "If your hub needs replacing",
+        "text": "Some moves need a different hub, for example when you go from a copper line to full fibre. In that case we send the new hub to arrive a day or two before your moving date, with instructions in the box. Return the old hub within thirty days using the prepaid bag that comes with the new one. If an old hub is not returned, a charge for unreturned equipment is added to your next bill, and it is removed once the hub reaches us.",
+        "questions": ["Will I get a new router if my new home has full fibre?", "What happens if I forget to send back my old hub?"]
+      },
+      {
+        "heading": "Smart home devices after a move",
+        "text": "Smart speakers, cameras and plugs reconnect by themselves when your Wi-Fi name and password are unchanged. Some devices also store the location of your home, so check their apps to update the address for features such as weather or local time. Devices that were paired to an extender may need pairing again if you place the extender in a different room. Allow the hub a few hours to settle on the clearest Wi-Fi channel at the new home before judging its coverage.",
+        "questions": ["Will my smart plugs and cameras work after I move?", "Why is my Wi-Fi coverage different in my new house?"]
+      }
+    ]
+  },
+  {
+    "title": "Setting up your Wi-Fi hub",
+    "topic": "equipment_setup",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "What is in the box",
+        "text": "The box contains the hub, a power adapter, a grey cable for the phone socket or a white cable for the fibre point, a yellow network cable for connecting a computer directly, and a card showing your Wi-Fi name and password. The same details are printed on a sticker on the back of the hub. Keep the card somewhere safe, because you will need the password whenever you connect a new device. If anything is missing from the box, contact us before you begin.",
+        "questions": ["What should come in the box with my new router?", "Where can I find my Wi-Fi password?"]
+      },
+      {
+        "heading": "Connecting the hub",
+        "text": "Choose a place near the main socket, raised off the floor and away from thick walls, metal and fish tanks. Connect the grey or white cable from the socket to the port marked Broadband, plug in the power adapter and press the power button. The light on the front flashes blue while the hub starts, then amber while it connects to our network, and turns white when it is ready. The first start can take up to fifteen minutes, so leave it alone during that time.",
+        "questions": ["How do I plug in and start my new Wi-Fi hub?", "How long does a new hub take to connect the first time?"]
+      },
+      {
+        "heading": "Joining your devices",
+        "text": "On each phone, tablet or computer, open the Wi-Fi settings, choose the network name printed on your card and type the password exactly as shown, paying attention to capital letters. Many newer phones can join by scanning the QR code on the card instead. Games consoles and televisions work best with a network cable when they are near the hub. Printers often have their own Wi-Fi set-up button, which pairs with the WPS button on the side of the hub.",
+        "questions": ["How do I connect my laptop to the new Wi-Fi?", "Can I connect my printer using the button on the hub?"]
+      },
+      {
+        "heading": "Signing in to the hub's settings",
+        "text": "To change settings such as the Wi-Fi name, the password or the parental controls, open a browser on a connected device and go to the hub manager address printed on the sticker. Sign in with the admin password, which is also on the sticker and is different from the Wi-Fi password. We recommend changing the admin password the first time you sign in. Most settings can also be changed in the Meridian app under My equipment, without needing the admin password.",
+        "questions": ["How do I get into my router's settings page?", "Is the admin password the same as my Wi-Fi password?"]
+      }
+    ]
+  },
+  {
+    "title": "Understanding the lights on your hub",
+    "topic": "equipment_setup",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "White and blue",
+        "text": "A steady white light means the hub is connected to our network and working normally. A slowly pulsing white light means the hub is installing a software update. Leave it switched on until the light is steady again, because unplugging it during an update can damage it. A flashing blue light appears for a short time after the hub starts, and again when the WPS button has been pressed and the hub is waiting for a device to pair with it.",
+        "questions": ["What does a white light on my hub mean?", "My router light is pulsing white. Should I unplug it?"]
+      },
+      {
+        "heading": "Amber",
+        "text": "A steady amber light means the hub is powered on but cannot reach our network. Check that the cable from the wall socket is pushed firmly into the port marked Broadband and that it is the cable supplied with the hub. If the light remains amber, restart the hub with the power button and wait ten minutes. A flashing amber light means the hub has a connection but is still signing in to your account, which can take a few minutes after a restart.",
+        "questions": ["Why is the light on my router orange?", "What does a flashing amber light on the hub mean?"]
+      },
+      {
+        "heading": "Red",
+        "text": "A steady red light means the hub has a fault. Turn it off at the wall, wait thirty seconds and turn it back on. If the light turns red again, hold the reset button on the back with a straightened paper clip for fifteen seconds, which returns the hub to its factory settings. Your Wi-Fi name and password go back to the ones printed on the sticker. If red returns after a reset, the hub needs replacing, and we can send a new one.",
+        "questions": ["My hub has a solid red light. What should I do?", "How do I reset my router to factory settings?"]
+      },
+      {
+        "heading": "No light at all",
+        "text": "If no light shows, the hub is not receiving power. Check that the power adapter is firmly connected at both ends, that the socket is switched on and that the power button has been pressed. Try a different socket, and avoid extension leads that have their own switches. Use only the power adapter that came with the hub, because a different adapter may supply the wrong voltage. If the hub still shows no light, contact us so that we can arrange a replacement.",
+        "questions": ["There are no lights on my router at all. What's wrong?", "Can I use a different power adapter for my hub?"]
+      }
+    ]
+  },
+  {
+    "title": "Installing your TV set-top box",
+    "topic": "equipment_setup",
+    "service": "tv_box",
+    "sections": [
+      {
+        "heading": "Connecting the cables",
+        "text": "Connect the HDMI cable from the box to a free HDMI socket on your television. Then connect the box to the internet, either with a network cable from your hub or over Wi-Fi during set-up; a cable gives the most reliable picture. If you have a rooftop aerial, plug the aerial lead into the socket marked Aerial on the box to receive live channels through it as well. Finally, connect the power adapter and switch the box on.",
+        "questions": ["Which cables do I need to connect my new TV box?", "Do I have to use an aerial with the set-top box?"]
+      },
+      {
+        "heading": "The first-time set-up",
+        "text": "Switch your television to the HDMI input you used. The box shows a welcome screen and guides you through choosing a language, joining your network and scanning for aerial channels if one is connected. It then downloads the latest software and your channel line-up, which can take up to twenty minutes. Do not switch the box off during this stage. When it finishes, the box restarts and goes straight to the live channel you were last given.",
+        "questions": ["How long does the set-top box take to set up the first time?", "The box is downloading software. Can I switch it off?"]
+      },
+      {
+        "heading": "Pairing the remote control",
+        "text": "The remote control works with the box straight away using infrared, which needs a clear line of sight. To use it without pointing, for example with the box inside a cabinet, pair it by holding the Home and Back buttons together for five seconds until the light on the remote flashes green. The remote can also control your television's power and volume once you select your television's brand in the Settings menu, under Remote control.",
+        "questions": ["How do I pair the remote with my TV box?", "Can the set-top box remote turn my television on and off?"]
+      },
+      {
+        "heading": "Positioning the box",
+        "text": "Place the box on a flat, open surface with space around it for air to circulate. Do not stack other equipment on top of it or close it inside a cupboard without ventilation, because overheating can cause the picture to freeze and the box to restart. Keep it away from radiators and direct sunlight. If you use Wi-Fi, a spot within sight of the hub gives the best signal, and a Wi-Fi extender near the television can help in larger homes.",
+        "questions": ["Where should I put my set-top box?", "Can I keep the TV box inside a closed cabinet?"]
+      }
+    ]
+  }
+]

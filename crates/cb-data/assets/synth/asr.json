@@ -1,0 +1,29 @@
+{
+  "sound_alikes": {
+    "their": ["there"], "there": ["their"], "they're": ["there"], "to": ["too", "two"], "too": ["to"], "two": ["to"],
+    "for": ["four"], "four": ["for"], "your": ["you're"], "you're": ["your"], "its": ["it's"], "it's": ["its"],
+    "here": ["hear"], "hear": ["here"], "know": ["no"], "no": ["know"], "right": ["write"], "write": ["right"],
+    "would": ["wood"], "by": ["buy", "bye"], "buy": ["by"], "bye": ["by"], "see": ["sea"], "been": ["bin"],
+    "new": ["knew"], "knew": ["new"], "whole": ["hole"], "wait": ["weight"], "weather": ["whether"], "whether": ["weather"],
+    "which": ["witch"], "mail": ["male"], "one": ["won"], "our": ["hour"], "hour": ["our"], "not": ["knot"],
+    "be": ["bee"], "so": ["sew"], "some": ["sum"], "sum": ["some"], "week": ["weak"], "weeks": ["weak's"],
+    "through": ["threw"], "fine": ["find"], "find": ["fined"], "line": ["lying"], "phone": ["foam"], "call": ["cull"],
+    "calls": ["cause"], "cause": ["calls"], "fault": ["fought"], "router": ["rooter"], "account": ["a count"], "number": ["numb her"],
+    "check": ["cheque"], "bill": ["bell"], "time": ["thyme"], "due": ["do"], "do": ["due"], "made": ["maid"],
+    "sent": ["cent"], "site": ["sight"], "great": ["grate"], "wear": ["where"], "where": ["wear"], "plain": ["plane"],
+    "main": ["mane"], "board": ["bored"], "hold": ["holed"], "holding": ["folding"], "close": ["clothes"], "piece": ["peace"],
+    "allowed": ["aloud"], "past": ["passed"], "passed": ["past"], "then": ["than"], "than": ["then"], "affect": ["effect"],
+    "affected": ["effected"], "affecting": ["effecting"], "accept": ["except"], "advice": ["advise"], "advise": ["advice"], "weak": ["week"],
+    "fibre": ["fiber"], "cable": ["cabal"], "signal": ["single"], "session": ["cession"], "data": ["dater"], "text": ["texts"],
+    "texts": ["text"], "box": ["blocks"], "hub": ["hug"], "mast": ["massed"], "port": ["pork"], "code": ["coat"],
+    "card": ["guard"], "paid": ["played"], "pay": ["bay"], "plan": ["plant"], "sim": ["seem"], "app": ["up"],
+    "sign": ["sine"], "log": ["lock"], "page": ["paid"], "link": ["ink"], "restart": ["rest art"], "restore": ["rest or"],
+    "restored": ["rest stored"], "engineer": ["engine ear"], "engineers": ["engine ears"], "update": ["up date"], "outage": ["out age"], "minutes": ["minuets"],
+    "morning": ["mourning"], "night": ["knight"], "wi-fi": ["why fi"], "network": ["net work"], "service": ["serve is"], "meantime": ["mean time"],
+    "already": ["all ready"], "anyone": ["any one"], "maybe": ["may be"], "cannot": ["can not"], "into": ["in to"], "onto": ["on to"],
+    "thanks": ["tanks"], "thank": ["tank"], "sorry": ["sari"], "sure": ["shore"], "wall": ["war"], "back": ["pack"],
+    "light": ["lite"], "lights": ["lites"], "red": ["read"], "read": ["red"], "seen": ["scene"], "heard": ["herd"],
+    "meridian": ["meridien"], "customers": ["costumers"], "customer": ["costumer"], "area": ["aria"], "sort": ["sought"], "caught": ["court"]
+  },
+  "fillers": ["um", "uh", "er", "erm", "you know", "like", "I mean", "sort of"]
+}

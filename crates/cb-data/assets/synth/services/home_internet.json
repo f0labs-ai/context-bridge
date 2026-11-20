@@ -1,0 +1,118 @@
+{
+  "id": "home_internet",
+  "name": "home internet",
+  "label": "Home internet",
+  "plural": false,
+  "kind": "line",
+  "customer_names": ["my broadband", "our home internet", "the internet at home", "my home broadband"],
+  "modes": [
+    {
+      "id": "no_connection",
+      "title": "No connection",
+      "symptom": "a complete loss of the broadband connection",
+      "customer_says": [
+        "My internet has gone off completely and nothing in the house will connect.",
+        "The broadband is dead. The router has a red light on it and none of our devices can get online.",
+        "We've got no internet whatsoever. It just dropped and it hasn't come back.",
+        "Everything here is offline, the laptops, the telly, the lot. The router keeps flashing but nothing happens."
+      ],
+      "causes": [
+        { "cause": "a failed line card in the local exchange", "fixes": ["replacing the failed line card"] },
+        { "cause": "a fibre cable severed by roadworks", "fixes": ["splicing the severed fibre cable"] },
+        { "cause": "a power failure at the street cabinet", "fixes": ["restoring mains power to the street cabinet", "connecting a temporary generator to the street cabinet"] }
+      ],
+      "workarounds": [
+        "tether a laptop to a mobile phone hotspot for essential use",
+        "collect a loan 4G dongle from the nearest Meridian shop"
+      ],
+      "aftercare": [
+        "restart the router if the connection has not come back",
+        "leave the router switched on for ten minutes so it can reconnect by itself"
+      ]
+    },
+    {
+      "id": "slow_speeds",
+      "title": "Slow speeds",
+      "symptom": "download speeds far below the normal level",
+      "customer_says": [
+        "My internet is crawling. Pages take forever to open and videos keep stopping to buffer.",
+        "The connection is so slow it's basically unusable. A speed test gave me a tiny fraction of what I pay for.",
+        "Everything online has slowed right down. I can't even get a video call to hold together.",
+        "We're connected, but it's painfully slow on every device in the house, even right next to the router."
+      ],
+      "causes": [
+        { "cause": "congestion on the regional backhaul link", "fixes": ["moving traffic onto a spare backhaul link"] },
+        { "cause": "a wrongly applied traffic-shaping policy", "fixes": ["rolling back the traffic-shaping policy"] },
+        { "cause": "a degraded optical module in the aggregation switch", "fixes": ["swapping the degraded optical module"] }
+      ],
+      "workarounds": [
+        "schedule large downloads for after midnight",
+        "lower the picture quality setting on streaming devices"
+      ],
+      "aftercare": [
+        "restart the router once so it picks up the full speed profile",
+        "run a speed test from the Meridian portal and report any result that still looks low"
+      ]
+    },
+    {
+      "id": "dropping_connection",
+      "title": "Connection keeps dropping",
+      "symptom": "broadband sessions dropping every few minutes",
+      "customer_says": [
+        "My internet keeps cutting out. It works for a few minutes, then drops, then comes back again.",
+        "The connection is up and down like a yo-yo. I get thrown out of every video meeting.",
+        "The broadband won't stay connected. The light on the router goes orange every couple of minutes.",
+        "We keep losing the internet for a minute or so at a time. It has happened dozens of times now."
+      ],
+      "causes": [
+        { "cause": "a faulty amplifier on the local cable segment", "fixes": ["replacing the faulty amplifier"] },
+        { "cause": "an unstable routing table after a core software upgrade", "fixes": ["reverting the core software upgrade"] },
+        { "cause": "water damage in an underground joint box", "fixes": ["drying out and resealing the underground joint box"] }
+      ],
+      "workarounds": [
+        "pause automatic backups and software updates until the line is stable",
+        "switch video meetings to audio only to ride out the short drops"
+      ],
+      "aftercare": [
+        "restart the router once to clear the old session",
+        "check that smart-home devices have rejoined the network"
+      ]
+    },
+    {
+      "id": "sites_not_loading",
+      "title": "Websites not loading",
+      "symptom": "web pages failing to load while the line stays connected",
+      "customer_says": [
+        "The router says I'm connected, but hardly any websites will open. I just get an error page.",
+        "My internet looks fine on the router, yet nothing loads in the browser. Some apps work and some don't.",
+        "I'm online in theory, but every site I try times out. It is the same on my phone over the Wi-Fi.",
+        "Websites won't come up at all. The connection light is green, so I don't understand what is wrong."
+      ],
+      "causes": [
+        { "cause": "a crashed domain name resolver cluster", "fixes": ["restarting the domain name resolver cluster"] },
+        { "cause": "an expired certificate on the web filtering platform", "fixes": ["renewing the certificate on the web filtering platform"] },
+        { "cause": "a corrupted address lookup cache", "fixes": ["flushing the corrupted address lookup cache"] }
+      ],
+      "workarounds": [
+        "enter a public domain name server address in the device's network settings",
+        "turn off the family filter from the Meridian portal for the time being"
+      ],
+      "aftercare": [
+        "close and reopen the browser so it picks up the restored service",
+        "switch the family filter back on if it was turned off"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a worn-out router in the home",
+    "an unpaid bill that has restricted the account",
+    "damaged cabling inside the property",
+    "a loose lead at the wall socket"
+  ],
+  "wrong_provider_side": [
+    "planned maintenance at the local exchange",
+    "storm damage to overhead lines",
+    "a nationwide outage at the main data centre",
+    "a billing system error that suspended lines by mistake"
+  ]
+}

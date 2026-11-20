@@ -1,0 +1,118 @@
+{
+  "id": "number_porting",
+  "name": "number porting",
+  "label": "Number porting",
+  "plural": false,
+  "kind": "mobile",
+  "customer_names": ["moving my number over", "my number transfer", "keeping my old number", "the number switch"],
+  "modes": [
+    {
+      "id": "port_delayed",
+      "title": "Number transfers delayed",
+      "symptom": "number transfers passing their promised date without completing",
+      "customer_says": [
+        "I was told my old number would move across by now, and it still hasn't.",
+        "My number transfer is overdue. I'm still on the temporary number you gave me.",
+        "I gave you my switching code, and my number still hasn't come over.",
+        "The port of my number was meant to be done by now and nothing has happened."
+      ],
+      "causes": [
+        { "cause": "a stalled batch at the central porting clearing system", "fixes": ["resubmitting the stalled batch to the porting clearing system"] },
+        { "cause": "a validation fault that rejected switching codes containing a zero", "fixes": ["correcting the switching code validation and replaying the rejected requests"] },
+        { "cause": "a scheduling service that skipped a day of port requests", "fixes": ["rescheduling the skipped port requests"] }
+      ],
+      "workarounds": [
+        "keep using the temporary number and share it with close contacts",
+        "leave the old SIM in a spare phone to keep receiving calls on the old number"
+      ],
+      "aftercare": [
+        "restart the phone once the transfer text arrives",
+        "tell contacts that the temporary number will stop working"
+      ]
+    },
+    {
+      "id": "calls_to_old_network",
+      "title": "Calls still reaching the old network",
+      "symptom": "transferred numbers still ringing on the old network",
+      "customer_says": [
+        "My number has moved to you, but calls to it still go to my old SIM.",
+        "People ring my number and it rings my old phone, not the Meridian one.",
+        "The transfer is supposed to be finished, and yet incoming calls aren't reaching my new SIM.",
+        "I can make calls from my number on the new SIM, but I can't receive any."
+      ],
+      "causes": [
+        { "cause": "a routing update that was not sent to the other networks", "fixes": ["broadcasting the missing routing update to the other networks"] },
+        { "cause": "a number range database that failed to replicate", "fixes": ["forcing the number range database to replicate"] },
+        { "cause": "an interconnect partner still holding an old routing table", "fixes": ["getting the interconnect partner to load the new routing table"] }
+      ],
+      "workarounds": [
+        "keep the old SIM active in a second phone for incoming calls",
+        "set a divert on the old SIM to the temporary Meridian number"
+      ],
+      "aftercare": [
+        "ask a friend on another network to make a test call",
+        "remove the divert from the old SIM before disposing of it"
+      ]
+    },
+    {
+      "id": "texts_lost_after_port",
+      "title": "Texts not arriving after transfer",
+      "symptom": "transferred numbers receiving calls but not text messages",
+      "customer_says": [
+        "Since my number moved over I get calls, but no texts. Bank codes aren't arriving.",
+        "I've ported my number, and now text messages just don't reach me.",
+        "Calls work on my transferred number, but texts from other networks vanish.",
+        "I'm not receiving any text messages since I switched to you and kept my number."
+      ],
+      "causes": [
+        { "cause": "a message routing table missing the newly transferred numbers", "fixes": ["adding the transferred numbers to the message routing table"] },
+        { "cause": "a text hub partner that had not received the port notifications", "fixes": ["resending the port notifications to the text hub partner"] },
+        { "cause": "a home location entry left pointing at the previous network", "fixes": ["correcting the home location entries for the transferred numbers"] }
+      ],
+      "workarounds": [
+        "choose voice call or email for security codes where the sender offers it",
+        "ask contacts to use an internet messaging app for the time being"
+      ],
+      "aftercare": [
+        "send a text to the number from another phone to check delivery",
+        "ask senders to resend any code that did not arrive"
+      ]
+    },
+    {
+      "id": "port_out_code",
+      "title": "Switching codes not issued",
+      "symptom": "switching code requests going unanswered",
+      "customer_says": [
+        "I texted for my switching code a while ago and nothing has come back.",
+        "I asked for the code to move my number, and I haven't received it by text or email.",
+        "The short number for a switching code isn't replying at all.",
+        "I've requested my transfer code three times now and had no reply."
+      ],
+      "causes": [
+        { "cause": "a code generation service that lost access to the account system", "fixes": ["reconnecting the code generation service to the account system"] },
+        { "cause": "a short number that was unassigned during a tidy-up of text routes", "fixes": ["reassigning the short number to the code service"] },
+        { "cause": "a reply template rejected as spam by the message centre", "fixes": ["approving the reply template at the message centre"] }
+      ],
+      "workarounds": [
+        "request the switching code from the account settings in the portal",
+        "ask an adviser to read the switching code out after passing security"
+      ],
+      "aftercare": [
+        "use the newest code received, because earlier ones are cancelled",
+        "allow one working day for the code to become active with the new network"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a switching code typed in wrongly",
+    "an old account that still has a balance to pay",
+    "a handset locked to the previous network",
+    "a SIM card that was never activated"
+  ],
+  "wrong_provider_side": [
+    "the previous network refusing to release the number",
+    "a weekend backlog at the porting desk",
+    "an industry-wide freeze on number transfers",
+    "a regulator's audit pausing all switches"
+  ]
+}

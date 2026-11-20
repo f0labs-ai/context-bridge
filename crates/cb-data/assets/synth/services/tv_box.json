@@ -1,0 +1,118 @@
+{
+  "id": "tv_box",
+  "name": "TV set-top boxes",
+  "label": "TV set-top box",
+  "plural": true,
+  "kind": "tv",
+  "customer_names": ["my TV box", "the set-top box", "our Meridian TV box", "the box under the telly"],
+  "modes": [
+    {
+      "id": "stuck_on_startup",
+      "title": "Boxes stuck on the start screen",
+      "symptom": "boxes freezing on the start-up logo",
+      "customer_says": [
+        "My TV box won't start. It sits on the Meridian logo and never gets any further.",
+        "The set-top box is stuck on the loading screen. I've left it an hour and nothing has changed.",
+        "Our box froze during the night, and now it only shows the welcome picture.",
+        "The TV box powers on, shows the logo, and that's it. No menu, no channels."
+      ],
+      "causes": [
+        { "cause": "a damaged software image sent out in the nightly update", "fixes": ["sending a clean software image to the boxes"] },
+        { "cause": "an activation server refusing box check-ins", "fixes": ["restarting the activation server pool"] },
+        { "cause": "a boot loader setting changed by a remote diagnostics job", "fixes": ["reversing the remote diagnostics job"] }
+      ],
+      "workarounds": [
+        "watch live channels through the aerial input on the television",
+        "use the Meridian TV app on a phone or tablet until the box recovers"
+      ],
+      "aftercare": [
+        "leave the box plugged in for thirty minutes while it completes its update",
+        "hold the power button for ten seconds if the box has not restarted by itself"
+      ]
+    },
+    {
+      "id": "no_guide",
+      "title": "Programme guide empty",
+      "symptom": "the programme guide showing no information",
+      "customer_says": [
+        "The guide on my TV box is blank. Every channel just says no information.",
+        "I can't see what's on. The programme guide has no listings in it at all.",
+        "Our box plays channels, but the guide is empty, so I can't set anything to record.",
+        "The TV guide shows to be announced for every programme, for the whole week."
+      ],
+      "causes": [
+        { "cause": "a schedule data feed that stopped arriving from the listings supplier", "fixes": ["reloading the schedule data feed from the supplier's backup"] },
+        { "cause": "a guide database index that became corrupted", "fixes": ["rebuilding the guide database index"] },
+        { "cause": "a carousel server sending an empty schedule", "fixes": ["restarting the carousel server with a full schedule"] }
+      ],
+      "workarounds": [
+        "check listings in the Meridian TV app, which uses a separate guide",
+        "set recordings by time and channel using the manual recording screen"
+      ],
+      "aftercare": [
+        "leave the box in standby overnight so that the guide can refill",
+        "check that any series recordings are still listed"
+      ]
+    },
+    {
+      "id": "recordings_failing",
+      "title": "Recordings failing",
+      "symptom": "scheduled recordings failing to start",
+      "customer_says": [
+        "My box has stopped recording. Everything I set shows as failed the next morning.",
+        "None of my series links are recording. The planner is full of red crosses.",
+        "I set the box to record a film earlier and it didn't even start.",
+        "Recordings aren't working on our TV box. Live TV is fine, but nothing gets saved."
+      ],
+      "causes": [
+        { "cause": "a recording rights flag set wrongly on every channel", "fixes": ["correcting the recording rights flag"] },
+        { "cause": "a time signal fault that put the boxes' clocks an hour out", "fixes": ["repairing the time signal sent to the boxes"] },
+        { "cause": "a planner service outage in the cloud recording platform", "fixes": ["recovering the planner service"] }
+      ],
+      "workarounds": [
+        "watch missed programmes on catch-up from the on demand menu",
+        "start recordings by hand with the record button while the programme is on"
+      ],
+      "aftercare": [
+        "open the planner and set up again any recording marked as failed",
+        "check that the clock on the box shows the right time"
+      ]
+    },
+    {
+      "id": "picture_breaking_up",
+      "title": "Picture breaking up",
+      "symptom": "pictures breaking into blocks on live channels",
+      "customer_says": [
+        "The picture on my TV box keeps breaking up into little squares, and the sound cuts out with it.",
+        "Live channels are freezing and going blocky on our box. It is on every channel.",
+        "The telly picture keeps pixelating. It is fine for a minute and then it falls apart.",
+        "We're getting a broken, stuttering picture on the set-top box, and the sound jumps."
+      ],
+      "causes": [
+        { "cause": "a failing encoder at the regional head-end", "fixes": ["replacing the failing encoder at the head-end"] },
+        { "cause": "packet loss on the multicast video network", "fixes": ["re-routing the multicast video network around the lossy link"] },
+        { "cause": "a wrong signal level set on the distribution amplifiers", "fixes": ["resetting the signal level on the distribution amplifiers"] }
+      ],
+      "workarounds": [
+        "switch to the standard definition version of the channel",
+        "watch the programme through the on demand menu instead of live"
+      ],
+      "aftercare": [
+        "restart the box to clear any stuck picture",
+        "switch back to the high definition channels"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a loose aerial lead at the back of the box",
+    "a worn-out HDMI cable",
+    "a box left without ventilation",
+    "a remote control with flat batteries"
+  ],
+  "wrong_provider_side": [
+    "a transmitter fault affecting the whole area",
+    "engineering work on the broadcast tower",
+    "high pressure weather interfering with reception",
+    "a change of channel numbers this week"
+  ]
+}

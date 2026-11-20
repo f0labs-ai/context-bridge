@@ -1,0 +1,16 @@
+[package]
+name = "cb-types"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+description = "The file contracts of the ContextBridge proof: records, questions, transcripts, candidate lists, timings."
+
+[lints]
+workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true

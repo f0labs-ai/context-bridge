@@ -1,0 +1,94 @@
+{
+  "id": "rp7669f45fjw",
+  "name": "Incident with Codespaces",
+  "status": "resolved",
+  "impact": "major",
+  "created_at": "2023-12-27T02:53:03.038Z",
+  "resolved_at": "2023-12-27T04:00:57.612Z",
+  "scheduled_for": null,
+  "components": [
+    {
+      "name": "Codespaces"
+    }
+  ],
+  "incident_updates": [
+    {
+      "id": "fpp7g2slwfxq",
+      "status": "resolved",
+      "body": "On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/",
+      "created_at": "2023-12-27T04:00:57.612Z",
+      "updated_at": "2024-01-22T18:02:30.898Z",
+      "display_at": "2023-12-27T04:00:57.612Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "9y4pmj4vzypq",
+      "status": "investigating",
+      "body": "We have applied a fix and most customers should now be seeing recovery.",
+      "created_at": "2023-12-27T03:57:21.001Z",
+      "updated_at": "2023-12-27T03:57:21.001Z",
+      "display_at": "2023-12-27T03:57:21.001Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "tzntttstpzjp",
+      "status": "investigating",
+      "body": "Customers using Codespaces will be unable to connect to existing codespaces, create new ones, or export. We have identified the issue and are working on a remediation.",
+      "created_at": "2023-12-27T03:14:57.499Z",
+      "updated_at": "2023-12-27T03:14:57.499Z",
+      "display_at": "2023-12-27T03:14:57.499Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "fly2dm5j65zk",
+      "status": "investigating",
+      "body": "Codespaces is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2023-12-27T03:09:09.047Z",
+      "updated_at": "2023-12-27T03:09:09.047Z",
+      "display_at": "2023-12-27T03:09:09.047Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "v06w6v2l8h25",
+      "status": "investigating",
+      "body": "Codespace services are experiencing connection issues",
+      "created_at": "2023-12-27T02:53:09.416Z",
+      "updated_at": "2023-12-27T02:53:09.416Z",
+      "display_at": "2023-12-27T02:53:09.416Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    },
+    {
+      "id": "f8f01ddqrf05",
+      "status": "investigating",
+      "body": "We are investigating reports of degraded availability for Codespaces",
+      "created_at": "2023-12-27T02:53:03.106Z",
+      "updated_at": "2023-12-27T02:53:03.106Z",
+      "display_at": "2023-12-27T02:53:03.106Z",
+      "affected_components": [
+        {
+          "name": "Codespaces"
+        }
+      ]
+    }
+  ]
+}

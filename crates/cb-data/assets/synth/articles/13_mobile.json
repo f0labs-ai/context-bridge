@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Visual voicemail and voicemail to email",
+    "topic": "mobile",
+    "service": "voicemail",
+    "sections": [
+      {
+        "heading": "What visual voicemail is",
+        "text": "Visual voicemail shows your messages as a list on screen, with the caller, the time and the length of each, so you can play them in any order without dialling in. Newer phones show a written transcript of each message as well, which is handy in a meeting. It is included at no extra cost on pay monthly plans. Messages are downloaded to your phone, so you can play them later even without signal once they have arrived.",
+        "questions": ["What is visual voicemail?", "Can I read my voicemail messages as text?"]
+      },
+      {
+        "heading": "Turning it on",
+        "text": "On most phones, visual voicemail appears in the Phone app under Voicemail once it is active on your account. Switch it on under Mobile settings in the Meridian app, then restart your phone. If your phone does not support the built-in feature, the Meridian app offers its own voicemail inbox. Visual voicemail uses a small amount of mobile data to download messages, which is not taken from your allowance when you are at home.",
+        "questions": ["How do I set up visual voicemail on my phone?", "Does visual voicemail use my mobile data?"]
+      },
+      {
+        "heading": "Voicemail to email",
+        "text": "Voicemail to email sends each new message as an audio file attached to an email, which is useful if you share an inbox with colleagues or want to keep messages permanently. Turn it on in the Meridian app under Voicemail settings and choose the email address. You can keep a copy in the mailbox or have it deleted once the email is sent. Messages arrive within a minute or two of being left.",
+        "questions": ["Can my voicemails be sent to my email?", "Does voicemail to email delete the message from my phone?"]
+      },
+      {
+        "heading": "When messages do not appear",
+        "text": "If new messages stop appearing in the list, check that mobile data is on, because visual voicemail needs a data connection to download them, even if you are on Wi-Fi. Restart the phone, and if it still fails, switch visual voicemail off and on again in the app. Messages are never lost when the list stops updating: you can always reach them by dialling your voicemail in the usual way.",
+        "questions": ["My visual voicemail isn't showing new messages. What should I do?", "Have I lost my messages if visual voicemail stops working?"]
+      }
+    ]
+  },
+  {
+    "title": "Keeping your number when you join",
+    "topic": "mobile",
+    "service": "number_porting",
+    "sections": [
+      {
+        "heading": "Getting your switching code",
+        "text": "To bring your mobile number from another provider, you need a switching code from them. Text the word CODE to the free short number your current provider publishes, and the code arrives by text within a minute. It is valid for thirty days. Requesting the code does not end your old contract; your old provider closes your account automatically on the day the number moves, and sends you a final bill.",
+        "questions": ["How do I get a code to bring my number to Meridian?", "Does asking for a switching code cancel my old contract?"]
+      },
+      {
+        "heading": "Giving us the code",
+        "text": "Enter the switching code when you order, or later in the app under My numbers and then Bring my number. You will receive a temporary Meridian number with your new SIM, which you can use straight away. We schedule the transfer for the next working day, or for a later date of your choosing within the code's thirty days. You will receive a text the day before confirming the date.",
+        "questions": ["Where do I enter my switching code?", "Can I choose the date my number transfers?"]
+      },
+      {
+        "heading": "On transfer day",
+        "text": "The transfer happens between nine in the morning and six in the evening on the agreed day. Keep your old SIM in your phone until you lose signal on it, then insert the Meridian SIM and restart the phone. Your number moves across, and the temporary number is retired after a few days. You may briefly be unable to receive calls during the switch, but the gap is normally under an hour.",
+        "questions": ["What time does my number move across on transfer day?", "When should I put the new SIM in my phone?"]
+      },
+      {
+        "heading": "Texts and contacts after the move",
+        "text": "Calls and texts sent to your number arrive on your Meridian SIM once the transfer completes. Your contacts, photos and messages are stored on the phone or in your phone's cloud account, not on the SIM, so they are not affected. Group messages and messaging apps may ask you to verify your number again. If texts from other networks do not arrive within twenty-four hours of the move, contact us.",
+        "questions": ["Will I lose my contacts when I switch my number to Meridian?", "Why do my messaging apps want to verify my number again?"]
+      }
+    ]
+  },
+  {
+    "title": "Taking your number to another provider",
+    "topic": "mobile",
+    "service": "number_porting",
+    "sections": [
+      {
+        "heading": "Asking us for your code",
+        "text": "To leave and keep your number, text the word CODE to our free switching short number from your Meridian phone, or request it in the app under My numbers. We reply within a minute with your switching code and a summary of anything you will still owe, such as the remaining months of your minimum term or the balance of a handset agreement. You can also ask an adviser to read the code out once you have passed security.",
+        "questions": ["How do I get my code to move my number away from Meridian?", "Will I be told what I owe when I ask for my switching code?"]
+      },
+      {
+        "heading": "What you still owe",
+        "text": "If you leave during your minimum term, an early exit fee applies, normally the monthly charges remaining for the term minus any costs we save. A handset agreement continues separately until it is paid off, and leaving does not cancel it. Any credit on your account is refunded automatically after your final bill. The summary in your code message includes all of these amounts, so you can decide before you share the code.",
+        "questions": ["Do I have to pay to leave Meridian before my contract ends?", "What happens to my phone payments if I leave?"]
+      },
+      {
+        "heading": "When the account closes",
+        "text": "Your new provider moves the number on the date you agree with them, usually the next working day. Our service ends automatically on that day, and you do not need to call us to cancel. Your final bill covers usage up to the switch. If you have other services on the account, such as home internet, those carry on unaffected, and any bundle discount is recalculated for the services that remain.",
+        "questions": ["Do I need to cancel my Meridian contract after moving my number?", "Will my broadband stay on if I move my mobile number to another provider?"]
+      },
+      {
+        "heading": "Codes that expire or are cancelled",
+        "text": "A switching code lasts thirty days. If it expires, request a new one in the same way; the old code stops working as soon as a new one is issued. A code can also be cancelled if the account is closed for another reason or if the number is reported stolen. Requesting a code does not lock your number in any way, so you can keep using it as normal until the day it moves.",
+        "questions": ["My switching code has expired. What do I do?", "Can I keep using my phone after I've asked for a switching code?"]
+      }
+    ]
+  },
+  {
+    "title": "Blocking nuisance calls and texts",
+    "topic": "mobile",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "Blocking a number",
+        "text": "To block a particular number, use your phone's own blocking feature, usually found by tapping the caller's details in your call history and choosing Block. Blocked callers are sent straight to voicemail or hear a busy tone, depending on the phone, and texts from them are hidden. You can also add numbers to your Meridian block list in the app, which works on the network itself and follows your number even if you change phones.",
+        "questions": ["How do I block a number that keeps calling me?", "Will blocked numbers stay blocked if I get a new phone?"]
+      },
+      {
+        "heading": "Withheld and international calls",
+        "text": "Our call guard feature can block all calls from withheld numbers, or send them to voicemail. Switch it on under Mobile settings and Call guard. You can also block calls from abroad, which stops many scam calls, but remember it will also block genuine callers such as relatives overseas. Call guard does not block emergency services, our own customer service numbers or calls from numbers saved in your contacts.",
+        "questions": ["Can I stop calls from withheld numbers?", "How do I block all international calls to my phone?"]
+      },
+      {
+        "heading": "Reporting spam texts",
+        "text": "Forward a suspicious text to our free spam reporting short number, which is listed in the app under Security. Forwarding it costs nothing and helps us block the sender's number for everyone on our network. After you forward it, you will be asked for the number the text came from. Do not reply to the text or click any links in it, and delete it once you have reported it.",
+        "questions": ["How do I report a spam text message?", "Does it cost anything to forward a scam text?"]
+      },
+      {
+        "heading": "Persistent or threatening calls",
+        "text": "If you receive calls that are threatening, abusive or part of a pattern of harassment, contact the police first, then our nuisance calls team. Keep a record of the dates and times. We can trace calls on request from the police, change your number free of charge and make your new number ex-directory. We never pass your details to the caller, and we treat such reports as a priority.",
+        "questions": ["I'm getting threatening phone calls. What can Meridian do?", "Can I change my number for free because of harassment?"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Forwarding and automatic replies",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "Forwarding all your mail",
+        "text": "To send a copy of every incoming message to another address, open Email settings in webmail and choose Forwarding. Enter the other address and confirm it with the code we send there. You can keep a copy in your Meridian mailbox or forward without keeping one. Forwarding applies to new messages only and does not move mail you already have. Messages identified as spam or containing viruses are never forwarded.",
+        "questions": ["How do I forward all my Meridian emails to another address?", "Does forwarding move my old emails as well?"]
+      },
+      {
+        "heading": "Rules for particular messages",
+        "text": "Rules act on messages that match conditions you set, such as a sender, a word in the subject line or the size of the message. A rule can move a message to a folder, mark it as read, forward it or delete it. Create rules under Email settings and Rules, and arrange their order, because the first matching rule applies first. Rules run on our servers, so they work even when your computer is switched off.",
+        "questions": ["Can I automatically put emails from my school in a folder?", "Do email rules work when my computer is off?"]
+      },
+      {
+        "heading": "Out-of-office replies",
+        "text": "An automatic reply tells people who email you that you are away. Turn it on under Email settings and Automatic reply, write your message and choose start and end dates. Each sender receives the reply only once every four days, however many times they write. You can limit replies to people in your contacts, which avoids confirming your address to spammers. The reply switches itself off on the end date.",
+        "questions": ["How do I set up an out-of-office reply on my email?", "Will spammers get my automatic reply?"]
+      },
+      {
+        "heading": "When forwarded mail goes missing",
+        "text": "Some providers reject forwarded messages because they appear to come from the original sender rather than from us, especially messages from banks and large companies with strict security. If forwarded messages are missing, check the other mailbox's junk folder first. Keeping a copy in your Meridian mailbox ensures nothing is lost. Rules that forward mail to an address with a typing mistake fail silently, so check the address carefully.",
+        "questions": ["Why aren't all my forwarded emails arriving?", "Some forwarded emails from my bank are missing. Why?"]
+      }
+    ]
+  },
+  {
+    "title": "Webmail features",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "Signing in to webmail",
+        "text": "Webmail lets you read and send email in any web browser, without setting up a mail program. Sign in from the Email link on our website with your full email address and email password. On a shared or public computer, do not tick the box to stay signed in, and always sign out when you have finished. Webmail works on phones and tablets too, adjusting to the size of the screen.",
+        "questions": ["How do I check my Meridian email in a web browser?", "Is it safe to use webmail on a library computer?"]
+      },
+      {
+        "heading": "Organising your inbox",
+        "text": "Create folders to file messages by subject, and drag messages into them or use rules to file them automatically. Flags and colour categories help you mark messages that need action. The conversation view groups replies together under the original message. Search finds messages by sender, subject or words in the body, and can be narrowed to a date range or to messages with attachments.",
+        "questions": ["How do I make folders in webmail?", "Can I search my email for messages with attachments?"]
+      },
+      {
+        "heading": "Contacts and calendar",
+        "text": "Webmail includes an address book and a calendar. Contacts are added automatically when you reply to someone, and you can group them into lists for sending one message to several people. The calendar sends reminders by email and can import invitations from messages. Both can be exported as standard files to move them to another service, which is worth doing before you close an email account.",
+        "questions": ["Does Meridian webmail have a calendar?", "How do I export my email contacts?"]
+      },
+      {
+        "heading": "Signatures and display name",
+        "text": "Your display name is what recipients see next to your address, so set it to your real name under Email settings and Identity. A signature is text added to the bottom of every message you send, such as your name and phone number. Avoid putting sensitive details in a signature, because it goes to everyone, including people you reply to for the first time. You can have different signatures for new messages and for replies.",
+        "questions": ["How do I change the name people see when I email them?", "How do I add a signature to my emails?"]
+      }
+    ]
+  },
+  {
+    "title": "Keeping your email address if you leave",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "Your options when leaving",
+        "text": "When you close your Meridian home internet service, your email address stays active for ninety days so that you have time to move to another address. During that time we email you a reminder each month. You can choose to keep the address permanently for a small monthly fee, or let it close. If you keep it, everything works as before, including webmail, your folders and your contacts.",
+        "questions": ["What happens to my Meridian email when I cancel my broadband?", "Can I keep my email address after leaving Meridian?"]
+      },
+      {
+        "heading": "Keeping the address",
+        "text": "To keep your address, choose Keep my email in the online account before the ninety days end, and set up a card or direct debit for the monthly fee. Your storage and features stay the same. If you later rejoin our home internet service, the fee stops and the address becomes part of your plan again. You can cancel the paid email service at any time, and the address then closes after thirty days.",
+        "questions": ["How much does it cost to keep my Meridian email address?", "How do I cancel the paid email service?"]
+      },
+      {
+        "heading": "Moving to a new address",
+        "text": "If you decide to move to a new email address, tell your contacts, and update your address with your bank, employer, doctor and the websites you use, starting with those that send password resets. Set an automatic reply on the old mailbox explaining your new address, and forward new messages there until the account closes. Export your contacts and save important messages before the closing date.",
+        "questions": ["How do I switch to a new email address without losing messages?", "What should I update when I change my email address?"]
+      },
+      {
+        "heading": "After the address closes",
+        "text": "When an email address closes, its mailbox and contents are deleted permanently after thirty days and cannot be recovered. Messages sent to the address are returned to their senders as undeliverable. The address is never given to anyone else, so nobody can receive mail intended for you. If you close the address by mistake, contact us within the thirty days, and we can usually restore it with all its contents.",
+        "questions": ["Can someone else get my old Meridian email address?", "I closed my email by mistake. Can it be restored?"]
+      }
+    ]
+  },
+  {
+    "title": "Recovering deleted emails",
+    "topic": "email",
+    "service": "email",
+    "sections": [
+      {
+        "heading": "The Deleted Items folder",
+        "text": "Deleted messages move to the Deleted Items folder, where they stay until you empty the folder or they are thirty days old. To recover one, open Deleted Items, select the message and move it back to your inbox or any other folder. If you use a mail program set to delete messages permanently, they skip this folder, so check the program's settings if messages seem to disappear without trace.",
+        "questions": ["How do I get back an email I deleted?", "Why don't deleted emails go to my Deleted Items folder?"]
+      },
+      {
+        "heading": "Recovering permanently deleted messages",
+        "text": "Even after a message is removed from Deleted Items, webmail can recover it for a further fourteen days. Open Deleted Items, choose Recover deleted messages at the top of the folder, select the messages you need and choose Restore. They return to Deleted Items, from where you can move them to any folder. After those fourteen days the messages are gone, and our support team cannot retrieve them.",
+        "questions": ["Can I recover an email after emptying the deleted folder?", "Can Meridian retrieve emails I deleted months ago?"]
+      },
+      {
+        "heading": "Missing messages that were not deleted",
+        "text": "If messages are missing but you did not delete them, check your rules in case one is moving or deleting messages automatically, and search all folders including Junk. A mail program using the POP type may have downloaded messages and removed them from the server, in which case they will be on the computer that downloaded them. Check forwarding settings too, in case messages are going to another address without a copy being kept.",
+        "questions": ["Emails are disappearing from my inbox. Why?", "My messages were downloaded to my old computer. Can I get them back in webmail?"]
+      },
+      {
+        "heading": "Keeping important messages safe",
+        "text": "Move messages you must keep, such as receipts and contracts, into a folder of their own rather than leaving them in the inbox. For extra safety, save them as files on your computer or print them. Webmail can export a whole folder as a single file. Remember that an email address closed after leaving Meridian takes its messages with it, so export anything important before the closing date.",
+        "questions": ["How can I make sure I don't lose important emails?", "Can I save a whole email folder to my computer?"]
+      }
+    ]
+  }
+]

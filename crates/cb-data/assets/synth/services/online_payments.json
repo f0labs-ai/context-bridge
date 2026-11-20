@@ -1,0 +1,118 @@
+{
+  "id": "online_payments",
+  "name": "online payments",
+  "label": "Online payments",
+  "plural": true,
+  "kind": "online",
+  "customer_names": ["paying my bill online", "the online payment page", "card payments on my account", "my bill payment"],
+  "modes": [
+    {
+      "id": "card_declined",
+      "title": "Card payments declined",
+      "symptom": "valid cards being declined on the payment page",
+      "customer_says": [
+        "I'm trying to pay my bill online and it keeps declining my card. The card works everywhere else.",
+        "Your payment page says payment declined. My bank says they never even saw the request.",
+        "I can't pay my bill. I've tried two different cards and both get refused.",
+        "The online payment keeps failing with card not accepted. There's plenty of money in the account."
+      ],
+      "causes": [
+        { "cause": "a lapsed merchant credential at the card processor", "fixes": ["renewing the merchant credential at the card processor"] },
+        { "cause": "a fraud screening rule that rejected every transaction", "fixes": ["switching off the faulty fraud screening rule"] },
+        { "cause": "a broken connection to the card authorisation network", "fixes": ["re-establishing the connection to the card authorisation network"] }
+      ],
+      "workarounds": [
+        "pay by bank transfer using the reference on the bill",
+        "pay over the automated phone line, which uses a different processor"
+      ],
+      "aftercare": [
+        "try the card payment again from the billing page",
+        "disregard any late payment reminder issued during the fault"
+      ]
+    },
+    {
+      "id": "double_charge",
+      "title": "Payments taken twice",
+      "symptom": "single payments being collected twice",
+      "customer_says": [
+        "You've taken my bill payment twice. I paid once and there are two charges on my card.",
+        "I've been charged double for this month. My banking app shows the same amount going out twice.",
+        "I made one payment online, and it has come out of my account two times.",
+        "There are two identical payments to Meridian on my statement, and I only pressed pay once."
+      ],
+      "causes": [
+        { "cause": "a retry setting that resubmitted completed payments", "fixes": ["disabling the retry setting and reversing the repeated payments"] },
+        { "cause": "a settlement file that was processed twice", "fixes": ["reversing the second run of the settlement file"] },
+        { "cause": "a timeout between the payment page and the ledger service", "fixes": ["reconciling the ledger service against the processor's records"] }
+      ],
+      "workarounds": [
+        "hold off making further card payments until the repeat charges are reversed",
+        "ask the bank to dispute the second charge if the money is needed urgently"
+      ],
+      "aftercare": [
+        "allow three to five working days for the refund to show on the card",
+        "check the next bill to confirm that only one payment was applied"
+      ]
+    },
+    {
+      "id": "payment_not_applied",
+      "title": "Payments not showing on accounts",
+      "symptom": "completed payments not appearing on account balances",
+      "customer_says": [
+        "I paid my bill and my account still says it's overdue.",
+        "The money has left my bank, but the Meridian account shows nothing paid.",
+        "My payment went through, and I have the receipt, but the balance hasn't moved.",
+        "I keep getting reminders for a bill I've already paid online."
+      ],
+      "causes": [
+        { "cause": "a posting job that stalled on the accounts ledger", "fixes": ["restarting the stalled posting job"] },
+        { "cause": "a mismatch in the reference format after a billing update", "fixes": ["reprocessing payments with the corrected reference format"] },
+        { "cause": "a queue of payment confirmations stuck at the processor", "fixes": ["releasing the stuck queue of payment confirmations"] }
+      ],
+      "workarounds": [
+        "keep the payment receipt and ignore reminder messages for now",
+        "quote the receipt number to an adviser so a hold can be placed on the account"
+      ],
+      "aftercare": [
+        "check the balance in the portal after the next overnight update",
+        "contact us with the receipt number if the payment has still not appeared"
+      ]
+    },
+    {
+      "id": "direct_debit_setup",
+      "title": "Direct debit set-up failing",
+      "symptom": "direct debit set-up forms being rejected on submission",
+      "customer_says": [
+        "I'm trying to set up a direct debit online, and the form refuses my bank details.",
+        "The direct debit page won't accept my account number. It is definitely correct.",
+        "Setting up automatic payments fails at the last step with an unhelpful error.",
+        "I can't switch to direct debit. The website says my bank details cannot be verified."
+      ],
+      "causes": [
+        { "cause": "a bank account checking service that was unreachable", "fixes": ["restoring the link to the bank account checking service"] },
+        { "cause": "a sort code directory that had not been refreshed", "fixes": ["loading the current sort code directory"] },
+        { "cause": "a form validation script that rejected every account number", "fixes": ["deploying a corrected form validation script"] }
+      ],
+      "workarounds": [
+        "set up the direct debit by phone with an adviser",
+        "make a one-off card payment this month and set up the direct debit afterwards"
+      ],
+      "aftercare": [
+        "submit the direct debit form again",
+        "look out for the confirmation letter, which arrives within ten days"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "an expired bank card",
+    "a spending limit set by the bank",
+    "a billing address that does not match the card",
+    "a browser that blocks the card security pop-up"
+  ],
+  "wrong_provider_side": [
+    "a bank holiday delaying all payments",
+    "an upgrade to the billing system",
+    "a fault at the cardholder's bank",
+    "a change of payment provider this month"
+  ]
+}

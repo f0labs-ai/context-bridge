@@ -1,0 +1,804 @@
+[
+  {
+    "id": null,
+    "service_id": "cloud-spanner",
+    "service_name": "Cloud Spanner",
+    "external_desc": "We've received a report of an issue with Cloud Spanner.",
+    "event_start_time": "2020-01-09T01:37:33Z",
+    "event_end_time": "2020-01-09T03:10:49Z",
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2020-01-09T03:10:49Z",
+        "modified": "2020-01-09T03:10:49Z",
+        "status": null,
+        "text": "The issue with Cloud Spanner, where customers are unable to change node count for instances in multi-region configuration \"nam3\", has been resolved for all affected users as of Wednesday, 2020-01-08 19:08 US/Pacific.\n\nWe thank you for your patience while we've worked on resolving the issue."
+      },
+      {
+        "created": "2020-01-09T02:47:03Z",
+        "modified": "2020-01-09T02:47:03Z",
+        "status": null,
+        "text": "Description: Mitigation work is currently underway by our engineering team.\n\nWe do not have an ETA for mitigation at this point.\n\nWe will provide more information by Wednesday, 2020-01-08 20:39 US/Pacific.\n\nDiagnosis: Cannot change node count for instances running in NA nam3 multi-region configuration.\n\nWorkaround: No workaround is available at the moment."
+      },
+      {
+        "created": "2020-01-09T01:57:41Z",
+        "modified": "2020-01-09T01:57:41Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption.\n\nDiagnosis: Cannot change node count for instances running in NA nam3 multi-region configuration.\n\nWorkaround: No workaround is available at the moment."
+      },
+      {
+        "created": "2020-01-09T01:55:43Z",
+        "modified": "2020-01-09T01:55:43Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "developers-console",
+    "service_name": "Google Cloud Console",
+    "external_desc": "Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to.",
+    "event_start_time": "2019-06-06T18:56:17Z",
+    "event_end_time": "2019-06-07T11:20:32Z",
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-06-07T11:20:32Z",
+        "modified": "2019-06-07T11:20:32Z",
+        "status": null,
+        "text": "The issue with Cloud Console API restrictions has been resolved for all affected users as of Friday, 2019-06-07 03:27 US/Pacific. We will conduct an internal investigation of this issue and make appropriate improvements to our systems to help prevent or minimize future recurrence."
+      },
+      {
+        "created": "2019-06-07T06:34:45Z",
+        "modified": "2019-06-07T06:34:45Z",
+        "status": null,
+        "text": "Summary: Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to.\r\n\r\nDescription: The engineering team is still in the process of rolling back a configuration change to mitigate this issue. Currently there is no estimate as to when this will be completed. We will provide another status update by Friday, 2019-06-07 06:00 US/Pacific with current details.\r\n\r\nDiagnosis: If you are unable to see a complete list of possible APIs to restrict your keys to while trying to add API restrictions to an API key in Cloud Console, then you are affected by this issue.\r\n\r\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-dataflow",
+    "service_name": "Google Cloud Dataflow",
+    "external_desc": "We are experiencing an issue with increased system lag in some Google Cloud Dataflow jobs.",
+    "event_start_time": "2019-03-11T17:33:35Z",
+    "event_end_time": "2019-03-12T13:13:05Z",
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-03-12T13:13:07Z",
+        "modified": "2019-03-12T13:13:07Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag has been resolved for all affected projects as of Tuesday, 2019-03-12 04:49 US/Pacific. We will conduct an internal investigation of this issue and make appropriate improvements to our systems to help prevent or minimize future recurrence."
+      },
+      {
+        "created": "2019-03-12T12:00:14Z",
+        "modified": "2019-03-12T12:00:14Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects. We are still monitoring the system to confirm that the issue has been completely mitigated. We will provide another status update by Tuesday, 2019-03-12 06:30 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-12T09:57:45Z",
+        "modified": "2019-03-12T09:57:45Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the vast majority of projects and we expect it to be resolved in near future. We will provide another status update by Tuesday, 2019-03-12 05:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-12T06:29:57Z",
+        "modified": "2019-03-12T06:29:57Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects. Our mitigation efforts are effective and we expect a full resolution in the near future. We will provide another status update by Tuesday, 2019-03-12 03:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-12T04:56:03Z",
+        "modified": "2019-03-12T04:56:03Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects. Our mitigation efforts are effective and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 23:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-12T02:59:12Z",
+        "modified": "2019-03-12T02:59:12Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 22:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-12T01:00:38Z",
+        "modified": "2019-03-12T01:00:38Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 20:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T23:44:19Z",
+        "modified": "2019-03-11T23:44:19Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 18:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T22:59:32Z",
+        "modified": "2019-03-11T22:59:32Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. A very small number of jobs are still impacted and Google Engineers are very close to a full resolution. We will provide another status update by Monday, 2019-03-11 16:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T21:02:16Z",
+        "modified": "2019-03-11T21:02:16Z",
+        "status": null,
+        "text": "The issue with stuck Dataflow jobs has been resolved for some users and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 16:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T19:45:40Z",
+        "modified": "2019-03-11T19:45:40Z",
+        "status": null,
+        "text": "Our Engineering Team continues to mitigate the issue. We will provide another status update by Monday, 2019-03-11 14:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T18:43:09Z",
+        "modified": "2019-03-11T18:43:09Z",
+        "status": null,
+        "text": "Our Engineering Team believes they have identified the root cause of the stuck Dataflow jobs and is working to mitigate. We will provide another status update by Monday, 2019-03-11 12:45 US/Pacific with current details.\r\n\r\nAs a reminder, Dataflow jobs using newly-created Google Cloud Pub-Sub topics are unaffected."
+      },
+      {
+        "created": "2019-03-11T18:40:05Z",
+        "modified": "2019-03-11T18:40:05Z",
+        "status": null,
+        "text": "Our Engineering Team believes they have identified the root cause of the stuck Dataflow jobs and is working to mitigate. We will provide another status update by Monday, 2019-03-11 12:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T17:33:39Z",
+        "modified": "2019-03-11T17:33:39Z",
+        "status": null,
+        "text": "Mitigation work is currently underway by our Engineering Team. We will provide another status update by Monday, 2019-03-11 11:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T17:33:37Z",
+        "modified": "2019-03-11T17:33:37Z",
+        "status": null,
+        "text": "We've received a report of an issue with increased system lag in some Google Cloud Dataflow jobs."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-spanner",
+    "service_name": "Cloud Spanner",
+    "external_desc": "We've received a report of an issue with Cloud Spanner.",
+    "event_start_time": "2020-01-09T01:37:33Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2020-01-09T02:47:03Z",
+        "modified": "2020-01-09T02:47:03Z",
+        "status": null,
+        "text": "Description: Mitigation work is currently underway by our engineering team.\n\nWe do not have an ETA for mitigation at this point.\n\nWe will provide more information by Wednesday, 2020-01-08 20:39 US/Pacific.\n\nDiagnosis: Cannot change node count for instances running in NA nam3 multi-region configuration.\n\nWorkaround: No workaround is available at the moment."
+      },
+      {
+        "created": "2020-01-09T01:57:41Z",
+        "modified": "2020-01-09T01:57:41Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption.\n\nDiagnosis: Cannot change node count for instances running in NA nam3 multi-region configuration.\n\nWorkaround: No workaround is available at the moment."
+      },
+      {
+        "created": "2020-01-09T01:55:43Z",
+        "modified": "2020-01-09T01:55:43Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-spanner",
+    "service_name": "Cloud Spanner",
+    "external_desc": "We've received a report of an issue with Cloud Spanner.",
+    "event_start_time": "2020-01-09T01:37:33Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2020-01-09T01:57:41Z",
+        "modified": "2020-01-09T01:57:41Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption.\n\nDiagnosis: Cannot change node count for instances running in NA nam3 multi-region configuration.\n\nWorkaround: No workaround is available at the moment."
+      },
+      {
+        "created": "2020-01-09T01:55:43Z",
+        "modified": "2020-01-09T01:55:43Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Cloud Spanner beginning at Wednesday, 2020-01-08 17:37 US/Pacific.\n\nSymptoms: \n\nCustomers that have instances running in North America multi-region configuration \"nam3\" may experience errors when attempting to either increase or reduce node count. \n\nThe issue is not affecting the running instances.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Wednesday, 2020-01-08 18:56 US/Pacific with current details.\n\nWe apologize to all who are affected by the disruption."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "developers-console",
+    "service_name": "Google Cloud Console",
+    "external_desc": "Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to.",
+    "event_start_time": "2019-06-06T18:56:17Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-06-07T06:34:45Z",
+        "modified": "2019-06-07T06:34:45Z",
+        "status": null,
+        "text": "Summary: Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to.\r\n\r\nDescription: The engineering team is still in the process of rolling back a configuration change to mitigate this issue. Currently there is no estimate as to when this will be completed. We will provide another status update by Friday, 2019-06-07 06:00 US/Pacific with current details.\r\n\r\nDiagnosis: If you are unable to see a complete list of possible APIs to restrict your keys to while trying to add API restrictions to an API key in Cloud Console, then you are affected by this issue.\r\n\r\nWorkaround: None at this time."
+      },
+      {
+        "created": "2019-06-07T06:35:57Z",
+        "modified": "2019-06-07T06:35:57Z",
+        "status": null,
+        "text": "Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to. We are rolling back a configuration change to mitigate this issue, however, we estimate the rollback will not complete until later tonight. We will provide another status update by Thursday, 2019-06-06 20:00 US/Pacific with current details."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "developers-console",
+    "service_name": "Google Cloud Console",
+    "external_desc": "Users trying to add API restrictions to an API key in Cloud Console may see an incomplete list of possible APIs to restrict their keys to.",
+    "event_start_time": "2019-06-06T18:56:17Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-06-07T02:30:11Z",
+        "modified": "2019-06-07T02:30:11Z",
+        "status": null,
+        "text": "The engineering team is still in the process of rolling back a configuration change to mitigate this issue. Currently there is no estimate as to when this will be completed. We will provide another status update by Friday, 2019-06-07 06:00 US/Pacific with current details."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-dataflow",
+    "service_name": "Google Cloud Dataflow",
+    "external_desc": "We've received a report of an issue with increased system lag in some Google Cloud Dataflow jobs.",
+    "event_start_time": "2019-03-11T17:33:35Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-03-12T01:00:38Z",
+        "modified": "2019-03-12T01:00:38Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 20:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T23:44:19Z",
+        "modified": "2019-03-11T23:44:19Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 18:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T22:59:32Z",
+        "modified": "2019-03-11T22:59:32Z",
+        "status": null,
+        "text": "The issue with Google Cloud Dataflow jobs experiencing system lag should be resolved for the majority of projects and we expect a full resolution in the near future. A very small number of jobs are still impacted and Google Engineers are very close to a full resolution. We will provide another status update by Monday, 2019-03-11 16:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T21:02:16Z",
+        "modified": "2019-03-11T21:02:16Z",
+        "status": null,
+        "text": "The issue with stuck Dataflow jobs has been resolved for some users and we expect a full resolution in the near future. We will provide another status update by Monday, 2019-03-11 16:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T19:45:40Z",
+        "modified": "2019-03-11T19:45:40Z",
+        "status": null,
+        "text": "Our Engineering Team continues to mitigate the issue. We will provide another status update by Monday, 2019-03-11 14:00 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T18:43:09Z",
+        "modified": "2019-03-11T18:43:09Z",
+        "status": null,
+        "text": "Our Engineering Team believes they have identified the root cause of the stuck Dataflow jobs and is working to mitigate. We will provide another status update by Monday, 2019-03-11 12:45 US/Pacific with current details.\r\n\r\nAs a reminder, Dataflow jobs using newly-created Google Cloud Pub-Sub topics are unaffected."
+      },
+      {
+        "created": "2019-03-11T18:40:05Z",
+        "modified": "2019-03-11T18:40:05Z",
+        "status": null,
+        "text": "Our Engineering Team believes they have identified the root cause of the stuck Dataflow jobs and is working to mitigate. We will provide another status update by Monday, 2019-03-11 12:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T17:33:39Z",
+        "modified": "2019-03-11T17:33:39Z",
+        "status": null,
+        "text": "Mitigation work is currently underway by our Engineering Team. We will provide another status update by Monday, 2019-03-11 11:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T17:33:37Z",
+        "modified": "2019-03-11T17:33:37Z",
+        "status": null,
+        "text": "We've received a report of an issue with increased system lag in some Google Cloud Dataflow jobs."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-dataflow",
+    "service_name": "Google Cloud Dataflow",
+    "external_desc": "We've received a report of an issue with increased system lag in some Google Cloud Dataflow jobs.",
+    "event_start_time": "2019-03-11T17:33:35Z",
+    "event_end_time": null,
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2019-03-11T17:33:39Z",
+        "modified": "2019-03-11T17:33:39Z",
+        "status": null,
+        "text": "Mitigation work is currently underway by our Engineering Team. We will provide another status update by Monday, 2019-03-11 11:45 US/Pacific with current details."
+      },
+      {
+        "created": "2019-03-11T17:33:37Z",
+        "modified": "2019-03-11T17:33:37Z",
+        "status": null,
+        "text": "We've received a report of an issue with increased system lag in some Google Cloud Dataflow jobs."
+      }
+    ]
+  },
+  {
+    "id": "TFyk1uenaojF2iJAnAAL",
+    "service_id": "bGThzF7oEGP5jcuDdMuk",
+    "service_name": "Google Cloud Support",
+    "external_desc": "Google Cloud Support experiencing issues with case creation, case viewing and case search",
+    "event_start_time": "2022-04-28T14:27:00+00:00",
+    "event_end_time": "2022-04-28T15:51:00+00:00",
+    "affected_products": [
+      {
+        "title": "Google Cloud Support"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2022-05-05T16:47:59+00:00",
+        "modified": "2022-05-05T16:47:59+00:00",
+        "status": "AVAILABLE",
+        "text": "The Incident Report is now available on the Google Cloud Status Dashboard:\nhttps://status.cloud.google.com/incidents/mvpNTsgUmf2LL7PdgmyF"
+      },
+      {
+        "created": "2022-04-29T01:22:08+00:00",
+        "modified": "2022-04-29T01:22:08+00:00",
+        "status": "AVAILABLE",
+        "text": "We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case https://cloud.google.com/support or help article https://support.google.com/a/answer/1047213.\n(All Times US/Pacific)\n**Incident Start:** 28 April 2022 07:27\n**Incident End:** 28 April 2022 08:51\n**Duration:** 1 hour, 24 minutes\n**Affected Services and Features:**\nGoogle Cloud Support - Cloud Console\n**Regions/Zones:** Global\n**Description:**\n- Google Cloud Support was unavailable via the Cloud Console and Admin Console for a duration of 1 hour, 24 minutes. From preliminary analysis, the root cause of the issue was due to elevated errors and latency from several backend component modules which failed to start in Google App Engine, due to an overload in the Google App Engine infrastructure.\n**Customer Impact:**\n- Google Cloud Support - customers were unable to create, view or search support cases in Google Cloud Support Center.\n**Additional details:**\nThe issue was fully resolved once the root cause change was rolled back from the Google App Engine infrastructure and request levels returned to normal, allowing the affected backend component modules to start."
+      },
+      {
+        "created": "2022-04-28T16:04:26+00:00",
+        "modified": "2022-04-28T16:04:27+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with Google Cloud Support has been resolved for all affected users as of Thursday, 2022-04-28 09:04 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2022-04-28T15:40:14+00:00",
+        "modified": "2022-04-28T15:40:14+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 09:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: Google Cloud customers can use https://support.google.com/cloud/contact/prod_issue to open the cases"
+      },
+      {
+        "created": "2022-04-28T15:18:17+00:00",
+        "modified": "2022-04-28T15:18:19+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 08:50 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "TFyk1uenaojF2iJAnAAL",
+    "service_id": "bGThzF7oEGP5jcuDdMuk",
+    "service_name": "Google Cloud Support",
+    "external_desc": "Google Cloud Support experiencing issues with case creation, case viewing and case search",
+    "event_start_time": "2022-04-28T14:27:00+00:00",
+    "event_end_time": "2022-04-28T15:51:00+00:00",
+    "affected_products": [
+      {
+        "title": "Google Cloud Support"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2022-04-29T01:22:08+00:00",
+        "modified": "2022-04-29T01:22:08+00:00",
+        "status": "AVAILABLE",
+        "text": "We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Support by opening a case https://cloud.google.com/support or help article https://support.google.com/a/answer/1047213.\n(All Times US/Pacific)\n**Incident Start:** 28 April 2022 07:27\n**Incident End:** 28 April 2022 08:51\n**Duration:** 1 hour, 24 minutes\n**Affected Services and Features:**\nGoogle Cloud Support - Cloud Console\n**Regions/Zones:** Global\n**Description:**\n- Google Cloud Support was unavailable via the Cloud Console and Admin Console for a duration of 1 hour, 24 minutes. From preliminary analysis, the root cause of the issue was due to elevated errors and latency from several backend component modules which failed to start in Google App Engine, due to an overload in the Google App Engine infrastructure.\n**Customer Impact:**\n- Google Cloud Support - customers were unable to create, view or search support cases in Google Cloud Support Center.\n**Additional details:**\nThe issue was fully resolved once the root cause change was rolled back from the Google App Engine infrastructure and request levels returned to normal, allowing the affected backend component modules to start."
+      },
+      {
+        "created": "2022-04-28T16:04:26+00:00",
+        "modified": "2022-04-28T16:04:27+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with Google Cloud Support has been resolved for all affected users as of Thursday, 2022-04-28 09:04 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2022-04-28T15:40:14+00:00",
+        "modified": "2022-04-28T15:40:14+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 09:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: Google Cloud customers can use https://support.google.com/cloud/contact/prod_issue to open the cases"
+      },
+      {
+        "created": "2022-04-28T15:18:17+00:00",
+        "modified": "2022-04-28T15:18:19+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 08:50 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "rf3TWPFD9xQxK7eXZX2K",
+    "service_id": "oW4vJ7VNqyxTWNzSHopX",
+    "service_name": "Google Cloud Functions",
+    "external_desc": "Cloud Function deployments are seeing increased errors in us-central1, us-east1 and us-east4",
+    "event_start_time": "2021-02-18T21:43:44+00:00",
+    "event_end_time": "2021-02-18T23:43:06+00:00",
+    "affected_products": [
+      {
+        "title": "Google Cloud Functions"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2021-02-18T23:43:07+00:00",
+        "modified": "2021-02-18T23:43:07+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with Google Cloud Functions deployments experiencing increased errors in us-central1, us-east1 and us-east4 has been resolved for all affected users as of Thursday, 2021-02-18 15:42 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-18T23:11:33+00:00",
+        "modified": "2021-02-18T23:11:33+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. Mitigation appears to be effective and error rates are decreasing. We are working to speed up a full recovery and continuing to monitor the situation.\nWe will provide more information by Thursday, 2021-02-18 15:45 US/Pacific.\nLocations:\n* us-central1\n* us-east1\n* us-east4\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:42:01+00:00",
+        "modified": "2021-02-18T22:42:01+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. A mitigation is being deployed and we are monitoring the situation. Existing deployments are not impacted.\nWe will provide more information by Thursday, 2021-02-18 15:30 US/Pacific.\nLocations:\n* us-central1\n* us-east1\n* us-east4\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "8PE2WjKBY7g4bVzMQfab",
+    "service_id": "L3ggmi3Jy4xJmgodFA9K",
+    "service_name": "Google Compute Engine",
+    "external_desc": "The issue with Google Compute Engine VM instance creation and deletion is partially resolved as of 15:14 US/Pacific.",
+    "event_start_time": "2021-02-18T21:18:09+00:00",
+    "event_end_time": "2021-02-19T00:59:43+00:00",
+    "affected_products": [
+      {
+        "title": "Google Compute Engine"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2021-02-19T00:59:44+00:00",
+        "modified": "2021-02-19T00:59:44+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with Google Compute Engine VM creation and deletion has been resolved for all affected projects as of Thursday, 2021-02-18 16:56 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-19T00:45:17+00:00",
+        "modified": "2021-02-19T00:45:17+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: The issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation and deletion requests as of 15:14 US/Pacific should succeed.\nWe are working through a backlog of creation and deletion requests that should complete in the next few hours and users may continue to see issues while we process this backlog.\nWe will provide an update by Thursday, 2021-02-18 18:00 US/Pacific with current details.\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:54:35+00:00",
+        "modified": "2021-02-18T23:54:35+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We believe the issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation requests as of 15:14 US/Pacific should succeed. We are working through a backlog of creation requests that should complete in the next few hours.\nCurrent list of known impacted products in us-central1:\nCompute Engine\nKubernetes Engine\nCloud AI\nCloud SQL\nCloud Dataproc\nWe will provide an update by Thursday, 2021-02-18 16:30 US/Pacific with current details.\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:11:33+00:00",
+        "modified": "2021-02-18T23:11:33+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are beginning to see recovery from applying the mitigation. We are continuing to monitor and exploring methods of increasing the rate of recovery.\nCurrent list of known impacted products in us-central1:\nCompute Engine\nKubernetes Engine\nApp Engine Flex\nCloud Functions\nCloud AI\nCloud SQL\nCloud Memorystore\nCloud Filestore\nCloud Dataproc\nCloud Dataflow\nWe will provide an update by Thursday, 2021-02-18 15:45 US/Pacific with current details.\nDiagnosis: Users may be unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors. Delete operations may also experience latency.\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:51:52+00:00",
+        "modified": "2021-02-18T22:51:52+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific. We have begun rolling out a mitigation for the issue and are continuing to monitor.\nCurrent list of known impacted products:\nCompute Engine\nKubernetes Engine\nApp Engine Flex\nCloud Functions\nCloud AI\nWe will provide an update by Thursday, 2021-02-18 15:15 US/Pacific with current details.\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors.\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:17:56+00:00",
+        "modified": "2021-02-18T22:17:56+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2021-02-18 14:45 US/Pacific with current details.\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on GCE will be impacted by this.\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "TFyk1uenaojF2iJAnAAL",
+    "service_id": "bGThzF7oEGP5jcuDdMuk",
+    "service_name": "Google Cloud Support",
+    "external_desc": "Google Cloud Support experiencing issues with case creation, case viewing and case search",
+    "event_start_time": "2022-04-28T15:07:53+00:00",
+    "event_end_time": "2022-04-28T16:04:26+00:00",
+    "affected_products": [
+      {
+        "title": "Google Cloud Support"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2022-04-28T16:04:26+00:00",
+        "modified": "2022-04-28T16:04:27+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with Google Cloud Support has been resolved for all affected users as of Thursday, 2022-04-28 09:04 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2022-04-28T15:40:14+00:00",
+        "modified": "2022-04-28T15:40:14+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 09:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: Google Cloud customers can use https://support.google.com/cloud/contact/prod_issue to open the cases"
+      },
+      {
+        "created": "2022-04-28T15:18:17+00:00",
+        "modified": "2022-04-28T15:18:19+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Summary: Google Cloud Support experiencing issues with case creation, case viewing and case search\nDescription: We are experiencing an issue with Google Cloud Support beginning at Thursday, 2022-04-28 07:27 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2022-04-28 08:50 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nDiagnosis: Affected customers are unable to create, view and search cases using Cloud Console or Google Cloud Support Center.\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "cloud-functions",
+    "service_name": "Google Cloud Functions",
+    "external_desc": "Cloud Function deployments are seeing increased errors in us-central1, us-east1 and us-east4",
+    "event_start_time": "2021-02-18T21:43:44Z",
+    "event_end_time": "2021-02-18T23:43:06Z",
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2021-02-18T23:43:07Z",
+        "modified": "2021-02-18T23:43:07Z",
+        "status": null,
+        "text": "The issue with Google Cloud Functions deployments experiencing increased errors in us-central1, us-east1 and us-east4 has been resolved for all affected users as of Thursday, 2021-02-18 15:42 US/Pacific.\n\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-18T23:11:33Z",
+        "modified": "2021-02-18T23:11:33Z",
+        "status": null,
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. Mitigation appears to be effective and error rates are decreasing. We are working to speed up a full recovery and continuing to monitor the situation.\n\nWe will provide more information by Thursday, 2021-02-18 15:45 US/Pacific.\n\nLocations:\n\n* us-central1\n* us-east1\n* us-east4\n\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:42:01Z",
+        "modified": "2021-02-18T22:42:01Z",
+        "status": null,
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. A mitigation is being deployed and we are monitoring the situation. Existing deployments are not impacted.\n\nWe will provide more information by Thursday, 2021-02-18 15:30 US/Pacific.\n\nLocations:\n\n* us-central1\n* us-east1\n* us-east4\n\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\n\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": null,
+    "service_id": "compute",
+    "service_name": "Google Compute Engine",
+    "external_desc": "The issue with Google Compute Engine VM instance creation and deletion is partially resolved as of 15:14 US/Pacific.",
+    "event_start_time": "2021-02-18T21:18:09Z",
+    "event_end_time": "2021-02-19T00:59:43Z",
+    "affected_products": null,
+    "updates": [
+      {
+        "created": "2021-02-19T00:59:44Z",
+        "modified": "2021-02-19T00:59:44Z",
+        "status": null,
+        "text": "The issue with Google Compute Engine VM creation and deletion has been resolved for all affected projects as of Thursday, 2021-02-18 16:56 US/Pacific.\n\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-19T00:45:17Z",
+        "modified": "2021-02-19T00:45:17Z",
+        "status": null,
+        "text": "Description: The issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation and deletion requests as of 15:14 US/Pacific should succeed. \n\nWe are working through a backlog of creation and deletion requests that should complete in the next few hours and users may continue to see issues while we process this backlog.\n\nWe will provide an update by Thursday, 2021-02-18 18:00 US/Pacific with current details.\n\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\n\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:54:35Z",
+        "modified": "2021-02-18T23:54:35Z",
+        "status": null,
+        "text": "Description: We believe the issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation requests as of 15:14 US/Pacific should succeed. We are working through a backlog of creation requests that should complete in the next few hours.\n\nCurrent list of known impacted products in us-central1:\nCompute Engine  \nKubernetes Engine  \nCloud AI  \nCloud SQL  \nCloud Dataproc  \n\nWe will provide an update by Thursday, 2021-02-18 16:30 US/Pacific with current details.\n\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\n\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:11:33Z",
+        "modified": "2021-02-18T23:11:33Z",
+        "status": null,
+        "text": "Description: We are beginning to see recovery from applying the mitigation. We are continuing to monitor and exploring methods of increasing the rate of recovery.\n\nCurrent list of known impacted products in us-central1:\nCompute Engine  \nKubernetes Engine  \nApp Engine Flex  \nCloud Functions  \nCloud AI  \nCloud SQL  \nCloud Memorystore  \nCloud Filestore  \nCloud Dataproc  \nCloud Dataflow  \n\nWe will provide an update by Thursday, 2021-02-18 15:45 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors. Delete operations may also experience latency.\n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:51:52Z",
+        "modified": "2021-02-18T22:51:52Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific. We have begun rolling out a mitigation for the issue and are continuing to monitor.\n\nCurrent list of known impacted products:\nCompute Engine  \nKubernetes Engine  \nApp Engine Flex  \nCloud Functions  \nCloud AI  \n\nWe will provide an update by Thursday, 2021-02-18 15:15 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors. \n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:17:56Z",
+        "modified": "2021-02-18T22:17:56Z",
+        "status": null,
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Thursday, 2021-02-18 14:45 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on GCE will be impacted by this.\n\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "ALmayks9yCxTYUUo4j9V",
+    "service_id": "LCSbT57h59oR4W98NHuz",
+    "service_name": "Google Kubernetes Engine",
+    "external_desc": "GKE Operations which Create or Delete VMs May Fail or Experience Elevated Latencies",
+    "event_start_time": "2020-07-15T13:54:32+00:00",
+    "event_end_time": "2020-07-15T15:57:56+00:00",
+    "affected_products": [
+      {
+        "title": "Google Kubernetes Engine"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2020-07-15T15:57:56+00:00",
+        "modified": "2020-07-15T15:57:56+00:00",
+        "status": "AVAILABLE",
+        "text": "The issue with operations which create or delete VMs using Google Kubernetes Engine has been resolved for all affected users as of Wednesday, 2020-07-15 08:55 US/Pacific.\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2020-07-15T15:26:37+00:00",
+        "modified": "2020-07-15T15:26:37+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors and latencies. This affects multiple regions, primarily regional and zonal clusters in us-central1.\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006\nDiagnosis: All GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors and latencies. This affects multiple regions, primarily regional and zonal clusters in us-central1.\nWorkaround: Retry the deployment."
+      },
+      {
+        "created": "2020-07-15T15:25:47+00:00",
+        "modified": "2020-07-15T15:25:47+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors. This affects multiple regions, primarily regional and zonal clusters in us-central1.\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006\nDiagnosis: All GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors. This affects multiple regions, primarily regional clusters in us-central1 and zonal clusters in us-central1-a, b, c, and d.\nWorkaround: Retry the deployment."
+      },
+      {
+        "created": "2020-07-15T15:23:24+00:00",
+        "modified": "2020-07-15T15:23:24+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006"
+      },
+      {
+        "created": "2020-07-15T14:53:29+00:00",
+        "modified": "2020-07-15T14:53:29+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\nMitigation work is underway by our engineering team. There is no ETA at this point.\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006 where we will provide the next update by Wednesday, 2020-07-15 08:20 US/Pacific."
+      },
+      {
+        "created": "2020-07-15T14:28:52+00:00",
+        "modified": "2020-07-15T14:28:52+00:00",
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools) may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\nOur engineering team continues to investigate the issue.\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006 where we will provide the next update by Wednesday, 2020-07-15 08:00 US/Pacific."
+      }
+    ]
+  },
+  {
+    "id": "rf3TWPFD9xQxK7eXZX2K",
+    "service_id": null,
+    "service_name": "Google Cloud Functions",
+    "external_desc": "Cloud Function deployments are seeing increased errors in us-central1, us-east1 and us-east4",
+    "event_start_time": "2021-02-18T21:43:44+00:00",
+    "event_end_time": "2021-02-18T23:43:06+00:00",
+    "affected_products": [
+      {
+        "title": "Google Cloud Functions"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2021-02-18T23:43:07+00:00",
+        "modified": null,
+        "status": "AVAILABLE",
+        "text": "The issue with Google Cloud Functions deployments experiencing increased errors in us-central1, us-east1 and us-east4 has been resolved for all affected users as of Thursday, 2021-02-18 15:42 US/Pacific.\n\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-18T23:11:33+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. Mitigation appears to be effective and error rates are decreasing. We are working to speed up a full recovery and continuing to monitor the situation.\n\nWe will provide more information by Thursday, 2021-02-18 15:45 US/Pacific.\n\nLocations:\n\n* us-central1\n* us-east1\n* us-east4\n\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:42:01+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We've received a report of an issue with Google Cloud Functions deployments in us-central1, us-east1, and us-east4 as of Thursday, 2021-02-18 12:54 US/Pacific. A mitigation is being deployed and we are monitoring the situation. Existing deployments are not impacted.\n\nWe will provide more information by Thursday, 2021-02-18 15:30 US/Pacific.\n\nLocations:\n\n* us-central1\n* us-east1\n* us-east4\n\nDiagnosis: Customers impacted by this issue may see increased errors deploying new versions of cloud functions in the impacted regions.\n\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "8PE2WjKBY7g4bVzMQfab",
+    "service_id": null,
+    "service_name": "Google Compute Engine",
+    "external_desc": "The issue with Google Compute Engine VM instance creation and deletion is partially resolved as of 15:14 US/Pacific.",
+    "event_start_time": "2021-02-18T21:18:09+00:00",
+    "event_end_time": "2021-02-19T00:59:43+00:00",
+    "affected_products": [
+      {
+        "title": "Google Compute Engine"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2021-02-19T00:59:44+00:00",
+        "modified": null,
+        "status": "AVAILABLE",
+        "text": "The issue with Google Compute Engine VM creation and deletion has been resolved for all affected projects as of Thursday, 2021-02-18 16:56 US/Pacific.\n\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2021-02-19T00:45:17+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: The issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation and deletion requests as of 15:14 US/Pacific should succeed. \n\nWe are working through a backlog of creation and deletion requests that should complete in the next few hours and users may continue to see issues while we process this backlog.\n\nWe will provide an update by Thursday, 2021-02-18 18:00 US/Pacific with current details.\n\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\n\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:54:35+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We believe the issue with Google Compute Engine VM instance creation and deletion is partially resolved. New VM instance creation requests as of 15:14 US/Pacific should succeed. We are working through a backlog of creation requests that should complete in the next few hours.\n\nCurrent list of known impacted products in us-central1:\nCompute Engine  \nKubernetes Engine  \nCloud AI  \nCloud SQL  \nCloud Dataproc  \n\nWe will provide an update by Thursday, 2021-02-18 16:30 US/Pacific with current details.\n\nDiagnosis: Users impacted by this may have been unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also have seen an increase in errors. Delete operations may also have experienced latency.\n\nWorkaround: Retrying operations may succeed."
+      },
+      {
+        "created": "2021-02-18T23:11:33+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are beginning to see recovery from applying the mitigation. We are continuing to monitor and exploring methods of increasing the rate of recovery.\n\nCurrent list of known impacted products in us-central1:\nCompute Engine  \nKubernetes Engine  \nApp Engine Flex  \nCloud Functions  \nCloud AI  \nCloud SQL  \nCloud Memorystore  \nCloud Filestore  \nCloud Dataproc  \nCloud Dataflow  \n\nWe will provide an update by Thursday, 2021-02-18 15:45 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new instances in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors. Delete operations may also experience latency.\n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:51:52+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific. We have begun rolling out a mitigation for the issue and are continuing to monitor.\n\nCurrent list of known impacted products:\nCompute Engine  \nKubernetes Engine  \nApp Engine Flex  \nCloud Functions  \nCloud AI  \n\nWe will provide an update by Thursday, 2021-02-18 15:15 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on creating GCE instances in us-central1 as part of a workflow may also see an increase in errors. \n\nWorkaround: None at this time."
+      },
+      {
+        "created": "2021-02-18T22:17:56+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Compute Engine VM Instance creation in us-central1 beginning at Thursday, 2021-02-18 12:13 US/Pacific.\n\nOur engineering team continues to investigate the issue.\n\nWe will provide an update by Thursday, 2021-02-18 14:45 US/Pacific with current details.\n\nDiagnosis: Users may be unable to create new VMs in us-central1, any products that rely on GCE will be impacted by this.\n\nWorkaround: None at this time."
+      }
+    ]
+  },
+  {
+    "id": "ALmayks9yCxTYUUo4j9V",
+    "service_id": null,
+    "service_name": "Google Kubernetes Engine",
+    "external_desc": "GKE Operations which Create or Delete VMs May Fail or Experience Elevated Latencies",
+    "event_start_time": "2020-07-15T13:54:32+00:00",
+    "event_end_time": "2020-07-15T15:57:56+00:00",
+    "affected_products": [
+      {
+        "title": "Google Kubernetes Engine"
+      }
+    ],
+    "updates": [
+      {
+        "created": "2020-07-15T15:57:56+00:00",
+        "modified": null,
+        "status": "AVAILABLE",
+        "text": "The issue with operations which create or delete VMs using Google Kubernetes Engine has been resolved for all affected users as of Wednesday, 2020-07-15 08:55 US/Pacific.\n\nWe thank you for your patience while we worked on resolving the issue."
+      },
+      {
+        "created": "2020-07-15T15:26:37+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\n\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors and latencies. This affects multiple regions, primarily regional and zonal clusters in us-central1.\n\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\n\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006\n\nDiagnosis: All GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors and latencies. This affects multiple regions, primarily regional and zonal clusters in us-central1.\n\nWorkaround: Retry the deployment."
+      },
+      {
+        "created": "2020-07-15T15:25:47+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\n\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors. This affects multiple regions, primarily regional and zonal clusters in us-central1.\n\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\n\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006\n\nDiagnosis: All GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors. This affects multiple regions, primarily regional clusters in us-central1 and zonal clusters in us-central1-a, b, c, and d.\n\nWorkaround: Retry the deployment."
+      },
+      {
+        "created": "2020-07-15T15:23:24+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\n\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\n\nMitigation work is underway by our engineering team. There is no ETA at this point.\nCluster auto upgrades are currently paused.\n\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006"
+      },
+      {
+        "created": "2020-07-15T14:53:29+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\n\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\n\nMitigation work is underway by our engineering team. There is no ETA at this point.\n\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006 where we will provide the next update by Wednesday, 2020-07-15 08:20 US/Pacific."
+      },
+      {
+        "created": "2020-07-15T14:28:52+00:00",
+        "modified": null,
+        "status": "SERVICE_DISRUPTION",
+        "text": "Description: We are experiencing an issue with Google Kubernetes Engine beginning at Wednesday, 2020-07-15 05:10 US/Pacific.\n\nAll GKE operations that create or delete VMs (including creating clusters and adding nodepools)  may fail or see elevated errors. This affects regional clusters in us-central1 and europe-west1 and zonal clusters in us-central1-a, b, c, and d.\n\nOur engineering team continues to investigate the issue.\n\nFor regular status updates, please follow: https://status.cloud.google.com/incident/compute/20006 where we will provide the next update by Wednesday, 2020-07-15 08:00 US/Pacific."
+      }
+    ]
+  }
+]

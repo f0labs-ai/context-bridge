@@ -1,0 +1,110 @@
+[
+  {
+    "title": "If you think your account has been accessed",
+    "topic": "security",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Warning signs",
+        "text": "Signs that someone else may be using your account include alerts for changes you did not make, orders you do not recognise, a password that suddenly stops working, emails about sign-ins from unfamiliar places, and contact details that have been altered. Unexplained charges on your bill, such as roaming or premium calls you did not make, can also be a sign that a SIM or an online account has been misused.",
+        "questions": ["How can I tell if someone has got into my Meridian account?", "There are charges on my bill I don't recognise. Could my account be hacked?"]
+      },
+      {
+        "heading": "First steps",
+        "text": "Reset your Meridian password immediately, using a new password you have never used anywhere else, and turn on two-step verification. Sign out every device from the Security page. If you cannot get into the account because the password or email address has been changed, call us on the number printed on your bill: an adviser can freeze the account and restore your access after checking your identity.",
+        "questions": ["What should I do first if my account has been hacked?", "Someone changed my email address and password. How do I get my account back?"]
+      },
+      {
+        "heading": "What we do next",
+        "text": "Once your account is secure, our fraud team reviews every change made in the period of concern, cancels unauthorised orders, returns your number to your own SIM if it was moved, and removes charges caused by the misuse. We contact you within two working days with what we found. If your personal details may have been exposed, we explain what was involved and what you can do to protect yourself.",
+        "questions": ["Will Meridian refund charges made by someone who hacked my account?", "How long does the fraud team take to investigate?"]
+      },
+      {
+        "heading": "Protecting yourself afterwards",
+        "text": "Change the password of any other account that used the same password, starting with your email, because control of your email allows criminals to reset other passwords. Watch your bank statements closely for a few months. Be extra careful with calls and messages that mention the incident, because criminals sometimes follow up a breach by posing as the company's fraud team and asking for further details.",
+        "questions": ["What else should I do after my account was compromised?", "Could scammers call me pretending to be the fraud team after a breach?"]
+      }
+    ]
+  },
+  {
+    "title": "Protecting children online",
+    "topic": "security",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "Combining controls",
+        "text": "No single tool keeps children completely safe online, so it works best to combine several. Our family filter blocks unsuitable websites on every device at home. Device controls on phones, tablets and consoles limit apps, purchases and screen time. Parental controls on the TV protect programmes by age rating. Mobile content controls cover browsing away from home on a child's own phone. Together they cover each place a child goes online.",
+        "questions": ["What's the best way to keep my kids safe online?", "Does the family filter protect my child when they're out with their phone?"]
+      },
+      {
+        "heading": "Content controls on children's phones",
+        "text": "Every Meridian mobile line under the account holder's name has content controls switched on by default, blocking adult websites over mobile data. Only the account holder can turn them off, after confirming they are over eighteen. When you give a child a phone, check that its line still has controls on under Mobile settings, and add a monthly spending cap so they cannot run up charges on extras or premium numbers.",
+        "questions": ["Are adult sites blocked on my child's Meridian phone?", "How do I stop my child spending money on their phone?"]
+      },
+      {
+        "heading": "Talking to children about safety",
+        "text": "Technical controls work best alongside regular conversations. Agree simple rules together, such as which apps are allowed and where devices are kept at night. Encourage children to tell you if something online upsets them, without fear of losing their phone. Remind them that people online are not always who they claim to be, and that they should never share their address, school or photos with strangers.",
+        "questions": ["How should I talk to my children about staying safe online?", "What rules should I set for my kids' phones?"]
+      },
+      {
+        "heading": "Older children and privacy",
+        "text": "As children grow, controls can be relaxed step by step. The family filter has a teenage setting that allows more categories while still blocking adult content. Screen time schedules can be loosened for older children, and they can be given their own profiles on the TV app. Explain any changes, so that older children understand that the controls protect them and are not simply about checking up on them.",
+        "questions": ["Is there a family filter setting for teenagers?", "How do I relax parental controls as my child gets older?"]
+      }
+    ]
+  },
+  {
+    "title": "Payment security",
+    "topic": "security",
+    "service": "online_payments",
+    "sections": [
+      {
+        "heading": "How we protect card payments",
+        "text": "Card payments on our website and in the app are processed through an encrypted connection by a certified payment provider. We never store your full card number or security code on our systems. When you save a card, only a token is kept, which cannot be used anywhere else. Your bank may ask you to confirm a payment in its own app or with a code, an extra check that helps keep your card safe.",
+        "questions": ["Is it safe to pay my Meridian bill online with my card?", "Does Meridian store my card number?"]
+      },
+      {
+        "heading": "Paying safely by phone",
+        "text": "When you pay by phone, you enter your card number using the keypad rather than reading it aloud, and the tones are masked so that the adviser never hears them. If anyone claiming to be from Meridian asks you to read out your full card number or the security code on the back, end the call. You can always call us back on the number printed on your bill to make the payment.",
+        "questions": ["Will a Meridian adviser ever ask me to read out my card number?", "Is paying by phone safe?"]
+      },
+      {
+        "heading": "Fake payment requests",
+        "text": "Scammers send texts and emails that look like overdue bill notices with links to fake payment pages. Before paying, check that the web address belongs to Meridian, and if in doubt, open the app or type our address into your browser yourself rather than using a link. We never ask for payment by bank transfer to a personal account, by gift card or in cryptocurrency. Report any such request to us.",
+        "questions": ["I got a text saying my bill is overdue with a payment link. Is it real?", "Would Meridian ever ask me to pay with gift cards?"]
+      },
+      {
+        "heading": "Removing saved cards",
+        "text": "You can see the cards saved on your account under Billing and Payment methods, and remove any you no longer use. Removing a card does not affect payments already made. If your card is lost, stolen or replaced by your bank, remove the old card and add the new one. A card used for direct debit backup or automatic top-ups cannot be removed until another payment method is chosen in its place.",
+        "questions": ["How do I delete a saved card from my Meridian account?", "Why can't I remove a card from my account?"]
+      }
+    ]
+  },
+  {
+    "title": "Returning equipment",
+    "topic": "returns",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "What needs to come back",
+        "text": "Equipment on loan from us, such as Wi-Fi hubs, extenders, set-top boxes and loan 4G routers, must be returned when you leave, downgrade or receive a replacement. Phones bought outright or on a handset agreement belong to you and do not need to be returned. Your returns email lists exactly which items we expect back, with their serial numbers, so you can check before packing.",
+        "questions": ["Which equipment do I need to send back when I leave Meridian?", "Do I have to return my mobile phone when my contract ends?"]
+      },
+      {
+        "heading": "Packing and posting",
+        "text": "We send a prepaid returns bag to your address, or you can print a returns label from the online account. Pack the equipment with its power adapter, but keep your own cables and accessories. Hand the parcel in at any post office counter or parcel drop point and keep the receipt as proof of posting. You can also return equipment to any Meridian shop, where staff will scan it and give you a receipt.",
+        "questions": ["How do I send my hub back to Meridian?", "Can I return my equipment to a Meridian shop?"]
+      },
+      {
+        "heading": "Deadlines and charges",
+        "text": "Please return equipment within thirty days of your service ending or the replacement arriving. If it has not reached us by then, a charge for unreturned equipment is added to your final or next bill. The charge is removed in full once the item arrives, even if it is late, as long as it is not badly damaged. Normal signs of use, such as scratches, never lead to a charge.",
+        "questions": ["How long do I have to return my router?", "Will I be charged if my returned hub is scratched?"]
+      },
+      {
+        "heading": "Before you send it",
+        "text": "Before returning a hub or set-top box, you do not need to reset it, because we wipe every returned device before reuse. However, if you used the hub with personal settings you would rather remove, a factory reset clears them. Remove any memory cards or storage drives you added to a set-top box. Recordings on a set-top box are erased when we wipe it, so watch anything important first.",
+        "questions": ["Do I need to reset my router before sending it back?", "What happens to my recordings when I return the TV box?"]
+      }
+    ]
+  }
+]

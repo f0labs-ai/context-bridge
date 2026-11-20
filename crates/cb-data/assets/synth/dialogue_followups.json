@@ -1,0 +1,280 @@
+{
+  "follow_ups": [
+    {
+      "when": "any",
+      "customer": [
+        "Will I get any money back for the time it's been off?",
+        "Am I entitled to compensation for this? I'm paying for a service I can't use.",
+        "Can you take something off my bill for the inconvenience?"
+      ],
+      "agent": [
+        "I understand why you're asking. Once the fault is closed, any credit you're due under our service guarantee is worked out automatically and shows on your next bill. You don't need to claim it.",
+        "We do have a compensation scheme for loss of service. It's calculated from the length of the fault once it's over, and it's applied to your account as a credit rather than paid out.",
+        "If the fault lasts beyond the period in our service promise, you'll receive a credit without having to ask. I've added a note so the billing team can see that you raised it today."
+      ]
+    },
+    {
+      "when": "any",
+      "customer": [
+        "Can I make a complaint about this?",
+        "I'd like it on record that I'm not happy. How do I complain?",
+        "Who do I speak to if I want to take this further?"
+      ],
+      "agent": [
+        "Of course. I can log a complaint for you now, and you'll receive a written acknowledgement within two working days. You can also add details through the complaints page on our website.",
+        "You're entitled to do that. I've recorded your dissatisfaction on the account, and if you'd like a formal complaint I can open one, which gives you a reference and a named case handler.",
+        "I can raise that for you. The complaints team reviews every case, and they'll contact you by your preferred method once the fault has been dealt with."
+      ]
+    },
+    {
+      "when": "any",
+      "kinds": ["line", "tv"],
+      "customer": [
+        "Do you need to send an engineer out to me?",
+        "Should I book an engineer visit, or is that not necessary?",
+        "Will somebody have to come round to the house?"
+      ],
+      "agent": [
+        "Not at this stage. If your service is still not right once the network checks are finished, we can book a visit then, and there'd be no charge if the fault is on our side.",
+        "There's no need for a visit at the moment. An engineer at your home wouldn't be able to do anything that we can't do remotely, so I'd hold off for now.",
+        "I don't think so. We only send someone out when the tests point to a problem inside the property, and nothing so far suggests that."
+      ]
+    },
+    {
+      "when": "any",
+      "customer": [
+        "Will I still be charged the full amount this month?",
+        "Does this affect my bill at all?",
+        "I hope I'm not paying full price while this is going on."
+      ],
+      "agent": [
+        "Your bill will be produced as normal, but any credit for the time without service is applied afterwards, so you won't lose out.",
+        "The monthly charge stays the same for now. If a credit is due, it appears as a separate line on the following bill.",
+        "Nothing changes on the bill straight away. Adjustments are made once we know exactly how long you were affected."
+      ]
+    },
+    {
+      "when": "any",
+      "customer": [
+        "Is there somewhere I can check on this myself, rather than ringing in?",
+        "Can I follow this online instead of calling you each time?",
+        "Is there a page where I can look for updates?"
+      ],
+      "agent": [
+        "Yes, the service status page on our website is updated whenever the engineers post something new. You can search by your area, and you don't need to sign in.",
+        "You can. The status checker in the app and on the website shows the same information I see here, and it refreshes every few minutes.",
+        "The quickest place is the service status page. If you register your mobile number there, you'll also get a text whenever the status changes."
+      ]
+    },
+    {
+      "when": "any",
+      "kinds": ["line", "mobile"],
+      "customer": [
+        "My mother lives with me and depends on this. Is there any kind of priority for people like her?",
+        "I've got a medical alarm that relies on this connection. Does that change anything?",
+        "There's somebody vulnerable in the house. Can that be taken into account?"
+      ],
+      "agent": [
+        "Thank you for telling me. I can add your household to our priority services register, which means faults on your account are flagged for faster attention, and we can talk about a backup option as well.",
+        "That's important, and I've noted it on the account. Customers on the priority register are contacted first when there's a fault. Shall I send you the form to complete the registration?",
+        "I'm glad you mentioned it. I'll mark the account as priority now. It doesn't cost anything, and it stays in place for future faults too."
+      ]
+    },
+    {
+      "when": "any",
+      "customer": [
+        "Can I leave my contract over this?",
+        "What if I want to cancel because of this?",
+        "This makes me want to switch provider, to be honest. Am I tied in?"
+      ],
+      "agent": [
+        "I'm sorry you feel that way. A single fault doesn't normally end a contract early, but if service problems continue you may have the right to leave without a fee, and our retentions team can go through the options.",
+        "I'd hate to lose you over this. Your contract terms are in the account settings, and if we fail to fix a fault within the period in our service promise, you can leave free of charge.",
+        "You're free to discuss that with our cancellations team. I can see how long is left on your agreement, and I can transfer you once we've finished here if you'd like."
+      ]
+    },
+    {
+      "when": "any",
+      "customer": [
+        "Can you give me a reference number for this call?",
+        "Is there a reference I can quote if I have to ring back?",
+        "Do I get some sort of ticket number?"
+      ],
+      "agent": [
+        "Yes. I'll send it by text as soon as we finish, so you don't have to write anything down. Anyone you speak to will be able to see today's notes.",
+        "Yes, there is. The reference is created when I save the call, and it's sent to the mobile number on the account within a few minutes.",
+        "Of course. It will reach you by text and email shortly, and it's also listed under recent contacts in your online account."
+      ]
+    },
+    {
+      "when": "ongoing",
+      "customer": [
+        "Will somebody let me know when it's fixed?",
+        "Can you text me when it's back on?",
+        "Will I get a message when it's working again?"
+      ],
+      "agent": [
+        "Yes. I've subscribed your mobile number to updates for this incident, so you'll get a text when the status changes and another one when it's closed.",
+        "I can set that up now. You'll receive a message as soon as the engineers mark it as resolved, and you can reply STOP if you don't want any more.",
+        "You'll get a text. I've ticked the box for incident alerts on your account, and that covers this fault from now until it's finished."
+      ]
+    },
+    {
+      "when": "before_workaround",
+      "kinds": ["line", "tv", "mobile"],
+      "customer": [
+        "Do I need to do anything to my equipment in the meantime?",
+        "Should I leave everything switched on, or turn it off?",
+        "Is there anything I should be doing at my end?"
+      ],
+      "agent": [
+        "Please leave everything plugged in and switched on. That way it can recover by itself, and our tests can still see your equipment.",
+        "You don't need to change anything. If you reset things to factory settings it can actually slow down your recovery, so I'd leave it all alone.",
+        "Just leave it as it is. There's nothing wrong with your own equipment, and it's best not to unplug anything while the engineers are working."
+      ]
+    },
+    {
+      "when": "ongoing",
+      "customer": [
+        "Will I lose any of my settings because of this?",
+        "Is any of my stuff going to be wiped when it comes back?",
+        "Do I have to set everything up again afterwards?"
+      ],
+      "agent": [
+        "No, nothing stored on your account or your equipment is affected. Everything should come back exactly as you left it.",
+        "You shouldn't lose anything. The fault is on the network side, so your own settings and saved items aren't touched.",
+        "Not at all. Once service returns, your set-up will be just as it was, and there's nothing to reinstall."
+      ]
+    },
+    {
+      "when": "area_known",
+      "customer": [
+        "So it's not just me, then?",
+        "Is everybody round here affected, or only some of us?",
+        "Are lots of people ringing in about this?"
+      ],
+      "agent": [
+        "It's definitely not just you. We've had a large number of contacts from {region} about {service} today, and they all describe the same thing.",
+        "It's affecting customers across {region}. You're one of many, which at least tells us it isn't a fault with your own set-up.",
+        "It's a wide area. The reports are coming from all over {region}, so please don't think you've been singled out."
+      ]
+    },
+    {
+      "when": "nothing_known",
+      "customer": [
+        "Has anybody else reported the same thing?",
+        "Am I the only one who's rung in about this?",
+        "Is it just my house, do you think?"
+      ],
+      "agent": [
+        "So far yours is the first report I've come across for {region}, but that can change quickly if it's a wider fault.",
+        "I can't see any other reports for your area yet. That doesn't rule out a network problem. It may just mean you were quick to call.",
+        "At the moment yours is the only one on my screen. If more come in, the system links them together and the engineers are alerted."
+      ]
+    },
+    {
+      "when": "nothing_known",
+      "customer": [
+        "How long before somebody looks at the fault report?",
+        "When will I hear back about this?",
+        "What happens next, then?"
+      ],
+      "agent": [
+        "The fault report goes straight to the technical team's queue, and they aim to run their tests within a few hours. You'll get a text as soon as there's a result.",
+        "It's picked up the same day. The team checks the line remotely first, and they'll only contact you if they need access or more information.",
+        "Next, the second line team reviews it. If they find a network cause, it becomes an incident and you'll see it on the status page."
+      ]
+    },
+    {
+      "when": "no_eta",
+      "customer": [
+        "Do you know when it'll be back?",
+        "Have they said how long it's going to take?",
+        "Any idea when I'll be up and running again?"
+      ],
+      "agent": [
+        "I'm afraid I don't have an estimated time yet. The engineers only publish one when they're confident of it, and I don't want to guess and get it wrong.",
+        "There's no time for restoration on the record so far. As soon as one is published it will appear on the status page, and it will be in the text updates.",
+        "Not yet, I'm sorry. No estimate has been given, and I'd rather be honest with you than promise something I can't stand behind."
+      ]
+    },
+    {
+      "when": "no_cause",
+      "customer": [
+        "Do they know what's caused it?",
+        "What's actually gone wrong, do you know?",
+        "Has anyone said why this has happened?"
+      ],
+      "agent": [
+        "Not yet. The record only says that it's under investigation, so I can't give you a cause until the engineers confirm one.",
+        "I don't have that information so far. The cause will be published once it's been identified, and I wouldn't want to speculate.",
+        "They haven't said. All I can tell you is that it's being looked at as a priority."
+      ]
+    },
+    {
+      "when": "resolved",
+      "customer": [
+        "Is it likely to happen again?",
+        "How do I know this won't just go off again tomorrow?",
+        "Has it been fixed properly, or is it a patch?"
+      ],
+      "agent": [
+        "The incident has been closed as a permanent repair, not a temporary one. The engineers also monitor the area closely for a period afterwards, in case anything recurs.",
+        "I can't promise there will never be another fault, but this one is recorded as fully repaired, and the network team keeps extra monitoring in place for the next few days.",
+        "It's marked as a full fix. If you do notice anything odd over the next day or so, call us and mention this incident so it's linked."
+      ]
+    },
+    {
+      "when": "resolved",
+      "customer": [
+        "Why wasn't I told it had been fixed?",
+        "Nobody let me know it was sorted. Shouldn't I have had a message?",
+        "I'd have expected a text or something when it came back."
+      ],
+      "agent": [
+        "You should have had a message, and I'm sorry if it didn't arrive. Messages go to customers who signed up for alerts on this incident, so let me check that your number is registered for next time.",
+        "I apologise for that. The closing message is sent to the mobile number on the account, and I can see that yours wasn't opted in. I've switched alerts on for you now.",
+        "That's fair. Not every account is set up for automatic alerts. I've turned them on for you, so you'll hear from us straight away in future."
+      ]
+    }
+  ],
+  "reassurance": [
+    ["C: I've been on hold for ages just to get through to somebody.", "A: I'm sorry about the wait. We're taking a lot of calls at the moment, and I appreciate you staying on the line."],
+    ["C: This is the second time this year I've had to ring you.", "A: I can see the earlier contact in your history, and I'm sorry you've had to call again. I'll make sure today's call is noted properly."],
+    ["C: I do find all this very stressful, you know.", "A: I completely understand, and I'll keep things as simple as I can. You've done the right thing by calling."],
+    ["C: I just want it to work. That's all I ask.", "A: That's a perfectly reasonable thing to want, and it's what we want for you too. Let's see what we can do."],
+    ["C: Sorry if I sound short with you. It isn't your fault.", "A: Please don't apologise. I'd be frustrated in your position as well, and I'm here to help."],
+    ["C: The automated menu sent me round in circles before I got to you.", "A: I'm sorry about that. I'll pass it on, because we do review the phone menu when customers tell us it's confusing."],
+    ["C: I rang yesterday about something else and nobody called me back.", "A: I apologise for that. I can see a callback request on your account, and I'll chase it with the team once we've dealt with today's problem."],
+    ["C: I never know whether it's me doing something wrong.", "A: It's very unlikely to be anything you've done. That's exactly what I'm here to check, so let's go through it together."],
+    ["C: I rely on this more than I'd like to admit.", "A: Most of us do these days. I'll do everything I can to get you a clear answer on this call."],
+    ["C: You've been more helpful than the last person I spoke to, I'll say that.", "A: That's kind of you, thank you. I'm sorry your earlier call didn't go as it should have."]
+  ],
+  "recap": [
+    "So, just to recap: I've confirmed your details, checked the status for your area, and added notes to your account so the next adviser can see what we discussed.",
+    "To sum up what we've done today: your account is verified, the call is logged, and your number is down for any updates.",
+    "Let me quickly run through where we are. Your report is recorded, there's nothing further you need to do right now, and you can check progress online at any time.",
+    "Before we finish, a quick summary. I've noted everything you told me, and the information I gave you is the latest we have at this moment.",
+    "So that's everything on the record. If anything changes on your side, call back and quote today's contact, and we'll carry on from there.",
+    "To recap, then: you've reported it, I've logged it, and you'll hear from us as soon as there's more to say."
+  ],
+  "small_talk_waiting": [
+    ["A: While that loads, how's your day been otherwise?", "C: Not bad, apart from this. Busy.", "A: I know the feeling. It's been non-stop here since first thing."],
+    ["A: The system is a little slow today, I'm afraid.", "C: Typical. Everything's slow when you're in a hurry.", "A: Isn't it just. Nearly there."],
+    ["A: Sorry, my screen is just refreshing.", "C: That's all right. I've got a cup of tea, so I'm happy enough.", "A: Sounds like you've got the right idea."],
+    ["A: Just waiting on one more screen.", "C: Take your time. I've put you on speaker so I can carry on with the washing up.", "A: Very efficient. I won't keep you long."],
+    ["A: This page always takes a few seconds to come up.", "C: No problem. I'm not going anywhere.", "A: Thank you. It's worth the wait, it shows everything for your area."]
+  ],
+  "small_talk": [
+    ["C: Is it busy there today?", "A: It is quite lively, yes. We've had a lot of calls this shift.", "C: I bet you have."],
+    ["A: Have you been with us long?", "C: A good few years now. Since we moved into this house.", "A: Well, thank you for sticking with us. I can see that on the account."],
+    ["C: Sorry about the noise. The dog's decided now is the time to bark.", "A: Not at all, I've got one just the same at home.", "C: He thinks every phone call is for him."],
+    ["A: Are you working from home today?", "C: Supposed to be. Chance would be a fine thing at the moment.", "A: Understood. Let's see if we can get you back to it."],
+    ["C: Do you get a lot of calls like mine?", "A: A fair few, yes. No two are quite the same, though.", "C: I can imagine."],
+    ["C: I nearly gave up and went to the shop instead of ringing.", "A: I'm glad you called. It's usually quicker than going in.", "C: That's what my son said."],
+    ["A: It's been one of those weeks, has it?", "C: You could say that. First the car, now this.", "A: Oh dear. Well, let's at least get this one answered for you."],
+    ["C: You sound like you're in a big office.", "A: There are a few of us here today, yes. Sorry if there's background noise.", "C: No, it's fine. I can hear you clearly."],
+    ["C: Do you actually work for Meridian, or is this a call centre somewhere?", "A: I work for Meridian Connect directly, in the customer support team.", "C: Good. It's nice to know who I'm talking to."],
+    ["A: Is the weather any better where you are?", "C: It's raining again. It's done nothing else all week.", "A: Same here. At least neither of us is missing much outside."]
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "title": "The two Wi-Fi bands",
+    "topic": "wifi",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "2.4 GHz and 5 GHz explained",
+        "text": "Your hub broadcasts on two radio bands. The 2.4 GHz band reaches further and passes through walls better, but it is slower and more crowded, because many neighbours and household gadgets use it. The 5 GHz band is much faster and less congested but has a shorter range. Phones and laptops choose between them automatically. A device that is close to the hub will usually be on 5 GHz, and one at the far end of the garden on 2.4 GHz.",
+        "questions": ["What's the difference between 2.4 GHz and 5 GHz Wi-Fi?", "Which Wi-Fi band reaches further through walls?"]
+      },
+      {
+        "heading": "Band steering",
+        "text": "By default the hub shows a single network name and moves each device to the band that suits it best, a feature called band steering. This gives most households the best results without any effort. Occasionally an older device struggles to connect while being steered. If that happens, you can split the bands in the app under My equipment and Wi-Fi bands, so that each band appears under its own name, such as your network name followed by 5G.",
+        "questions": ["Why do I only see one Wi-Fi name when there are two bands?", "How do I split my Wi-Fi into separate 2.4 and 5 GHz networks?"]
+      },
+      {
+        "heading": "Devices that need 2.4 GHz",
+        "text": "Many smart plugs, light bulbs, cameras and doorbells only work on the 2.4 GHz band. During their set-up they may fail to join a combined network, particularly when the phone used for set-up is on 5 GHz. If a device will not pair, split the bands temporarily, connect your phone to the 2.4 GHz network, set the device up, and then combine the bands again. The device stays on 2.4 GHz afterwards and keeps working normally.",
+        "questions": ["My smart plug won't connect to the Wi-Fi. Could it be the band?", "How do I set up a device that only supports 2.4 GHz?"]
+      },
+      {
+        "heading": "Wi-Fi 6 and newer devices",
+        "text": "Current Meridian hubs support Wi-Fi 6, which handles many devices at once more efficiently and helps when a household has dozens of phones, tablets and gadgets connected. Older devices still connect normally, using the older standard they understand. You do not need to change any settings to benefit. If your hub is more than five years old and you have a large number of devices, ask us whether an upgrade is available on your plan.",
+        "questions": ["Does my hub support Wi-Fi 6?", "Will my old laptop still work with a Wi-Fi 6 hub?"]
+      }
+    ]
+  },
+  {
+    "title": "Connecting smart home devices",
+    "topic": "wifi",
+    "service": "home_wifi",
+    "sections": [
+      {
+        "heading": "Before you start",
+        "text": "Have your Wi-Fi name and password ready, and set the device up in the room where it will live, so that it measures the real signal there. Install the maker's app on your phone and allow it to use your location, which many smart home apps need in order to find nearby devices. Make sure your phone is connected to the home Wi-Fi rather than mobile data. Keep the device within a few metres of the hub or an extender during set-up.",
+        "questions": ["What do I need before setting up a smart home device?", "Why does my smart home app ask for my location?"]
+      },
+      {
+        "heading": "Common pairing problems",
+        "text": "If a device cannot find your network, check that it supports the band you are using, since many only work on 2.4 GHz. Passwords containing unusual symbols occasionally cause trouble with cheaper devices; a password made of letters and numbers avoids this. Some devices cannot join networks that require a sign-in page, such as a guest network with terms to accept. Restarting the device and the phone clears many failed attempts.",
+        "questions": ["My smart camera can't find my Wi-Fi network. What should I check?", "Can special characters in my Wi-Fi password cause problems?"]
+      },
+      {
+        "heading": "How many devices the hub can handle",
+        "text": "Current hubs can manage more than a hundred connected devices at once, and extenders add further capacity. In practice, the number of devices matters less than how much each one uses: a single ultra high definition stream uses more than fifty smart plugs. The connected devices list in the app shows every device, with the amount of data each one has used, so you can spot any device that is using more than expected.",
+        "questions": ["How many devices can I connect to my Meridian hub?", "How can I see which devices are using the most data?"]
+      },
+      {
+        "heading": "Keeping smart devices secure",
+        "text": "Change the default password on any device that has one, and install the maker's updates when they are offered. Remove devices you no longer use from both the maker's app and the connected devices list. Consider placing devices that only need internet access on your guest network. If a device behaves strangely, for example a camera moving when nobody is using it, unplug it, change your Wi-Fi password and contact the device's maker.",
+        "questions": ["How do I keep my smart home gadgets secure?", "My camera seems to move on its own. What should I do?"]
+      }
+    ]
+  },
+  {
+    "title": "Wi-Fi calling",
+    "topic": "wifi",
+    "service": "mobile_calls",
+    "sections": [
+      {
+        "heading": "What Wi-Fi calling does",
+        "text": "Wi-Fi calling lets your phone make and receive ordinary calls and texts over any Wi-Fi network when mobile signal is weak, for example in a basement flat or a building with thick stone walls. You keep your own number, the person you call sees it as usual, and calls are taken from your normal allowance. The phone switches between Wi-Fi and mobile signal automatically, and a call started on Wi-Fi can continue on the mobile network when you leave the house.",
+        "questions": ["What is Wi-Fi calling?", "Do Wi-Fi calls come out of my normal minutes?"]
+      },
+      {
+        "heading": "Switching it on",
+        "text": "Wi-Fi calling is included on all pay monthly plans and most prepaid plans at no extra cost. Turn it on in your phone's settings, usually under Phone or Mobile network, where it may be called Wi-Fi calling. You may be asked to confirm an emergency address, which is passed to the emergency services if you call them over Wi-Fi. When it is active, the phone shows Wi-Fi next to the network name at the top of the screen.",
+        "questions": ["How do I turn on Wi-Fi calling on my phone?", "Why does my phone ask for an emergency address for Wi-Fi calling?"]
+      },
+      {
+        "heading": "Phones and plans that support it",
+        "text": "Most smartphones from the last five years support Wi-Fi calling on our network, including phones bought elsewhere. A list of supported models is kept in the help centre. If your phone is supported but the option is missing, install any pending software update, restart the phone and wait for the settings text we send. Business plans with call recording, and a small number of very old prepaid plans, do not include Wi-Fi calling.",
+        "questions": ["Will Wi-Fi calling work on a phone I didn't buy from Meridian?", "Why can't I find the Wi-Fi calling option on my phone?"]
+      },
+      {
+        "heading": "Wi-Fi calling abroad",
+        "text": "You can use Wi-Fi calling while travelling to make calls home over hotel or café Wi-Fi. Calls to numbers in your home country are charged as if you were at home, which can save a great deal on roaming charges. Calls to local numbers in the country you are visiting are charged as international calls. A few countries restrict Wi-Fi calling, and in those places the phone simply uses the mobile network instead.",
+        "questions": ["Can I use Wi-Fi calling when I'm on holiday abroad?", "How much does a Wi-Fi call home cost from another country?"]
+      }
+    ]
+  },
+  {
+    "title": "Running a speed test",
+    "topic": "wifi",
+    "service": "home_internet",
+    "sections": [
+      {
+        "heading": "Getting a reliable result",
+        "text": "For an accurate result, test with a computer connected to the hub by a network cable, close other programs and pause downloads and streaming on other devices in the home. Use the speed checker in the Meridian app or on our website, which tests the line to the edge of our network. Run the test three times at different times of day. A Wi-Fi test on a phone measures your Wi-Fi as much as your broadband, so it usually reads lower.",
+        "questions": ["How do I get an accurate broadband speed test?", "Why is my speed test lower on my phone than on my laptop?"]
+      },
+      {
+        "heading": "Reading the numbers",
+        "text": "The download speed shows how quickly data reaches you, which matters for streaming and web pages. The upload speed shows how quickly you can send data, which matters for video calls, online backups and posting large files. Ping, measured in milliseconds, is the delay before a response arrives; a low ping matters for online games and calls. Your plan's typical speeds are shown on your order confirmation for comparison.",
+        "questions": ["What do download, upload and ping mean in a speed test?", "What ping should I have for online gaming?"]
+      },
+      {
+        "heading": "When the result is lower than expected",
+        "text": "Restart the hub, then test again with a cable. If the wired result is still well below the minimum guaranteed speed on your order confirmation, check the service status page for problems in your area. If there is no known problem, report the slow speed through the app with your test results attached. Our team runs a line test and, if necessary, arranges an engineer. Faults on our side are fixed at no charge.",
+        "questions": ["What should I do if my broadband speed is below what I'm paying for?", "How do I report slow speeds to Meridian?"]
+      },
+      {
+        "heading": "Speeds at busy times",
+        "text": "On full fibre, speeds should stay close to your plan at all times of day. On part fibre lines, it is normal to see some slowing in the evening, when many people in the area are online. We publish the typical evening speed for every plan so that you know what to expect. If your speed drops sharply only at certain times, a device in your home may be uploading or downloading large files on a schedule.",
+        "questions": ["Why is my internet slower in the evenings?", "Is it normal for broadband to slow down at peak times?"]
+      }
+    ]
+  }
+]

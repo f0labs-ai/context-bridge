@@ -1,0 +1,129 @@
+{
+  "id": "1lnqb2vk25vn",
+  "name": "GitHub Copilot failures",
+  "status": "resolved",
+  "impact": "major",
+  "created_at": "2026-01-13T09:38:56.874Z",
+  "resolved_at": "2026-01-13T10:46:07.814Z",
+  "scheduled_for": null,
+  "components": [
+    {
+      "name": "Copilot"
+    }
+  ],
+  "incident_updates": [
+    {
+      "id": "hqvdzhcdzfz6",
+      "status": "resolved",
+      "body": "On January 13th, 2026, between 09:25 UTC and 10:11 UTC, GitHub Copilot experienced unavailability. During this window, error rates averaged 18% and peaked at 100% of service requests, leading to an outage of chat features across Copilot Chat, VS Code, JetBrains IDEs, and other Copilot-dependent products. <br /><br />This incident was triggered by a configuration error during a model update. We mitigated the incident by rolling back this change. However, a second recovery phase lasted until 10:46 UTC, due to unexpected latency with the GPT 4.1 model. To prevent recurrence, we are investing in new monitors and more robust testing environments to reduce further misconfigurations, and to improve our time to detection and mitigation of future issues.",
+      "created_at": "2026-01-13T10:46:07.814Z",
+      "updated_at": "2026-01-15T18:29:06.321Z",
+      "display_at": "2026-01-13T10:46:07.814Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "dvxmv0xn6nps",
+      "status": "investigating",
+      "body": "Copilot is operating normally.",
+      "created_at": "2026-01-13T10:46:03.275Z",
+      "updated_at": "2026-01-13T10:46:03.275Z",
+      "display_at": "2026-01-13T10:46:03.275Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "g9knyrkdjcz7",
+      "status": "investigating",
+      "body": "We are seeing recovery in the GPT-4.1 model. We continue to monitor for full recovery.",
+      "created_at": "2026-01-13T10:44:18.759Z",
+      "updated_at": "2026-01-13T10:44:18.759Z",
+      "display_at": "2026-01-13T10:44:18.759Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "5wxyj4yzfv89",
+      "status": "investigating",
+      "body": "We are seeing continued recovery across Copilot services but continue to see issues with the GPT-4.1 model that we are investigating.",
+      "created_at": "2026-01-13T10:11:58.541Z",
+      "updated_at": "2026-01-13T10:22:54.483Z",
+      "display_at": "2026-01-13T10:11:58.000Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "0fxgvgwr5tjp",
+      "status": "investigating",
+      "body": "We are seeing continued recovery across Copilot services but continue to see issues with the GPT-4.1 model that we are investigating.",
+      "created_at": "2026-01-13T10:11:06.733Z",
+      "updated_at": "2026-01-13T10:11:06.733Z",
+      "display_at": "2026-01-13T10:11:06.733Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "ch1tq079skrw",
+      "status": "investigating",
+      "body": "We have identified what we believe to be a configuration issue that may explain the issue. We have rolled back this change and are starting to see signs of recovery.",
+      "created_at": "2026-01-13T10:02:03.415Z",
+      "updated_at": "2026-01-13T10:02:03.415Z",
+      "display_at": "2026-01-13T10:02:03.415Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "lcl5zk1nwd5f",
+      "status": "investigating",
+      "body": "We are investigating an issue that is causing failures in all Copilot requests.",
+      "created_at": "2026-01-13T09:45:39.254Z",
+      "updated_at": "2026-01-13T09:45:39.254Z",
+      "display_at": "2026-01-13T09:45:39.254Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "lyfygp10t8d3",
+      "status": "investigating",
+      "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2026-01-13T09:44:59.371Z",
+      "updated_at": "2026-01-13T09:44:59.371Z",
+      "display_at": "2026-01-13T09:44:59.371Z",
+      "affected_components": [
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "9crf8dkhp2fg",
+      "status": "investigating",
+      "body": "We are investigating reports of impacted performance for some GitHub services.",
+      "created_at": "2026-01-13T09:38:56.921Z",
+      "updated_at": "2026-01-13T09:38:56.921Z",
+      "display_at": "2026-01-13T09:38:56.921Z",
+      "affected_components": null
+    }
+  ]
+}

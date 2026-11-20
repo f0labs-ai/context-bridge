@@ -1,0 +1,118 @@
+{
+  "id": "home_wifi",
+  "name": "home Wi-Fi hubs",
+  "label": "Home Wi-Fi equipment",
+  "plural": true,
+  "kind": "line",
+  "customer_names": ["my Wi-Fi hub", "the Meridian hub", "our Wi-Fi box", "the Wi-Fi at home"],
+  "modes": [
+    {
+      "id": "hub_rebooting",
+      "title": "Hubs restarting by themselves",
+      "symptom": "hubs restarting by themselves several times an hour",
+      "customer_says": [
+        "My hub keeps switching itself off and on again. Every time it does, the whole house loses Wi-Fi.",
+        "The Wi-Fi box restarts on its own. The lights go out, come back, and ten minutes later it does it again.",
+        "Our hub is stuck in a loop of rebooting. I haven't touched it and it just keeps restarting.",
+        "The hub won't stay up. It runs for a little while and then all the lights go off and it starts again."
+      ],
+      "causes": [
+        { "cause": "a faulty firmware release pushed to the hubs overnight", "fixes": ["rolling the hubs back to the previous firmware release"] },
+        { "cause": "a memory leak in the hub's parental control module", "fixes": ["pushing a patched parental control module to the hubs"] },
+        { "cause": "a bad configuration file sent by the remote management server", "fixes": ["resending a corrected configuration file to every affected hub"] }
+      ],
+      "workarounds": [
+        "plug one computer straight into the hub with a network cable",
+        "leave the hub alone between restarts rather than switching it off at the wall"
+      ],
+      "aftercare": [
+        "leave the hub powered on overnight so it can finish updating",
+        "reconnect any device that has not rejoined the Wi-Fi by itself"
+      ]
+    },
+    {
+      "id": "wifi_not_broadcasting",
+      "title": "Wi-Fi network not visible",
+      "symptom": "hubs no longer broadcasting their Wi-Fi network name",
+      "customer_says": [
+        "My Wi-Fi network has vanished. The hub is on, but none of my devices can see it in the list.",
+        "The Wi-Fi name isn't showing up any more on my phone or my laptop, even though the hub's lights look normal.",
+        "I can't find our Wi-Fi at all. It is as if the hub has stopped sending out a signal.",
+        "The hub is powered on, but the wireless has disappeared. A cable works, the Wi-Fi doesn't."
+      ],
+      "causes": [
+        { "cause": "a radio driver fault triggered by a channel plan change", "fixes": ["restoring the previous channel plan on the hubs"] },
+        { "cause": "a wrongly enabled wireless schedule in the hub settings", "fixes": ["clearing the wireless schedule on the affected hubs"] },
+        { "cause": "a regulatory database update that disabled both radio bands", "fixes": ["reissuing the regulatory database to the hubs"] }
+      ],
+      "workarounds": [
+        "connect essential devices to the hub by network cable",
+        "press the WPS button for five seconds to wake the wireless radios"
+      ],
+      "aftercare": [
+        "forget the Wi-Fi network on a device and join it again if it will not reconnect",
+        "check that the Wi-Fi light on the hub is steady white"
+      ]
+    },
+    {
+      "id": "extenders_offline",
+      "title": "Wi-Fi extenders offline",
+      "symptom": "Wi-Fi extenders losing their link to the hub",
+      "customer_says": [
+        "The Wi-Fi boosters upstairs have stopped working. They show a red light and the bedrooms have no signal.",
+        "My extender pods have all gone offline. Wi-Fi is fine next to the hub, but dead everywhere else.",
+        "The little booster units won't connect to the hub any more, so half the house has no Wi-Fi.",
+        "Our Wi-Fi extenders keep flashing red. They used to work fine and I haven't moved them."
+      ],
+      "causes": [
+        { "cause": "a mesh pairing bug in the latest extender software", "fixes": ["issuing corrected extender software"] },
+        { "cause": "an expired pairing key on the mesh controller", "fixes": ["renewing the pairing key on the mesh controller"] },
+        { "cause": "a clash between the extender channel and a new hub setting", "fixes": ["moving the extenders onto a clear channel remotely"] }
+      ],
+      "workarounds": [
+        "move an extender into the same room as the hub until it pairs again",
+        "join devices to the hub's own Wi-Fi name instead of the extender's"
+      ],
+      "aftercare": [
+        "put each extender back in its usual room once its light turns white",
+        "restart any extender that still shows a red light"
+      ]
+    },
+    {
+      "id": "guest_network_fault",
+      "title": "Devices refused by the hub",
+      "symptom": "hubs rejecting devices with a wrong password message",
+      "customer_says": [
+        "My hub says the Wi-Fi password is wrong, and I know it isn't. Nothing new will connect.",
+        "Every device gets a wrong password error on our Wi-Fi. It is the same password we've always used.",
+        "The Wi-Fi keeps asking for the password and then refusing it. I've typed it in a dozen times.",
+        "None of our gadgets can join the Wi-Fi. They all say the password is incorrect, even though it's printed on the hub."
+      ],
+      "causes": [
+        { "cause": "a security setting changed to a mode older devices cannot use", "fixes": ["putting the hubs back into mixed security mode"] },
+        { "cause": "a corrupted password store after an interrupted hub update", "fixes": ["rebuilding the password store on each affected hub"] },
+        { "cause": "a fault in the device approval list on the hubs", "fixes": ["resetting the device approval list remotely"] }
+      ],
+      "workarounds": [
+        "use the guest network printed on the card under the hub",
+        "connect by network cable while the wireless sign-in is being repaired"
+      ],
+      "aftercare": [
+        "join the main Wi-Fi again with the password on the hub's label",
+        "remove the guest network from devices that used it"
+      ]
+    }
+  ],
+  "wrong_customer_side": [
+    "a hub placed too close to a microwave oven",
+    "a power adapter that does not belong to the hub",
+    "too many devices connected in the household",
+    "a hub that has overheated inside a cupboard"
+  ],
+  "wrong_provider_side": [
+    "a recall of an older hub model",
+    "a line fault at the local exchange",
+    "a scheduled security scan of customer equipment",
+    "interference from a new mobile mast in the area"
+  ]
+}

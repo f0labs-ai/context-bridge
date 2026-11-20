@@ -1,0 +1,465 @@
+{
+  "id": "kz4khcgdsfdv",
+  "name": "All GitHub services are experiencing significant disruptions",
+  "status": "resolved",
+  "impact": "major",
+  "created_at": "2024-08-14T23:11:43.288Z",
+  "resolved_at": "2024-08-15T00:30:14.000Z",
+  "scheduled_for": null,
+  "components": [
+    {
+      "name": "Git Operations"
+    },
+    {
+      "name": "Webhooks"
+    },
+    {
+      "name": "Issues"
+    },
+    {
+      "name": "Pull Requests"
+    },
+    {
+      "name": "Actions"
+    },
+    {
+      "name": "Packages"
+    },
+    {
+      "name": "Pages"
+    },
+    {
+      "name": "Copilot"
+    },
+    {
+      "name": "Codespaces"
+    }
+  ],
+  "incident_updates": [
+    {
+      "id": "httn65pv6jrv",
+      "status": "resolved",
+      "body": "On August 14, 2024 between 23:02 UTC and 23:38 UTC, all GitHub services on GitHub.com were inaccessible for all users.<br /> <br />This was due to a configuration change that impacted traffic routing within our database infrastructure, resulting in critical services unexpectedly losing database connectivity. There was no data loss or corruption during this incident.<br /> <br />At 22:59 UTC an erroneous configuration change rolled out to all GitHub.com databases that impacted the ability of the database to respond to health check pings from the routing service. As a result, the routing service could not detect healthy databases to route application traffic to. This led to widespread impact on GitHub.com starting at 23:02 UTC.<br /> <br />We mitigated the incident by reverting the change and confirming restored connectivity to our databases. At 23:38 UTC, traffic resumed and all services recovered to full health. Out of an abundance of caution, we continued to monitor before resolving the incident at 00:30 UTC on August 15th, 2024.<br /> <br />To prevent recurrence we are implementing additional guardrails in our database change management process. We are also prioritizing several repair items such as faster rollback functionality and more resilience to dependency failures.<br /> <br />Given the severity of this incident, follow-up items are the highest priority work for teams at this time.",
+      "created_at": "2024-08-15T00:30:14.638Z",
+      "updated_at": "2024-08-15T21:45:36.120Z",
+      "display_at": "2024-08-15T00:30:14.000Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "y2vfntcfvkm4",
+      "status": "investigating",
+      "body": "Webhooks is operating normally.",
+      "created_at": "2024-08-15T00:19:33.154Z",
+      "updated_at": "2024-08-15T00:19:33.154Z",
+      "display_at": "2024-08-15T00:19:33.154Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "gxfgjkrhzlpz",
+      "status": "investigating",
+      "body": "Actions is operating normally.",
+      "created_at": "2024-08-15T00:19:22.808Z",
+      "updated_at": "2024-08-15T00:19:22.808Z",
+      "display_at": "2024-08-15T00:19:22.808Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "v8jts97vr4lh",
+      "status": "investigating",
+      "body": "Actions is operating normally.",
+      "created_at": "2024-08-15T00:19:22.749Z",
+      "updated_at": "2024-08-15T00:19:22.749Z",
+      "display_at": "2024-08-15T00:19:22.749Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "bkf92x8jjgbj",
+      "status": "investigating",
+      "body": "Actions is experiencing degraded performance. We are continuing to investigate.",
+      "created_at": "2024-08-15T00:19:19.739Z",
+      "updated_at": "2024-08-15T00:19:19.739Z",
+      "display_at": "2024-08-15T00:19:19.739Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "42b2yws2j7w1",
+      "status": "investigating",
+      "body": "Actions is operating normally.",
+      "created_at": "2024-08-15T00:19:19.193Z",
+      "updated_at": "2024-08-15T00:19:19.193Z",
+      "display_at": "2024-08-15T00:19:19.193Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "1lwlhx1w56m8",
+      "status": "investigating",
+      "body": "Pull Requests is operating normally.",
+      "created_at": "2024-08-15T00:19:07.217Z",
+      "updated_at": "2024-08-15T00:19:07.217Z",
+      "display_at": "2024-08-15T00:19:07.217Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Webhooks"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Codespaces"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "qcyn573rqszc",
+      "status": "investigating",
+      "body": "Issues is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2024-08-14T23:19:34.598Z",
+      "updated_at": "2024-08-14T23:19:34.598Z",
+      "display_at": "2024-08-14T23:19:34.598Z",
+      "affected_components": [
+        {
+          "name": "Issues"
+        },
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "1t7jczrwwhyw",
+      "status": "investigating",
+      "body": "Git Operations is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2024-08-14T23:19:20.730Z",
+      "updated_at": "2024-08-14T23:19:20.730Z",
+      "display_at": "2024-08-14T23:19:20.730Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Git Operations"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "9ttxvy3m1lt6",
+      "status": "investigating",
+      "body": "Packages is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2024-08-14T23:18:06.956Z",
+      "updated_at": "2024-08-14T23:18:06.956Z",
+      "display_at": "2024-08-14T23:18:06.956Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Packages"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "19pgmjvfnrmr",
+      "status": "investigating",
+      "body": "We are investigating reports of issues with GitHub.com and GitHub API. We will continue to keep users updated on progress towards mitigation.",
+      "created_at": "2024-08-14T23:16:04.703Z",
+      "updated_at": "2024-08-14T23:16:04.703Z",
+      "display_at": "2024-08-14T23:16:04.703Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "xvd0d45x9s2h",
+      "status": "investigating",
+      "body": "Copilot is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2024-08-14T23:13:21.436Z",
+      "updated_at": "2024-08-14T23:13:21.436Z",
+      "display_at": "2024-08-14T23:13:21.436Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Pull Requests"
+        },
+        {
+          "name": "Copilot"
+        }
+      ]
+    },
+    {
+      "id": "shvpn92rm7bs",
+      "status": "investigating",
+      "body": "Pages is experiencing degraded availability. We are continuing to investigate.",
+      "created_at": "2024-08-14T23:12:18.813Z",
+      "updated_at": "2024-08-14T23:12:18.813Z",
+      "display_at": "2024-08-14T23:12:18.813Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Pull Requests"
+        }
+      ]
+    },
+    {
+      "id": "n6qbsbqhxms2",
+      "status": "investigating",
+      "body": "We are investigating reports of degraded availability for Actions, Pages and Pull Requests",
+      "created_at": "2024-08-14T23:11:43.406Z",
+      "updated_at": "2024-08-14T23:11:43.406Z",
+      "display_at": "2024-08-14T23:11:43.406Z",
+      "affected_components": [
+        {
+          "name": "Pages"
+        },
+        {
+          "name": "Actions"
+        },
+        {
+          "name": "Pull Requests"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "is_it_down": {
+    "with_region": [
+      "{Is} {service} down in {region}?",
+      "Is there a problem with {service} in {region} right now?",
+      "Are you aware of any issues affecting {service} in {region}?",
+      "{Service} {is} not working for me in {region}. Is there an outage?",
+      "Is there a known fault with {service} in the {region} area?",
+      "What's going on with {service} in {region}?",
+      "I'm in {region} and {service} {has} stopped working. Is it just me?",
+      "Can you tell me if {service} {is} having problems in {region} today?",
+      "Any outage on {service} around {region} at the moment?",
+      "What is the current status of {service} in {region}?"
+    ],
+    "without_region": [
+      "{Is} {service} down?",
+      "Is there a problem with {service} right now?",
+      "Are you aware of any issues affecting {service}?",
+      "{Service} {is} not working for me. Is there an outage?",
+      "Is there a known fault with {service} at the moment?",
+      "What's going on with {service}?",
+      "{Service} {has} stopped working. Is it just me?",
+      "What is the current status of {service}?"
+    ]
+  },
+  "cause": {
+    "with_region": [
+      "What is causing the problem with {service} in {region}?",
+      "Why {is} {service} not working in {region}?",
+      "Do you know what's behind the trouble with {service} in {region}?",
+      "What went wrong with {service} in {region}?",
+      "Has the reason for the fault with {service} in {region} been found?",
+      "Why can't I use {service} in {region}? What happened?",
+      "What's the explanation for the outage affecting {service} in {region}?",
+      "Have engineers worked out why {service} {is} failing in {region}?",
+      "Is it known what broke {service} in {region}?"
+    ],
+    "without_region": [
+      "What is causing the problem with {service}?",
+      "Why {is} {service} not working?",
+      "Do you know what's behind the trouble with {service}?",
+      "What went wrong with {service}?",
+      "Has the reason for the fault with {service} been found?",
+      "Why can't I use {service}? What happened?",
+      "What's the explanation for the outage affecting {service}?",
+      "Have engineers worked out why {service} {is} failing?"
+    ]
+  },
+  "workaround": {
+    "with_region": [
+      "Is there a workaround for the problem with {service} in {region}?",
+      "What can I do while {service} {is} down in {region}?",
+      "Is there anything I can try to get {service} working in {region} until it's fixed?",
+      "Any temporary fix for {service} in {region}?",
+      "How do I get by without {service} in {region} for now?",
+      "What do you advise customers in {region} to do while {service} {is} affected?",
+      "Can I get around the fault with {service} in {region} somehow?",
+      "Is there another way to use {service} in {region} during the outage?"
+    ],
+    "without_region": [
+      "Is there a workaround for the problem with {service}?",
+      "What can I do while {service} {is} down?",
+      "Is there anything I can try to get {service} working until it's fixed?",
+      "Any temporary fix for {service}?",
+      "How do I get by without {service} for now?",
+      "What do you advise customers to do while {service} {is} affected?",
+      "Can I get around the fault with {service} somehow?",
+      "Is there another way to use {service} during the outage?"
+    ]
+  },
+  "when_back": {
+    "with_region": [
+      "When will {service} be back in {region}?",
+      "How long until {service} {is} working again in {region}?",
+      "Is there an estimated time for {service} to be restored in {region}?",
+      "When do you expect the fault with {service} in {region} to be fixed?",
+      "How much longer will {service} be down in {region}?",
+      "What time will {service} come back on in {region}?",
+      "Do you have a restoration time for {service} in {region}?",
+      "When can I expect {service} to work again in {region}?"
+    ],
+    "without_region": [
+      "When will {service} be back?",
+      "How long until {service} {is} working again?",
+      "Is there an estimated time for {service} to be restored?",
+      "When do you expect the fault with {service} to be fixed?",
+      "How much longer will {service} be down?",
+      "What time will {service} come back on?",
+      "Do you have a restoration time for {service}?",
+      "When can I expect {service} to work again?"
+    ]
+  },
+  "is_it_fixed": {
+    "with_region": [
+      "Has the problem with {service} in {region} been fixed yet?",
+      "{Is} {service} working again in {region}?",
+      "Is the outage affecting {service} in {region} over?",
+      "{Is} {service} back to normal in {region} now?",
+      "Have the engineers finished repairing {service} in {region}?",
+      "{Has} {service} been restored in {region}?",
+      "Is it safe to assume {service} {is} fixed in {region}?",
+      "Did the fault with {service} in {region} get resolved?"
+    ],
+    "without_region": [
+      "Has the problem with {service} been fixed yet?",
+      "{Is} {service} working again?",
+      "Is the outage affecting {service} over?",
+      "{Is} {service} back to normal now?",
+      "Have the engineers finished repairing {service}?",
+      "{Has} {service} been restored?",
+      "Is it safe to assume {service} {is} fixed?",
+      "Did the fault with {service} get resolved?"
+    ]
+  },
+  "after": [
+    "What happened with {service} in {region} earlier?",
+    "Was there an outage affecting {service} in {region} recently?",
+    "What was the cause of the recent fault with {service} in {region}?",
+    "{Service} {was} down in {region} not long ago. Is that all sorted now?",
+    "Is the recent problem with {service} in {region} fully resolved?",
+    "I lost {service} in {region} recently. What went wrong, and is it fixed?",
+    "Can you tell me about the latest incident on {service} in {region}?",
+    "How was the fault with {service} in {region} fixed in the end?",
+    "Do I need to do anything now that {service} {is} back in {region}?",
+    "When was {service} restored in {region}?"
+  ]
+}

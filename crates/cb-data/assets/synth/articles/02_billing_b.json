@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Charges you might not expect",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Calls and texts outside your allowance",
+        "text": "Your plan covers standard calls and texts to ordinary landline and mobile numbers. Some numbers are always charged separately: premium rate lines beginning 09, directory enquiries, international calls and most short codes used for competitions or donations. These appear under Usage charges with the number dialled, the length of the call and the cost. You can block premium numbers altogether from the spending controls page, or ask us to do it for you. The block is free and takes effect within an hour.",
+        "questions": ["Why have I been charged for calls when my plan includes unlimited minutes?", "How do I stop premium rate numbers being dialled from my phone?"]
+      },
+      {
+        "heading": "Part-month charges after a change",
+        "text": "When you join, upgrade, downgrade or add a service part-way through a billing month, the next bill includes a part-month charge. We work out the cost per day of the old and new plans and bill each for the days it was active. Because we also bill the coming month in advance, the first bill after a change is often noticeably higher than usual. It settles back to the normal amount from the following month. The exact dates are shown beside each line.",
+        "questions": ["Why is my bill higher than normal after I upgraded my plan?", "How are charges worked out when I change plan in the middle of the month?"]
+      },
+      {
+        "heading": "When a discount ends",
+        "text": "Introductory offers and loyalty discounts run for a fixed number of months. The end date is printed on your order confirmation, and it is shown beside the discount line on every bill. We email you at least thirty days before a discount finishes, so that you can decide whether to stay on the standard price, move to a different plan or ask what else is available. If the reminder went to an old email address, please update your contact details so that you do not miss the next one.",
+        "questions": ["Why did my monthly price go up when I haven't changed anything?", "Will I be warned before my introductory discount runs out?"]
+      },
+      {
+        "heading": "One-off fees",
+        "text": "Some services carry a single charge rather than a monthly one. Examples are an engineer visit that you asked for when no fault was found on our side, a replacement for lost or damaged equipment, a paper copy of an old bill, and delivery of a new SIM by courier. We always state the fee before you agree to it, and it appears on your next bill under One-off charges. Fees for late payment and for failed direct debits are listed in the same place.",
+        "questions": ["What one-off charges can appear on my bill?", "Will I be charged for an engineer visit if nothing was wrong with the network?"]
+      }
+    ]
+  },
+  {
+    "title": "Refunds and credits",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "How a credit reaches you",
+        "text": "When we owe you money, for example after a billing correction or a goodwill gesture, we normally add it to your account as a credit. It appears on your next bill and reduces the amount we collect. If the credit is larger than that bill, the remainder carries forward to the following months until it is used up. You do not need to do anything, and you can see your current credit balance at any time on the billing page of your online account.",
+        "questions": ["How will I receive a credit that Meridian owes me?", "What happens if my credit is bigger than my next bill?"]
+      },
+      {
+        "heading": "Asking for a refund to your bank",
+        "text": "If you would rather have the money returned than left on the account, you can request a refund for any credit balance over five pounds. Ask through the billing page or by calling us. We pay refunds to the bank account that your direct debit comes from, or back to the card used for the original payment. A refund takes between three and five working days to reach you. We cannot refund to an account or card belonging to somebody else.",
+        "questions": ["Can I have a credit paid back to my bank instead of leaving it on my account?", "How long does a refund from Meridian take?"]
+      },
+      {
+        "heading": "Credits after a loss of service",
+        "text": "Under our service promise, you receive an automatic credit when a fault on our network leaves you without service for longer than two full days. The credit is a fixed daily amount for each further day until the fault is repaired. We also credit you if an engineer misses an appointment, or if we start a new service later than the date we agreed. These credits are added within thirty days of the event, and you do not need to make a claim.",
+        "questions": ["Do I get compensation automatically when my service is down for days?", "Is there a credit if an engineer doesn't turn up for an appointment?"]
+      },
+      {
+        "heading": "Final bills and money left over",
+        "text": "After you close an account, we produce a final bill within thirty days. It includes charges up to your leaving date and removes anything that we billed in advance beyond it. If the result is a balance in your favour, we refund it automatically by the method you last used to pay. No request is needed. If we cannot complete the refund, for instance because the bank account has been closed, we write to the address on file and ask how you would like it paid.",
+        "questions": ["What happens to credit on my account when I leave Meridian?", "When will I get my final bill after cancelling?"]
+      }
+    ]
+  },
+  {
+    "title": "Paper bills, online bills and other formats",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Online billing",
+        "text": "Unless you have asked for something different, your bill is published in your online account and we email you when it is ready. Bills stay available for six years, and you can download each one as a PDF or view an itemised breakdown on screen. Online billing is free, and several of our plans are priced on the basis that you use it. If you are not receiving the monthly email, check that the address in your contact details is still current.",
+        "questions": ["Where can I find my bills online?", "How far back can I see old bills in my account?"]
+      },
+      {
+        "heading": "Switching to paper bills",
+        "text": "You can choose to receive a printed bill by post. There is a small monthly charge for paper billing on most plans, and it is shown on the bill itself. We waive the charge for customers on the priority services register and for anyone without internet access at home. To switch, go to billing preferences and select Paper, or ask an adviser. Your first printed bill arrives with the next billing cycle. You can still see every bill online as well.",
+        "questions": ["How do I get a paper bill sent to my home?", "Is there a charge for having bills posted to me?"]
+      },
+      {
+        "heading": "Large print, braille and audio bills",
+        "text": "If a standard bill is hard for you to read, we can provide it in large print, in braille or as an audio recording, at no cost. Tell an adviser which format you need, and it becomes the default for every future bill and letter from us. We can also arrange for a copy of each bill to go to a relative or carer whom you have nominated. That person receives the bill for information only and does not become responsible for paying it.",
+        "questions": ["Can I get my bill in large print or braille?", "Can a copy of my bill be sent to a family member who helps me?"]
+      },
+      {
+        "heading": "Copies of old bills",
+        "text": "You can download any bill from the last six years from your online account without charge. If you need a printed copy sent by post, for example as proof of address, we can produce one for a small fee per bill, and it arrives within seven working days. For bills older than six years, or for an account that has been closed, please contact us. We keep closed account records for a limited period and may be able to supply a statement of payments instead.",
+        "questions": ["How can I get a copy of a bill from last year?", "Can Meridian post me a printed bill to use as proof of address?"]
+      }
+    ]
+  },
+  {
+    "title": "Your first bill explained",
+    "topic": "billing",
+    "service": null,
+    "sections": [
+      {
+        "heading": "Why the first bill is larger",
+        "text": "Your first bill usually covers more than one month. It includes a part-month charge from the day your service started up to your first bill date, and then a full month in advance. Any set-up fee, delivery charge or upfront cost for equipment is added too. As a result, the first bill can be close to double the monthly price you were quoted. From the second bill onwards you will see just the regular monthly amount, plus any usage outside your allowance.",
+        "questions": ["Why is my first bill so much more than the price I signed up for?", "What does the first Meridian bill include?"]
+      },
+      {
+        "heading": "When to expect it",
+        "text": "We produce your first bill within fourteen days of your service going live. You will receive an email when it is ready, and payment is collected ten days later. If you ordered more than one service and they started on different dates, the charges for all of them are combined on a single bill, each with its own start date. If no bill has appeared three weeks after activation, contact us so that we can check your account has been set up correctly.",
+        "questions": ["How soon after joining will I get my first bill?", "I haven't had a bill three weeks after my service started. What should I do?"]
+      },
+      {
+        "heading": "Checking your offer has been applied",
+        "text": "Compare the monthly price on your first bill with your order confirmation. Each discount should be shown on its own line, with the number of months it will run. A voucher or cashback reward is not shown on the bill, because those are sent separately once you have paid your second bill. If a discount is missing, or the price does not match what you were promised, contact us within ninety days and have your order number ready. We will correct it and backdate the difference.",
+        "questions": ["How do I check that my sign-up discount is on my first bill?", "The price on my bill doesn't match my order. What can I do?"]
+      },
+      {
+        "heading": "Paying the first bill",
+        "text": "If you gave bank details when you ordered, your first bill is collected by direct debit like every later one. A new direct debit needs ten working days to become active, so occasionally the first bill falls due before the instruction is ready. When that happens, we tell you in the bill email and ask you to pay that one bill by card. No late fee applies if you pay within fourteen days, and everything after that is collected automatically.",
+        "questions": ["Will my first bill be taken by direct debit?", "Why have I been asked to pay my first bill by card when I set up a direct debit?"]
+      }
+    ]
+  }
+]

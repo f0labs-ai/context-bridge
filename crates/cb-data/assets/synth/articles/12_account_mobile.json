@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Signing in with fingerprint or face",
+    "topic": "account",
+    "service": "mobile_app",
+    "sections": [
+      {
+        "heading": "Turning on quick sign-in",
+        "text": "Quick sign-in lets you open the Meridian app with your fingerprint or face instead of typing your password each time. Sign in with your password first, then go to Settings, then Security, and switch on Quick sign-in. Your phone asks you to confirm with your fingerprint or face. The app never sees or stores your fingerprint or face itself; it only receives a yes or no answer from the phone's secure hardware.",
+        "questions": ["How do I log in to the Meridian app with my fingerprint?", "Does the app keep a copy of my fingerprint?"]
+      },
+      {
+        "heading": "When the app asks for your password anyway",
+        "text": "For safety, the app asks for your password again every thirty days, after you change your password, after a software update to the phone, and when someone adds a new fingerprint or face to the phone's settings. It also asks before sensitive actions, such as changing payment details or ordering a replacement SIM. This means that quick sign-in alone is never enough to make important changes to your account.",
+        "questions": ["Why does the app sometimes still ask for my password?", "Can someone change my payment details using only my fingerprint?"]
+      },
+      {
+        "heading": "If quick sign-in stops working",
+        "text": "If your fingerprint or face is no longer accepted, sign in with your password and turn Quick sign-in off and on again under Settings and Security. Make sure the phone's own fingerprint or face recognition works on the lock screen. If the app shows a message that the device could not be verified, check that the phone's date and time are set automatically, because a wrong clock causes the security check to fail.",
+        "questions": ["My fingerprint login stopped working in the app. What can I do?", "Why does the app say my device could not be verified?"]
+      },
+      {
+        "heading": "Shared phones",
+        "text": "If other people have their fingerprints or faces registered on your phone, they could open the Meridian app through quick sign-in. On a shared device, either leave quick sign-in switched off or remove other people's fingerprints from the phone's settings. Children using a parent's phone should have their own profile where the phone supports it. You can sign out of the app completely when handing your phone to someone else.",
+        "questions": ["Can my partner open my Meridian app with their fingerprint on my phone?", "Should I use fingerprint sign-in on a phone I share?"]
+      }
+    ]
+  },
+  {
+    "title": "Using your phone abroad",
+    "topic": "mobile",
+    "service": "mobile_data",
+    "sections": [
+      {
+        "heading": "Before you travel",
+        "text": "Check that roaming is switched on for your account under Mobile settings in the app; it is on by default for pay monthly plans. Look up your destination in the roaming guide to see what it costs and whether a travel bundle is available. Make sure you know your voicemail PIN, because you will need it to listen to messages from abroad. Turning on Wi-Fi calling before you leave can save money in hotels with good Wi-Fi.",
+        "questions": ["What should I check before using my phone abroad?", "How do I make sure roaming is turned on?"]
+      },
+      {
+        "heading": "Destinations and travel bundles",
+        "text": "Countries are grouped into zones. In Zone 1 you can use your normal allowance at no extra cost for up to sixty days at a time. In other zones a daily travel bundle gives a set amount of data, minutes and texts for a fixed price per day, charged only on days you use your phone. Without a bundle, standard roaming rates apply, which are much higher. We text you on arrival with the prices for the country you are in.",
+        "questions": ["Can I use my allowance in Zone 1 countries for free?", "How do daily travel bundles work?"]
+      },
+      {
+        "heading": "Avoiding unexpected bills",
+        "text": "Every account has a roaming spending cap, set at a modest amount by default. When you reach eighty percent of it we send a text, and at the cap, data stops until you raise it in the app. Phones can use data in the background without you noticing, for backups, app updates and photo syncing, so turn these off before travelling. Calls you receive while roaming outside Zone 1 may also be charged, so check the guide.",
+        "questions": ["How do I avoid a huge phone bill when I'm abroad?", "Do I pay for calls I receive while roaming?"]
+      },
+      {
+        "heading": "At sea and in the air",
+        "text": "On ferries, cruise ships and aircraft, your phone may connect to an onboard network instead of a land-based mast. These networks are charged at special satellite rates that are far higher than normal roaming and are not covered by travel bundles or Zone 1 allowances. Put your phone in flight mode when you board and use the ship's or airline's Wi-Fi if you need to stay in touch. Our roaming guide lists the onboard networks.",
+        "questions": ["Will I be charged for using my phone on a cruise ship?", "Does my travel bundle work on a ferry?"]
+      }
+    ]
+  },
+  {
+    "title": "Personal hotspot and tethering",
+    "topic": "mobile",
+    "service": "mobile_data",
+    "sections": [
+      {
+        "heading": "Sharing your connection",
+        "text": "A personal hotspot shares your phone's mobile data with other devices, such as a laptop or tablet, over Wi-Fi, a USB cable or a short-range wireless link. All our pay monthly plans include tethering, and the data used comes from your normal allowance. Unlimited plans allow up to a fixed amount of tethering each month at full speed, shown in your plan details. Prepaid bundles allow tethering unless the bundle says otherwise.",
+        "questions": ["Can I use my phone as a Wi-Fi hotspot for my laptop?", "Is tethering included in my unlimited plan?"]
+      },
+      {
+        "heading": "Setting up a hotspot",
+        "text": "Open your phone's settings, choose Personal hotspot or Mobile hotspot, and switch it on. Set a strong password of at least twelve characters, because anyone who knows it can use your data. On the other device, join the hotspot like any Wi-Fi network. Turn the hotspot off when you have finished to save battery and data. Using a USB cable both charges the phone and gives a more stable connection than Wi-Fi.",
+        "questions": ["How do I turn on the hotspot on my phone?", "Is it better to tether with a cable or over Wi-Fi?"]
+      },
+      {
+        "heading": "Watching your data use",
+        "text": "Laptops use far more data than phones, because they download larger updates and full-size web pages. A laptop may start a large system update the moment it connects. To prevent this, mark the hotspot as a metered connection in the laptop's network settings, which tells it to avoid large background downloads. Check the usage screen in the app regularly, and remember that video calls on a laptop use roughly a gigabyte an hour.",
+        "questions": ["Why did tethering my laptop use so much data?", "How do I stop my laptop downloading updates over my phone's hotspot?"]
+      },
+      {
+        "heading": "When devices cannot connect",
+        "text": "If a device sees the hotspot but cannot get online, check that mobile data works on the phone itself and that you still have data left. Some phones switch the hotspot off after a few minutes of inactivity, which can be changed in the hotspot settings. Restart both devices if a connection drops repeatedly. If your plan's tethering allowance is used up, the hotspot still connects but runs at a reduced speed.",
+        "questions": ["My laptop connects to my phone's hotspot but there's no internet. Why?", "Why does my hotspot keep switching itself off?"]
+      }
+    ]
+  },
+  {
+    "title": "Setting up and using voicemail",
+    "topic": "mobile",
+    "service": "voicemail",
+    "sections": [
+      {
+        "heading": "Setting up your mailbox",
+        "text": "Voicemail is switched on for every Meridian mobile number. To set it up, call your own number from your phone or press and hold the 1 key. The first time, you are guided through choosing a PIN of four to ten digits and recording your name and a personal greeting. Until you record a greeting, callers hear a standard message that reads out your number. You can return to the menu at any time to change your greeting.",
+        "questions": ["How do I set up voicemail on my Meridian phone?", "How do I record my own voicemail greeting?"]
+      },
+      {
+        "heading": "Listening to messages",
+        "text": "When you have a new message, you receive a notification or a text. Call your voicemail by holding the 1 key, and messages play newest first. After each message, press 7 to delete it, 9 to save it, or 4 to hear it again. Saved messages are kept for thirty days and unsaved ones for fourteen. From another phone, call your own number, press the star key during the greeting and enter your PIN to reach your messages.",
+        "questions": ["How do I listen to my voicemail messages?", "Can I check my voicemail from someone else's phone?"]
+      },
+      {
+        "heading": "Mailbox limits",
+        "text": "Your mailbox holds up to forty messages, each up to three minutes long. When it is full, callers hear a message saying they cannot leave one, and they are invited to try later. Delete old messages regularly to keep room. If you rarely use voicemail, you can switch it off from the mailbox options menu; callers then hear the phone ring until they hang up, and a missed call alert is sent to you instead.",
+        "questions": ["How many messages can my voicemail hold?", "Can I turn voicemail off completely?"]
+      },
+      {
+        "heading": "Changing how quickly calls divert",
+        "text": "By default, unanswered calls divert to voicemail after twenty seconds. You can change this to anything between five and thirty seconds from the voicemail options in the app. Calls divert straight away when your phone is switched off or has no signal, and when you decline a call. If calls go to voicemail without ringing at all, check that do not disturb or a call divert is not switched on in your phone.",
+        "questions": ["How do I make my phone ring for longer before voicemail?", "Why are my calls going straight to voicemail?"]
+      }
+    ]
+  }
+]
